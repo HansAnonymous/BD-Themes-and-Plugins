@@ -3066,7 +3066,7 @@ border: 4px solid !important;
 
 
 
-
+/*
 .guild:after {
     position: relative;
     left: -2px;
@@ -3110,7 +3110,7 @@ border: 4px solid !important;
     transition-timing-function: ease-in;
     transition: padding 0.25s, transform 0.25s, width 0.25s, border 0.25s, font-size 0.25s;
 }
-
+*/
 .account:hover .status.status-online:after,
 .account:hover .status.status-idle:after,
 .account:hover .status.status-dnd:after,
