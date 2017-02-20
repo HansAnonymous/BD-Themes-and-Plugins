@@ -347,7 +347,7 @@ body {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)) !important;
 }
 .channels-wrap, .guilds-wrapper {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)) !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)) !important;
 }
 .theme-dark .links, .theme-dark .links {
     border-top: 1px solid #1c1e22 !important;
@@ -394,10 +394,10 @@ body::after,
 .private-channels .channel.selected {
     background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0))!important;
-    background: rgba(0,0,0,0.2) !important;
+    background: rgba(0,0,0,0) !important;
 }
 
-.private-channels  .channel:hover {
+.private-channels .channel:hover {
     background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
     background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
     background: rgba(0,0,0,0.2) !important;
@@ -409,7 +409,7 @@ body::after,
 .mention {
     background: rgba(255,255,255,0.05) !important;
 }
-.layers { background: rgba(0,0,0,.5)!important; }
+.layers { background: rgba(0,0,0,.05)!important; }
 /****************************************************************/
 
 
