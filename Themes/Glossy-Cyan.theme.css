@@ -1877,65 +1877,18 @@ div p a {
     background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0.0)) !important;
     color: white !important;
 }
-/*
+
+
 .chat .messages-wrapper {
     -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%) !important;
 }
-
-.guild-channels header {
-    overflow: hidden !important;
-}
-
-.scroller.channel-members {
-    padding-top: 3px !important;
-}
-.guild-channels {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-right: 0px solid transparent;
-    margin-left: 0vh !important;
-    margin-top: 0px;
-    margin-bottom: 0.1vh;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
-}
-
-.flex-vertical.channels-wrap {
-    padding-left: 3px !important;
-}
-.guilds-wrapper {
-    padding-left: 3px !important;
-}
-.username {
-    font-size: 90% !important;
-}
-.discriminator {
-    font-size: 70% !important;
-}
-#voice-connection {
-    margin-left: 3vh !important;
-    transform: translateY(2vh) !important;
-}
-.guilds {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;    
-}
-
+.scroller.channel-members { padding-top: 0px !important; }
+.flex-vertical.channels-wrap { padding-left: 3px !important; }
+.guilds-wrapper { padding-left: 3px !important; }
+.username { font-size: 90% !important; }
 .account .btn-deafen:hover {
     background-color: rgba(0, 0, 0, .5);
     z-index: 2 !important;
-}
-.account .btn-group,
-#voice-connection .btn-group {
-    border-radius: 5px !important;
-    background-color: rgba(0,107,107,0.3) !important;
-    z-index: 2 !important;
-}
-
-.channel-members {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    margin-right: 20px;
-    margin-top: 3px !important;
-    margin-bottom: 2.3vh;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
 }
 
 .account .username {
@@ -1944,12 +1897,6 @@ div p a {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-
-.search-bar {
-    margin-left: 1vh !important;
-    width: 90%;
-}
-
 .guilds {
     animation: fadeScreen 1s;
     transition: all 900ms ease !important;
@@ -1964,20 +1911,12 @@ div p a {
     transition: all 400ms ease;
 }
 .embed-video-actions {
-    width: 165%;
-    height: 160%;
+    width: 175%;
+    height: 152%;
 }
 .embed {
     border-top-right-radius: 15px !important;
     border-bottom-right-radius: 15px !important;
-}
-.mention {
-    color: #00faf2 !important;
-}
-.mention:hover {
-    background-color: rgba(0, 0, 0, 0) !important;
-    border-radius: 5px !important;
-    color: #00cccc !important;
 }
 .guild-separator {
     border-top: 2px solid rgba(0, 204, 204, 0.5);
@@ -1989,17 +1928,11 @@ div p a {
 .guild-separator:after {
     background-color: transparent !important;
 }
+
 .channel-textarea {
     margin-bottom: 2.3vh !important;
     margin-top: 10px !important;
 }
-.speaking .avatar-small {
-    border: 2px dotted #00cccc !important;
-}
-.speaking .avatar-small:hover {
-    border: 2px dotted #00cccc !important;
-}
-
 .divider.divider-red span {
     background-color: rgba(0, 0, 0, 0.7) !important;
     color: #00cccc !important;
@@ -2011,52 +1944,7 @@ div p a {
     padding-left: 10px !important;
     color: rgba(0, 204, 204, 0.7) !Important;
 }
-.private-channels .scroller {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-radius: 5px;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
-    margin-left: 2vh;
-}
-.private-channels .channel.selected:before {
-    background-color: linear-gradient(to right, rgba(0, 204, 204, 0.4), rgba(0, 0, 0, 0.0)) !important;
-    border-left: 2px solid #00cccc;
-}
-.private-channels .channel:hover::before {
-    border-left: 2px solid #00cccc !important;
-    background-color: linear-gradient(to right, rgba(0, 204, 204, 0.4), rgba(0, 0, 0, 0.0)) !important;
-}
-.search-bar {
-    box-shadow: none !important;
-}
-.friends-header {
-    box-shadow: none;
-    border: none !important;
-}
-
-#friends .friends-table .friends-table-body {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 204, 204, 0.0);
-    margin-left: 1.6vw;
-    margin-bottom: 2.5vh;
-    margin-right: 12vh;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 1) 98%, rgba(0, 0, 0, 0) 100%);
-}
-#friends .friends-table .friends-table-header {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    border-radius: 5px;
-    margin-left: 1.6vw;
-    height: 3vh;
-    margin-bottom: 1.2vh;
-    margin-right: 2.5vh;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
-}
-#friends .friends-header {
-    margin-left: 1.6vw;
-}
-.tab-bar-item:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-}
+/*
 .new-messages-bar button {
     background-color: #11bbbb !Important;
     color: #333333 !important;
