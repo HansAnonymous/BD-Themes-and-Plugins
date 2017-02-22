@@ -321,7 +321,6 @@ body {
 .ider-red span,
 .theme-light .chat,
 .theme-dark .chat,
-.messages-wrapper,
 .typing,
 .typing-animate,
 .friends-row:hover,
@@ -344,10 +343,10 @@ body {
 }
 .chat .content,
 .chat>.title-wrap {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.0)) !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)) !important;
 }
 .channels-wrap, .guilds-wrapper {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.0)) !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)) !important;
 }
 .theme-dark .links, .theme-dark .links {
     border-top: 1px solid #1c1e22 !important;
@@ -541,10 +540,10 @@ body::after,
     box-shadow:none !important;
 }
 .option-popout.small-popout-box {
-	background: linear-gradient(to right, rgba(0, 114, 114, 0.5), rgba(0, 57, 57, 1)) !important;
+    background: linear-gradient(to right, rgba(0, 114, 114, 0.5), rgba(0, 57, 57, 1)) !important;
 }
 .option-popout.small-popout-box .btn-item{
-	background: linear-gradient(to right, rgba(0, 114, 114, 0.5), rgba(0, 114, 114, 1)) !important;
+    background: linear-gradient(to right, rgba(0, 114, 114, 0.5), rgba(0, 114, 114, 1)) !important;
 }
 .inline {
     background-color: rgba(0, 0, 0, 0.4);
@@ -737,6 +736,7 @@ direction: ltr;
   border-radius: 5px !important;
   font-size: 14px !important;
 }
+
 .hljs-emphasis { font-style: italic !important; }
 .hljs-strong { font-weight: bold !important; }
 /* HLJS Colors */
@@ -843,23 +843,23 @@ direction: ltr;
 .icon-deafened { background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-deafen.svg') !important; }
 .channel.channel-voice .icon.icon-instant-settings,
 .channel.channel-text.selected .icon.icon-settings {
-	background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-setting.svg') !important;
-	opacity: 0.8 !important;
+    background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-setting.svg') !important;
+    opacity: 0.8 !important;
 }
 .channel.channel-voice:hover .icon.icon-instant-settings,
 .channel.channel-text:hover .icon.icon-settings {
-	background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-setting.svg') !important;
+    background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-setting.svg') !important;
     opacity: 0.8 !important;
 }
 .channel.channel-voice .icon.icon-instant-invite,
 .channel.channel-text.selected .icon.icon-instant-invite {
-	background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-instant-invite.svg') !important;
-	opacity: 0.8 !important;
+    background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-instant-invite.svg') !important;
+    opacity: 0.8 !important;
 }
 .channel.channel-voice:hover .icon.icon-instant-invite,
 .channel.channel-text:hover .icon.icon-instant-invite {
-	background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-instant-invite.svg') !important;
-	opacity: 0.8 !important;
+    background-image: url('https://ditmcouk.ipage.com/noottech/discord-icons/cyan-firewatch/cyan-instant-invite.svg') !important;
+    opacity: 0.8 !important;
 }
 /****************************************************************/
 
@@ -992,7 +992,7 @@ span:active .modal:hover {
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
   -webkit-animation-duration: 400ms;
-  		  animation-duration: 400ms;
+          animation-duration: 400ms;
   -webkit-transition-delay: 100s!important;
           transition-delay: 100s!important;
 }
@@ -1005,7 +1005,7 @@ span:active .modal:hover {
 .context-menu,
 .context-menu .item,
 .status-picker.popout-menu {
-	background-color: rgba(0,114,114,0.95) !important;
+    background-color: rgba(0,114,114,0.95) !important;
 }
 .popout:not(.popout-top),
 #pubs-container,
@@ -1035,35 +1035,199 @@ span:active .modal:hover {
     background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
 }
 .react-datepicker {
-	background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
+    background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
 }
 .react-datepicker__header {
-	background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
+    background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
 }
 .react-datepicker__current-month {
-	color: white !important;
+    color: white !important;
 }
 .react-datepicker__day-name {
-	color: white !important;
+    color: white !important;
 }
 .react-datepicker__day,
 .react-datepicker__day.react-datepicker__day--disabled {
-	color: rgba(225, 225, 225, 1) !important;
+    color: rgba(225, 225, 225, 1) !important;
 }
 .react-datepicker__day.react-datepicker__day--outside-month {
-	background: transparent !important;
+    background: transparent !important;
 }
 .react-datepicker__day.react-datepicker__day--disabled.react-datepicker__day--outside-month {
-	color: rgba(180, 180, 180, 1) !important;
+    color: rgba(180, 180, 180, 1) !important;
 }
 .option.search-option.selected {
-	background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
-	color: white !important;
+    background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
+    color: white !important;
 }
 .option.search-option.selected::after,
 .option.search-option::after {
-	background: transparent !important;
+    background: transparent !important;
 }
+.option.history::after {
+    display: none;
+}
+/****************************************************************/
+
+
+/****************************************************************/
+/*Settings*/
+.settings-header {
+    background: linear-gradient(to right, rgba(0, 57, 57, 0.8), rgba(0, 57, 57, 0.6)) !important;
+    border: none !important;
+}
+.settings-inner {
+    background: linear-gradient(to right, rgba(0, 57, 57, 0.6), rgba(0, 57, 57, 0.2)) !important;
+    border: none !important;
+}
+.scroller.user-settings-modal-games {
+    background: linear-gradient(to right, rgba(0, 57, 57, 0.6), rgba(0, 57, 57, 0.2)) !important;
+    color: #ffffff !important;
+}
+.settings-actions {
+    background: linear-gradient(to right, rgba(0, 57, 57, 0.6), rgba(0, 57, 57, 0.2)) !important;
+    border: none !important;
+}
+.form-inner {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.form-header header {
+    color: #00cccc !important;
+}
+.form-inner p {
+    color: #ffffff !important;
+}
+
+.btn.btn-default.close {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    color: #00cccc;
+}
+
+.form-header {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.form-actions {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+ul li a {
+    color: #00cccc !important;
+}
+
+.header.control-group {
+    background-color: #00cccc !important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.avatar-uploader-inner {
+    background-color: rgba(0, 0, 0, 0.1) !Important;
+    border-radius: 20px !important;
+}
+
+#settings-username {
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: #00cccc !Important;
+}
+#settings-email {
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: #00cccc !Important;
+}
+#settings-current-password {
+    border-radius: 10px;
+    padding-left: 10px;
+    border-color: #00cccc !Important;
+}
+
+button.btn.btn-primary {
+    background-color: #00cccc !Important;
+}
+.settings-actions {
+    background-color: rgba(0, 57, 57, 0.7) !important;
+}
+a.remove-button {
+    color: #00cccc !important;
+}
+.control-group label a {
+    color: #00cccc !important;
+}
+.settings .settings-inner,
+.settings .settings-actions {
+    background-color: rgba(0, 57, 57, 0.3) !important;
+}
+.settings .settings-header {
+    background-color: rgba(0, 57, 57, 0.7) !important;
+}
+.settings-wrapper.settings-panel {
+    background-color: rgba(0, 57, 57, 0.4) !important;
+}
+.settings .settings-inner,
+.settings .settings-actions {
+    background: rgba(0, 57, 57, 0.5);
+}
+.radio-inner {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.radio {
+    color: #ffffff !Important;
+}
+.tab-bar-item {
+    margin-right: 10px !important;
+}
+.tab-bar-item.selected {
+    color: #00cccc !Important;
+}
+div p a {
+    color: #00cccc !important;
+}
+.radio-theme.dark label {
+    border-color: #00cccc !important;
+}
+.radio-theme.light label {
+    border-color: #aaffff!important;
+}
+.user-settings-appearance .control-groups:nth-child(1) .control-group label:after {
+    content: " style: (Dark looks much better than light!)";
+}
+.user-settings-modal button.preview-sound:before {
+    -webkit-filter: hue-rotate(305deg) saturate(400%);
+}
+.action-icon:before {
+    -webkit-filter: hue-rotate(305deg) saturate(400%) !important;
+}
+.slider-bar-fill {
+    background: #00cccc !important;
+}
+.radio .radio-inner span:after {
+    background: #00cccc !important;
+}
+.tab-bar-item:hover {
+    background-color: transparent;
+}
+.tab-bar.TOP .tab-bar-item.selected {
+    border-bottom: 2px solid #00cccc !important;
+}
+#help-query {
+    border-color: #00cccc;
+    border-width: 3px;
+}
+#user-profile-modal .header {
+    background-image: url(https://www.xmple.com/wallpaper/blue-hexagon-glow-white-gradient-black-1920x1080-c4-000000-ffffff-0000ff-000000-l2-2-26-a-25-f-6.svg) !important;
+    background-size: cover;
+    background-color: transparent !important;
+}
+.reset-voice-settings {
+    color: #00cccc !important;
+}
+
+.form-inner header {
+    color: #00cccc !important;
+}
+.form-inner {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
 /****************************************************************/
 
 
@@ -1110,7 +1274,6 @@ span:active .modal:hover {
     display:none;
 }
 
-
 .channel-members .avatar-small{
     transform: scale(1) translateX(-30%) !important;
     transition: all 300ms ease !important;
@@ -1153,8 +1316,8 @@ span:active .modal:hover {
 }
 .account:hover .status.status-dnd:after {content: "Working..."; animation: working 3s linear infinite;}
 .status-dnd {
-	background-color: transparent !important;
-	border-color: #f04747 !important;
+    background-color: transparent !important;
+    border-color: #f04747 !important;
 }
 .popout-menu-item .status-dnd {
     background: #f04747 !important;
@@ -1180,8 +1343,8 @@ span:active .modal:hover {
 .account:hover .status.status-invisible:after {content: "Invisible";}
 .status-offline,
 .status-invisible {
-	background-color: transparent !important;
-	border-color: #747f8d !important;
+    background-color: transparent !important;
+    border-color: #747f8d !important;
 }
 .popout-menu-item .status-invisible {
     background: #747f8d !important;
@@ -1193,8 +1356,8 @@ span:active .modal:hover {
 .account:hover .status.status-online:after {content: "Online";}
 .popout-menu-item .status-online { background: #43b581 !important; }
 .status-online {
-	background-color: transparent !important;
-	border-color: #43b581 !important;
+    background-color: transparent !important;
+    border-color: #43b581 !important;
 }
 
 /********************************/
@@ -1202,8 +1365,8 @@ span:active .modal:hover {
 /*Idle*/
 .account:hover .status.status-idle:after {content: "Idle";}
 .status-idle {
-	background-color: transparent !important;
-	border-color: #faa61a !important;
+    background-color: transparent !important;
+    border-color: #faa61a !important;
 }
 .popout-menu-item .status-idle {
     background: #faa61a !important;
@@ -1234,11 +1397,11 @@ span:active .modal:hover {
 .account .status.status-idle:after,
 .account .status.status-dnd:after,
 .account .status.status-invisible:after {
-	top: 0%;
-	left: 0%;
-	content: "";
-	font-size: 11px;
-	transition-timing-function: ease-in;
+    top: 0%;
+    left: 0%;
+    content: "";
+    font-size: 11px;
+    transition-timing-function: ease-in;
     transition: padding 0.25s, transform 0.25s, width 0.25s, border 0.25s, font-size 0.25s, top 0.25s, left 0.25s;
 }
 
@@ -1271,7 +1434,7 @@ span:active .modal:hover {
 }
 .tooltip.tooltip-top.tooltip-normal {
     background: rgba(0,114,114,0.8) !important;
-    z-index: 0;
+    z-index: 1;
 }
 .tooltip.tooltip-right:after {
     border-right-color: rgba(0,114,114,0.8) !important;
@@ -1458,7 +1621,7 @@ span:active .modal:hover {
     background: linear-gradient(to bottom, rgba(0, 114, 114, 0.7), rgba(0, 114, 114, 0.4)) !important;
 }
 .user-popout .status {
-	display: none !important;
+    display: none !important;
 }
 /****************************************************************/
 
@@ -1545,7 +1708,7 @@ span:active .modal:hover {
     border-bottom: 0px;
 }
 #user-profile-modal .empty {
-	display: none !important;
+    display: none !important;
 }
 #user-profile-modal .tab-bar {
     width: 100%;
@@ -1567,7 +1730,7 @@ span:active .modal:hover {
     color: #030303 !important;
 }
 #user-profile-modal .status {
-	display: none;
+    display: none;
 }
 /****************************************************************/
 /**********************************************************************************************************************************/
@@ -1706,13 +1869,13 @@ span:active .modal:hover {
 }
 
 .markdown-modal.selectable .scroller{
-	background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 0, 0, 0.1)) !important;
-	color: white !important;
-	border-top: none;
+    background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 0, 0, 0.1)) !important;
+    color: white !important;
+    border-top: none;
 }
 .markdown-modal .markdown-modal-header{
-	background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0.0)) !important;
-	color: white !important;
+    background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0.0)) !important;
+    color: white !important;
 }
 /*
 .chat .messages-wrapper {
@@ -1736,10 +1899,10 @@ span:active .modal:hover {
 }
 
 .flex-vertical.channels-wrap {
-	padding-left: 3px !important;
+    padding-left: 3px !important;
 }
 .guilds-wrapper {
-	padding-left: 3px !important;
+    padding-left: 3px !important;
 }
 .username {
     font-size: 90% !important;
@@ -1937,151 +2100,6 @@ span.bot-tag {
 }
 .guild-inner {
     z-index: 1 !important;
-}
-
-.form-inner {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-}
-.form-header header {
-    color: #00cccc !important;
-}
-.form-inner p {
-    color: #ffffff !important;
-}
-
-.btn.btn-default.close {
-    background-color: rgba(0, 0, 0, 0.0) !important;
-    color: #00cccc;
-}
-
-.form-header {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-.form-actions {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-ul li a {
-    color: #00cccc !important;
-}
-
-.header.control-group {
-    background-color: #00cccc !important;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.avatar-uploader-inner {
-    background-color: rgba(0, 0, 0, 0.1) !Important;
-    border-radius: 20px !important;
-}
-
-#settings-username {
-    border-radius: 10px;
-    padding-left: 10px;
-    border-color: #00cccc !Important;
-}
-#settings-email {
-    border-radius: 10px;
-    padding-left: 10px;
-    border-color: #00cccc !Important;
-}
-#settings-current-password {
-    border-radius: 10px;
-    padding-left: 10px;
-    border-color: #00cccc !Important;
-}
-
-button.btn.btn-primary {
-    background-color: #00cccc !Important;
-}
-.settings-actions {
-    background-color: rgba(0, 57, 57, 0.7) !important;
-}
-a.remove-button {
-    color: #00cccc !important;
-}
-.control-group label a {
-    color: #00cccc !important;
-}
-.settings .settings-inner,
-.settings .settings-actions {
-    background-color: rgba(0, 57, 57, 0.3) !important;
-}
-.settings .settings-header {
-    background-color: rgba(0, 57, 57, 0.7) !important;
-}
-.settings-wrapper.settings-panel {
-    background-color: rgba(0, 57, 57, 0.4) !important;
-}
-.settings .settings-inner,
-.settings .settings-actions {
-    background: rgba(0, 57, 57, 0.5);
-}
-.radio-inner {
-    background-color: rgba(255, 255, 255, 0.3) !important;
-}
-.radio {
-    color: #ffffff !Important;
-}
-.tab-bar-item {
-    margin-right: 10px !important;
-}
-.tab-bar-item.selected {
-    color: #00cccc !Important;
-}
-div p a {
-    color: #00cccc !important;
-}
-.radio-theme.dark label {
-    border-color: #00cccc !important;
-}
-.radio-theme.light label {
-    border-color: #aaffff!important;
-}
-.user-settings-appearance .control-groups:nth-child(1) .control-group label:after {
-    content: " style: (Dark looks much better than light!)";
-}
-.user-settings-modal button.preview-sound:before {
-    -webkit-filter: hue-rotate(305deg) saturate(400%);
-}
-.action-icon:before {
-    -webkit-filter: hue-rotate(305deg) saturate(400%) !important;
-}
-.slider-bar-fill {
-    background: #00cccc !important;
-}
-.radio .radio-inner span:after {
-    background: #00cccc !important;
-}
-.tab-bar-item:hover {
-    background-color: transparent;
-}
-.tab-bar.TOP .tab-bar-item.selected {
-    border-bottom: 2px solid #00cccc !important;
-}
-#help-query {
-    border-color: #00cccc;
-    border-width: 3px;
-}
-.user-popout .header {
-    background: transparent;
-    background-image: url(https://www.xmple.com/wallpaper/blue-hexagon-glow-white-gradient-black-1920x1080-c4-000000-ffffff-0000ff-000000-l2-2-26-a-25-f-6.svg) !important;
-    background-size: cover !important;
-}
-.avatar-popout.animate {
-    border: 3px groove rgba(0, 204, 204, 0.7) !important;
-    background-color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.reset-voice-settings {
-    color: #00cccc !important;
-}
-
-.form-inner header {
-    color: #00cccc !important;
-}
-.form-inner {
-    background-color: rgba(0, 0, 0, 0.1) !important;
 }
 
 .action-header {
