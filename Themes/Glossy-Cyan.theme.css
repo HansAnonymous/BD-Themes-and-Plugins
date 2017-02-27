@@ -651,7 +651,7 @@ direction: ltr;
     background-color: rgba(0,0,0,0) !important;
 }
 #friends {
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.6) 85%,rgba(0, 0, 0, 0)) !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0)) !important;
 }
 #friends .friends-table .friends-row:hover {
     background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0)) !important;
@@ -1447,6 +1447,9 @@ div p a {
 }
 .tooltip.tooltip-bottom:after {
     border-bottom-color: rgba(0,114,114,0) !important;
+}
+.tooltip.tooltip-right.tooltip-error::after {
+    display: none;
 }
 /****************************************************************/
 
