@@ -1,4 +1,4 @@
-//META{"name":"Glossy Theme - Cyan","description":"Current Version: V2.2.4.Cyan","author":"HansAnonymous","version":"2.2.4.Cyan"}*//{}
+//META{"name":"Glossy Theme - Cyan","description":"Current Version: V3.4.4.Cyan","author":"HansAnonymous","version":"3.4.4.Cyan"}*//{}
 
 /*
    ____ _                                ____                                                   
@@ -40,6 +40,7 @@ Thanks to all of these people
 - Faücheur#2420 (Probably uri) for chat alignment & CSS help
 - BeardDesign#6223 for basis of member-list hover
 - Arashiryuu#1912 for CSS help
+- PhantomPrune#7312 with CSS help
  */
 
 
@@ -47,24 +48,7 @@ Thanks to all of these people
 /****************************************************************/
 /*Import CSS*/
 @import url(https://gitcdn.xyz/repo/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan.theme.css);
-/****************************************************************/
-/**********************************************************************************************************************************/
-
-
-/**********************************************************************************************************************************/
-/****************************************************************/
-/**Variables**/
-:root {
-    /*Colors are in #HexCode, #XXYYZZ*/
-    --main-color: #007272;
-    --hover-color: #00D1D1;
-    --light-color: #008888;
-    --dark-color: #005555;  
-    --open-anim: none; /*Available: none, openX, openY, openZ; any other will disable it*/
-    --hover-anim: flash; /*Available: flash; any other will disable it*/
-    /*Place your id here! Enable Developer mode in Discord, the right click on your username, then Copy ID!*/
-    /*--userid: "168216897450541056";*/
-}
+/*@import url(https://rawcdn.githack.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan.theme.css);*/
 /****************************************************************/
 /**********************************************************************************************************************************/
 
@@ -82,10 +66,12 @@ body,
 .auth-tiling-bg,
 .invite-modal .invite-splash,
 .radio-theme.light label,
-.radio-theme.dark label{
+.radio-theme.dark label,
+div[data-bd="backdrop"] {
     /*Background Image: Make sure it is an https link! Make sure it is also a direct link to the image!*/
-    background-image: url(https://hansanonymous.github.io/files/bg.png) !important;
-    background-size: cover !important;
+    background-image: url(https://hansanonymous.github.io/files/bg.png);
+    background-size: cover;
 }
+
 /****************************************************************/
 /**********************************************************************************************************************************/
