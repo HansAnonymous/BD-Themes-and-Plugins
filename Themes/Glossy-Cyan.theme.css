@@ -129,16 +129,101 @@ animation: revealUp 0.7s;
 
 /*Flash*/
 @-webkit-keyframes flash {
-    50%{
-     -webkit-filter: blur(2px) brightness(2);
+	0%{
+		opacity: 1;
+		-webkit-filter: blur(0px);
+	}
+    100%{
+    	opacity: 1;
+    	-webkit-filter: blur(2px);
     }
 }
 @keyframes flash {
-    50%{
-    filter: blur(2px) brightness(2);
+    0%{
+		opacity: 1;
+		filter: blur(0px);
+	}
+    100%{
+    	opacity: 1;
+    	filter: blur(2px);
+    }
+}
+@-webkit-keyframes flash2 {
+    0%{
+		opacity: 0;
+		-webkit-filter: blur(0px);
+		transform: translateX(-100%);
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+		-webkit-filter: blur(1px);
+	}
+    100%{
+    	opacity: 1;
+    	-webkit-filter: blur(0px);
+    	transform: translateX(initial);
+    }
+}
+@keyframes flash2 {
+    0%{
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	50%{
+		opacity: 0;
+	}
+    100%{
+    	opacity: 1;
+    	transform: translateX(initial);
     }
 }
 
+@keyframes guildtip {
+	0% {
+		opacity: 0;
+		filter:brightness();
+		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+		transform: translateX(-100%);
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		filter:brightness(110%);
+		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+		transform: translateX(initial);
+	}
+}
+@keyframes guildtip2 {
+	0% {
+		filter:brightness();
+		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+	}
+	100% {
+		filter:brightness(110%);
+		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+	}
+}
+
+@-webkit-keyframes glowpulse {
+    0%{
+        -webkit-filter: drop-shadow(0 0 0 rgba(0,114,114,0));
+    }
+    100%{
+        -webkit-filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,114,144,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
+    }
+}
+@keyframes glowpulse {
+    0%{
+        filter: drop-shadow(0 0 0 rgba(0,111,114,0));
+    }
+    100%{
+        filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,0,114,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
+    }
+}
 /*Hue*/
 @-webkit-keyframes hue {
     0%{ -webkit-filter: hue-rotate(0deg); }
@@ -383,6 +468,16 @@ body {
     background: rgba(255,255,255,0.05);
 }
 .layers { background: rgba(0,0,0,.05)!important; }
+
+.create-guild-container {
+	background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
+}
+.create-guild-container .actions {
+	background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
+}
+.create-guild-container .actions .action.create, .create-guild-container .actions .action.join {
+	background-color: rgba(0,57,57, 0.8);
+}
 /****************************************************************/
 
 
@@ -440,6 +535,16 @@ div.new-messages-bar button {
     background-color: rgba(0, 114, 114, 0.6);
     border: 1px solid rgba(0, 0, 0, 0.4);
 }
+.btn.btn-default {
+	background-color: rgba(0,57,57,1);
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 0px;
+}
+.form .btn-default:hover {
+	border-bottom: none;
+}
 /****************************************************************/
 
 
@@ -453,6 +558,11 @@ div.new-messages-bar button {
 }
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
     left: -11px;
+}
+.guilds-wrapper .guilds .guild.unread, 
+.channel.channel-text.unread:not(.channel-muted):not(.selected) {
+-webkit-animation: glowpulse 1s infinite alternate;
+animation: glowpulse 1s infinite alternate;
 }
 .guild-channels .channel {
     font-size: 15.5px;
@@ -565,7 +675,7 @@ div.new-messages-bar button {
 }
 .channel-textarea-inner textarea {
     padding-left: 10px !important;
-    color: rgba(0, 204, 204, 0.7) !Important;
+    color: rgba(0, 204, 204, 0.7);
 }
 .channel-textarea {
     margin-bottom: 2.3vh !important;
@@ -684,7 +794,7 @@ div.new-messages-bar button {
 
 /****************************************************************/
 /*Guild*/
-.guild-inner, .guild { background-color: transparent !important; }
+.guild-inner, .guild { background-color: rgba(0,0,0,0) !important; }
 .guild-header ul {
     opacity: 0;
     transition: transform .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
@@ -699,8 +809,8 @@ div.new-messages-bar button {
     border-radius: 5px;
 }
 .guild-header header {
-    background-color: rgba(0,0,0,0);
-    box-shadow: 0 1px 0 rgba(0,0,0,0),inset 0 -1px 0 rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0) !important;
+    box-shadow: 0 1px 0 rgba(0,0,0,0),inset 0 -1px 0 rgba(0,0,0,0) !important;
 }
 .scroller.guilds {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.23)) !important;
@@ -721,6 +831,17 @@ div.new-messages-bar button {
 }
 .guild-separator:after {
     background-color: transparent !important;
+}
+/****************************************************************/
+
+
+/****************************************************************/
+/*Toolbar*/
+.header-toolbar button:nth-child(7) {
+    display: none;
+}
+.header-toolbar .separator {
+    visibility: hidden;
 }
 /****************************************************************/
 
@@ -889,6 +1010,15 @@ div.new-messages-bar button {
     border-radius: 5px !important;
     transition: all 400ms ease !important;
 }
+.guild:hover {
+	border-radius: 50px !important;
+}
+.guild .guild-inner .avatar-small:hover {
+	background-image: url(https://hansanonymous.github.io/files/Screenshot_247.png);
+}
+.friends-icon:hover {
+	background-color: rgba(0,114,114, 1); !important;
+}
 .guilds-wrapper .guilds .guild .guild-inner:hover,
 .avatar-small:hover,
 .avatar-small.animate:hover,
@@ -960,11 +1090,19 @@ div.new-messages-bar button {
 .markdown-modal {
     background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 0, 0, 0));
 }
+
 .markdown-modal.selectable .markdown-modal-header {
     border-bottom: none;
 }
 .markdown-modal.selectable .scroller-wrap.fade .scroller {
     transform: translate(0%,-25%);
+}
+.markdown-modal.change-log .scroller-wrap.fade {
+	background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 114, 114, 0.1));
+}
+.markdown-modal.change-log .markdown-modal-footer {
+	border-top: none;
+	background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0));
 }
 /****************************************************************/
 
@@ -1061,7 +1199,10 @@ span:active .modal:hover {
 .context-menu,
 .context-menu .item,
 .status-picker.popout-menu {
-    background-color: rgba(0,114,114,0.95);
+    background-color: rgba(0,114,114,0.95) !important;
+}
+.context-menu .item:hover {
+	background-color: rgba(0,57,57,0.95) !important;
 }
 .popout:not(.popout-top),
 #pubs-container,
@@ -1070,6 +1211,13 @@ span:active .modal:hover {
     outline: 90vw solid rgba(8,8,8,.33);
     outline-offset: -1px;
     animation: backdrop 160ms ease-in;
+}
+#voice-connection-popout header,
+#voice-connection-popout section {
+	background-color: rgba(0,114,114,0.8) !important;
+}
+#voice-connection-popout section::after {
+	display: none;
 }
 @keyframes backdrop {
     0% {outline: 0vh solid rgba(8,8,8,0);}
@@ -1288,28 +1436,28 @@ ul li a {
 }
 
 .avatar-uploader-inner {
-    background-color: rgba(0, 0, 0, 0.1) !Important;
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 20px !important;
 }
 
 #settings-username {
     border-radius: 10px;
     padding-left: 10px;
-    border-color: #00cccc !Important;
+    border-color: #00cccc;
 }
 #settings-email {
     border-radius: 10px;
     padding-left: 10px;
-    border-color: #00cccc !Important;
+    border-color: #00cccc;
 }
 #settings-current-password {
     border-radius: 10px;
     padding-left: 10px;
-    border-color: #00cccc !Important;
+    border-color: #00cccc;
 }
 
 button.btn.btn-primary {
-    background-color: #00cccc !Important;
+    background-color: #00cccc;
 }
 .settings-actions {
     background-color: rgba(0, 57, 57, 0.7) !important;
@@ -1337,14 +1485,8 @@ a.remove-button {
 .radio-inner {
     background-color: rgba(255, 255, 255, 0.3) !important;
 }
-.radio {
-    color: #ffffff !Important;
-}
 .tab-bar-item {
     margin-right: 10px !important;
-}
-.tab-bar-item.selected {
-    color: #00cccc !Important;
 }
 div p a {
     color: #00cccc !important;
@@ -1461,6 +1603,9 @@ div p a {
 
 /****************************************************************/
 /*Status*/
+.popout.popout-top .status-picker.popout-menu .popout-menu-item:hover {
+	background-color: rgba(0,57,57,0.8);
+}
 /*Dnd*/
 .status-dnd ~ .status-text {
     font-size: 0;
@@ -1594,10 +1739,26 @@ div p a {
     padding-top: 14px !important;
     padding-bottom: 14px !important;
     padding-left: 30px !important;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    animation: guildtip 0.6s cubic-bezier(.65,1.79,.49,1.81) 0s, flash2 0.6s ease 0s;
+	filter:brightness(110%);
+	box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+	transition:all 500ms ease;
 }
-.tooltip.tooltip-top.tooltip-normal {
+/*Thanks to Maple for some tooltip animation code (Guildtip)*/
+.guild:hover a {
+	animation: guildtip2 .6s cubic-bezier(.65,1.79,.49,1.81);
+	filter:brightness(110%);
+	box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+}
+
+.tooltip.tooltip-top.tooltip-normal,
+.tooltip.tooltip-bottom.tooltip-normal {
     background: rgba(0,114,114,0.8) !important;
     z-index: 1;
+    animation: flash 0.5s;
+    -webkit-animation: flash 0.5s;
 }
 .tooltip.tooltip-right:after {
     border-right-color: rgba(0,114,114,0.8) !important;
@@ -1613,6 +1774,14 @@ div p a {
 }
 .tooltip.tooltip-right.tooltip-error::after {
     display: none;
+}
+.tooltip.tooltip-right.tooltip-normal {
+	width: 0px !important;
+	transition: all 2s ease;
+}
+#app-mount:hover .tooltip.tooltip-right.tooltip-normal {
+	width: initial !important;
+	transition: all 2s ease;
 }
 /****************************************************************/
 
@@ -1938,6 +2107,26 @@ div p a {
 /**********************************************************************************************************************************/
 /****************************************************************/
 /*Other*/
+.scroller-wrap .scroller.settings-wrapper.settings-panel::-webkit-scrollbar,
+.scroller-wrap .scroller.settings-wrapper.settings-panel::-webkit-scrollbar-track,
+.scroller-wrap .scroller.settings-wrapper.settings-panel::-webkit-scroll-track-piece,
+.scroller.guild-settings-modal-list.settings-panel-with-header::-webkit-scrollbar,
+.scroller.guild-settings-modal-list.settings-panel-with-header::-webkit-scroll-track,
+ .scroller.guild-settings-modal-list.settings-panel-with-header::-webkit-scroll-track,-piece,
+ .guild-settings-modal-emoji .scroller::-webkit-scrollbar,
+ .guild-settings-modal-emoji .scroller::-webkit-scroll-track,
+ .guild-settings-modal-emoji .scroller::-webkit-scroll-track-piece,
+ .scroller.settings-panel::-webkit-scrollbar,
+ .scroller.settings-panel::-webkit-scroll-track,
+ .scroller.settings-panel::-webkit-scroll-track-piece,
+ .scroller.webhooks-list::-webkit-scrollbar,
+ .scroller.webhooks-list::-webkit-scroll-track,
+ .scroller.webhooks-list::-webkit-scroll-track-piece,
+ .scroller-wrap.fade .scroller::-webkit-scrollbar,
+ .scroller-wrap.fade .scroller::-webkit-scroll-track,
+ .scroller-wrap.fade .scroller::-webkit-scroll-track-piece {
+	display: none;
+}
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar,
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,
@@ -1984,7 +2173,10 @@ div p a {
     color: #00cccc !important;
 }
 .empty-message h1 {
-    color: rgba(255, 255, 255, 0.8) !important;
+    color: rgba(255, 255, 255, 0) !important;
+}
+.empty-message {
+	display: none !important;
 }
 header.header {
     background: transparent !important;
