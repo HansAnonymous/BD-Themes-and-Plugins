@@ -7,7 +7,7 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 <b>Description:</b><i> Dark theme with variations of blue with a customizable background. Focuses on the aesthetic pleasure for the user.  Includes a general glossy look.</i><br>
 <b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
-<font size="21"><b><DIV ALIGN=CENTER>Features</div></b></font>
+<b><DIV ALIGN=CENTER><font size="21">Features</font></div></b>
 
 <b>Main:</b><i> Main appearance of the theme</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/5axo305.png"></img></div><br>
