@@ -5,7 +5,7 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css">Glossy Cyan</a></div></b></font>
 <b>Description:</b><i> Dark theme with variations of blue with a customizable background. Focuses on the aesthetic pleasure for the user.  Includes a general glossy look.</i><br>
-<b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.<b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
+<b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
 <font size="21"><b><DIV ALIGN=CENTER>Features</div></b></font>
 
