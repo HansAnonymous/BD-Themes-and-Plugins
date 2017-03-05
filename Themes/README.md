@@ -10,16 +10,16 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 <font size="21"><b><DIV ALIGN=CENTER>Features</div></b></font>
 
 <b>Main:</b><i> Main appearance of the theme</i><br>
-<img ALIGN=CENTER href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/5axo305.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/5axo305.png"></img></div><br>
 
 <b>Main 2:</b><i> General features within the theme</i><br>
-<img ALIGN=CENTER href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/ubBLkEZ.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/ubBLkEZ.png"></img></div><br>
 
 <b>Members List:</b><i> An expand on hover feature that shows the members list and hides when the mouse moves away</i><br>
-<img ALIGN=CENTER href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/0Ogc84x.gif"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/0Ogc84x.gif"></img></div><br>
 
 <b>Caption:</b><i> Enlarges when the mouse hovers over the caption</i><br>
-<img ALIGN=CENTER href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/RXgaBlr.gif"></img><br>
+<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/RXgaBlr.gif"></img><br>
 
 <b>Chat:</b><i> General overview of a typical chat</i><br>
 <img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/2udh6bu.png"></img><br>
