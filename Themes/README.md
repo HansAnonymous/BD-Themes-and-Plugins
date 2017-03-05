@@ -19,43 +19,43 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/0Ogc84x.gif"></img></div><br>
 
 <b>Caption:</b><i> Enlarges when the mouse hovers over the caption</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/RXgaBlr.gif"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/RXgaBlr.gif"></img></div><br>
 
 <b>Chat:</b><i> General overview of a typical chat</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/2udh6bu.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/2udh6bu.png"></img></div><br>
 
 <b>Status:</b><i> Adjustments to the status changer</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/WYH7sTa.gif"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/WYH7sTa.gif"></img></div><br>
 
 <b>Voice Connection:</b><i> Recolor of the voice connection popup</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/SKKbBPT.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/SKKbBPT.png"></img></div><br>
 
 <b>Friends:</b><i> General overview of a friends list</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/v9eaYNr.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/v9eaYNr.png"></img></div><br>
 
 <b>Chat:</b><i> General overview of a typical chat</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/2udh6bu.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/2udh6bu.png"></img></div><br>
 
 <b>Profile:</b><i> Adjustments to the profile overview popup</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/6k554Wn.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/6k554Wn.png"></img></div><br>
 
 <b>User Profile:</b><i> Adjustments to the user profile popout for more desecriptions</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/21MoWD7.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/21MoWD7.png"></img></div><br>
 
 <b>Guilds:</b><i> Adjustments and animations for the guilds list</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/l0nd0Fr.gif"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/l0nd0Fr.gif"></img></div><br>
 
 <b>Search:</b><i> Recolor of the search</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/fl7Ndrp.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/fl7Ndrp.png"></img></div><br>
 
 <b>Public Servers:</b><i> Recolor of the public servers popup if enabled in BetterDiscord</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/BdtclQP.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/BdtclQP.png"></img></div><br>
 
 <b>Settings Panel:</b><i> Adjustments to the Settings popout</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/dnqxUtO.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/dnqxUtO.png"></img></div><br>
 
 <b>Buttons:</b><i> Adjustments to the checkmark and radio buttons</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/YZBCzlH.png"></img><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/YZBCzlH.png"></img></div><br>
 
 <b>Changelog:</b><i> Adjustments to the changelog appearance</i><br>
-<img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/0VmlcNz.png"></img><br>
+<div><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/0VmlcNz.png"></img></div><br>
