@@ -19,6 +19,16 @@
 * {
     transition: all 400ms ease;
 }
+
+.layers::after {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  font-size: 10px;
+  color: cyan;
+  content: "Glossy Cyan V3.3.4 by HansAnonymous";
+  animation: glowpulse 1s infinite alternate;
+}
 /****************************************************************/
 
 
