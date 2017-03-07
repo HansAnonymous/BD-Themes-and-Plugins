@@ -5,8 +5,8 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 
 How to install:
-<ol>1. Make sure BetterDiscord is installed.<ol>
-<ol>2. Go to settings -> BetterDiscord -> Themes<ol>
+<ol>1. Make sure BetterDiscord is installed.</ol>
+<ol>2. Go to settings -> BetterDiscord -> Themes</ol>
 3. Click on Open folder and move CyanGlossy.theme.css into the opened folder.
 4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.
 5. Go back to Settings -> BetterDiscord -> Themes
