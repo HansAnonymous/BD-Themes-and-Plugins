@@ -1,7 +1,24 @@
 #<DIV ALIGN=CENTER>Themes by HansAnonymous</div><br><div align=right><br>
 Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>.
+
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
+
+How to install:
+1. Make sure BetterDiscord is installed.
+2. Go to settings -> BetterDiscord -> Themes
+3. Click on Open folder and move CyanGlossy.theme.css into the opened folder.
+4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.
+5. Go back to Settings -> BetterDiscord -> Themes
+6. Click check on Glossy Theme - Cyan.
+
+Themes: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Themes
+
+Optional:
+1. Install the ThemeCustomizer Plugin by Zerthox.
+2. Reload Discord.
+3. Enable the plugin and edit variables to your liking*.
+*Note: Changing variables and messing with values could break the theme. If so, remove the plugin, reinstall the theme.
 
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css">Glossy Cyan</a></div></b></font>
 <b>Description:</b><i> Dark theme with variations of blue with a customizable background. Focuses on the aesthetic pleasure for the user.  Includes a general glossy look.</i><br>
@@ -57,3 +74,19 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 
 <b>Changelog:</b><i> Adjustments to the changelog appearance</i><br>
 <div><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/0VmlcNz.png"></img></div><br>
+
+#Credits:
+Thanks to all of these people 
+- Zerthox#6648 (him and his themes) for classes (and some css), copied some things like bg...
+- HoLLy#2750 for help with css
+- maple#1234 for help with css
+- den#3280 for his Cyan-firewatch theme to aid in the creation of this theme
+- Jiiks#5000 for creating BetterDiscord
+- https://github.com/jakeoid for animated emojis
+- https://github.com/TriggerRimfire for avatar shadows
+- https://github.com/SpoopySaitama for HLJS Colors
+- PikaDude#5386 for Fade animation
+- Faücheur#2420 (Probably uri) for chat alignment & CSS help
+- BeardDesign#6223 for basis of member-list hover
+- Arashiryuu#1912 for CSS help
+- PhantomPrune#7312 with CSS help
