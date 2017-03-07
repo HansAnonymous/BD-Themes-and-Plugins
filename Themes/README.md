@@ -7,17 +7,17 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 How to install:
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Themes</ol>
-3. Click on Open folder and move CyanGlossy.theme.css into the opened folder.
-4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.
-5. Go back to Settings -> BetterDiscord -> Themes
-6. Click check on Glossy Theme - Cyan.
+<ol>3. Click on Open folder and move CyanGlossy.theme.css into the opened folder.</ol>
+<ol>4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.</ol>
+<ol>5. Go back to Settings -> BetterDiscord -> Themes</ol>
+<ol>6. Click check on Glossy Theme - Cyan.</ol>
 
 Themes: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Themes
 
-Optional:
-1. Install the ThemeCustomizer Plugin by Zerthox.
-2. Reload Discord.
-3. Enable the plugin and edit variables to your liking*.
+Optional <b>*CURRENTLY UNAVAILABLE*</b>:
+<ol>1. Install the ThemeCustomizer Plugin by Zerthox.</ol>
+<ol>2. Reload Discord.</ol>
+<ol>3. Enable the plugin and edit variables to your liking*.</ol>
 *Note: Changing variables and messing with values could break the theme. If so, remove the plugin, reinstall the theme.
 
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css">Glossy Cyan</a></div></b></font>
