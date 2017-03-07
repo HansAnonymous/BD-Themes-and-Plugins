@@ -1,4 +1,4 @@
-//META{"name":"Glossy Theme - Cyan","description":"Current Version: V3.4.4.Cyan","author":"HansAnonymous","version":"3.4.4.Cyan"}*//{}
+//META{"name":"Glossy Cyan","description":"Current Version: V3.3.4.Cyan","author":"HansAnonymous","version":"3.3.4.Cyan"}*//{}
 
 /*
    ____ _                                ____                                                   
@@ -19,6 +19,9 @@ How to install:
 4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.
 5. Go back to Settings -> BetterDiscord -> Themes
 6. Click check on Glossy Theme - Cyan.
+
+PLEASE CHECK HERE TO SEE THE THEME IN ACTION:
+Theme: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Themes
 
 Optional:
 1. Install the ThemeCustomizer Plugin by Zerthox.
@@ -47,8 +50,9 @@ Thanks to all of these people
 /**********************************************************************************************************************************/
 /****************************************************************/
 /*Import CSS*/
-@import url(https://gitcdn.xyz/repo/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan.theme.css);
+/*@import url(https://gitcdn.xyz/repo/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan.theme.css);*/
 /*@import url(https://rawcdn.githack.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan.theme.css);*/
+@import url(https://cdn.rawgit.com/HansAnonymous/BD-Themes-and-Plugins/f8cd6128/Themes/Glossy-Cyan.theme.css);
 /****************************************************************/
 /**********************************************************************************************************************************/
 
