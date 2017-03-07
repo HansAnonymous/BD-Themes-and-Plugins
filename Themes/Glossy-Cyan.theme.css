@@ -127,85 +127,63 @@ animation: revealUp 0.7s;
 /*                                      */
 /****************************************/
 
-/*Flash*/
-@-webkit-keyframes flash {
-	0%{
-		opacity: 1;
-		-webkit-filter: blur(0px);
-	}
-    100%{
-    	opacity: 1;
-    	-webkit-filter: blur(2px);
-    }
-}
-@keyframes flash {
-    0%{
-		opacity: 1;
-		filter: blur(0px);
-	}
-    100%{
-    	opacity: 1;
-    	filter: blur(2px);
-    }
-}
 @-webkit-keyframes flash2 {
     0%{
-		opacity: 0;
-		-webkit-filter: blur(0px);
-		transform: translateX(-100%);
-	}
-	50%{
-		opacity: 0;
-	}
-	75%{
-		-webkit-filter: blur(1px);
-	}
+    opacity: 0;
+    -webkit-filter: blur(0px);
+    transform: translateX(-100%);
+  }
+  50%{
+    opacity: 0;
+  }
+  75%{
+    -webkit-filter: blur(1px);
+  }
     100%{
-    	opacity: 1;
-    	-webkit-filter: blur(0px);
-    	transform: translateX(initial);
+      opacity: 1;
+      -webkit-filter: blur(0px);
+      transform: translateX(initial);
     }
 }
 @keyframes flash2 {
     0%{
-		opacity: 0;
-		transform: translateX(-100%);
-	}
-	50%{
-		opacity: 0;
-	}
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50%{
+    opacity: 0;
+  }
     100%{
-    	opacity: 1;
-    	transform: translateX(initial);
+      opacity: 1;
+      transform: translateX(initial);
     }
 }
 
 @keyframes guildtip {
-	0% {
-		opacity: 0;
-		filter:brightness();
-		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
-		transform: translateX(-100%);
-	}
-	50% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-		filter:brightness(110%);
-		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
-		transform: translateX(initial);
-	}
+  0% {
+    opacity: 0;
+    filter:brightness();
+    box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {opacity: 1;}
+  100% {
+    opacity: 1;
+    filter:brightness(110%);
+    box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+    transform: translateX(initial);
+  }
 }
 @keyframes guildtip2 {
-	0% {
-		filter:brightness();
-		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
-	}
-	100% {
-		filter:brightness(110%);
-		box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
-	}
+  0% {
+    box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+  }
+  100% {
+    box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+  }
 }
 
 @-webkit-keyframes glowpulse {
@@ -470,13 +448,13 @@ body {
 .layers { background: rgba(0,0,0,.05)!important; }
 
 .create-guild-container {
-	background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
 }
 .create-guild-container .actions {
-	background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
+  background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
 }
 .create-guild-container .actions .action.create, .create-guild-container .actions .action.join {
-	background-color: rgba(0,57,57, 0.8);
+  background-color: rgba(0,57,57, 0.8);
 }
 /****************************************************************/
 
@@ -536,14 +514,14 @@ div.new-messages-bar button {
     border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .btn.btn-default {
-	background-color: rgba(0,57,57,1);
-	border-radius: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	border-bottom: 0px;
+  background-color: rgba(0,57,57,1);
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 0px;
 }
 .form .btn-default:hover {
-	border-bottom: none;
+  border-bottom: none;
 }
 /****************************************************************/
 
@@ -582,11 +560,11 @@ animation: glowpulse 1s infinite alternate;
 }
 .channel-members {
     z-index:2;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
     background-color: rgba(0, 0, 0, 0) !important;
 }
 .channel-members:hover {
-    transition:all 300ms ease;
+    transition:all 400ms ease;
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .channel-members .member:hover {
@@ -600,12 +578,12 @@ animation: glowpulse 1s infinite alternate;
     background: -webkit-linear-gradient(left,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
     background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
     background: rgba(0,0,0,0.2) !important;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
 }
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner {
     opacity:0;
-    transition:opacity 300ms ease, margin 100ms ease;   
+    transition:opacity 400ms ease, margin 100ms ease;   
 }
 .channel.selected.private,
 .channel.channel-text.selected {
@@ -1011,13 +989,13 @@ animation: glowpulse 1s infinite alternate;
     transition: all 400ms ease !important;
 }
 .guild:hover {
-	border-radius: 50px !important;
+  border-radius: 50px !important;
 }
 .guild .guild-inner .avatar-small:hover {
-	background-image: url(https://hansanonymous.github.io/files/Screenshot_247.png);
+  background-image: url(https://hansanonymous.github.io/files/Screenshot_247.png);
 }
 .friends-icon:hover {
-	background-color: rgba(0,114,114, 1); !important;
+  background-color: rgba(0,114,114, 1); !important;
 }
 .guilds-wrapper .guilds .guild .guild-inner:hover,
 .avatar-small:hover,
@@ -1030,8 +1008,6 @@ animation: glowpulse 1s infinite alternate;
 .avatar-popout:hover {
     border-radius: 50px !important;
     transition: all 400ms ease !important;
-    animation: flash 0.5s;
-    -webkit-animation: flash 0.5s;
 }
 .scroller.messages .avatar-large{
     transform: translateX(5%);
@@ -1040,7 +1016,7 @@ animation: glowpulse 1s infinite alternate;
     margin-left: 4px;
 }
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
-    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.7);
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
 }
 
 .chat .avatar-large {
@@ -1098,11 +1074,11 @@ animation: glowpulse 1s infinite alternate;
     transform: translate(0%,-25%);
 }
 .markdown-modal.change-log .scroller-wrap.fade {
-	background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 114, 114, 0.1));
+  background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 114, 114, 0.1));
 }
 .markdown-modal.change-log .markdown-modal-footer {
-	border-top: none;
-	background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0));
+  border-top: none;
+  background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0));
 }
 /****************************************************************/
 
@@ -1128,8 +1104,6 @@ animation: glowpulse 1s infinite alternate;
 .channel-members:hover h2 {
     border-radius: 50px;
     transition: all 400ms ease;
-    animation: flash 0.5s;
-    -webkit-animation: flash 0.5s;
 }
 /***************************************************************
 
@@ -1140,8 +1114,8 @@ animation: glowpulse 1s infinite alternate;
   opacity: 1!important;
   -webkit-transform: scale(1) translateZ(0px)!important;
           transform: scale(1) translateZ(0px)!important;
-  -webkit-animation: modalanim 300ms ease;
-          animation: modalanim 300ms ease;
+  -webkit-animation: modalanim 400ms ease;
+          animation: modalanim 400ms ease;
   -webkit-transition: all 100ms;
   transition: all 100ms;
   -webkit-transition-delay: 5s;
@@ -1177,8 +1151,8 @@ span:active .modal:hover {
 
 .callout-backdrop {
   opacity: 0.9!important;
-  -webkit-transition: all 300ms ease;
-          transition: all 300ms ease;
+  -webkit-transition: all 400ms ease;
+          transition: all 400ms ease;
   -webkit-animation-name: bg-in;
           animation-name: bg-in;
   -webkit-animation-iteration-count: 1;
@@ -1202,7 +1176,7 @@ span:active .modal:hover {
     background-color: rgba(0,114,114,0.95) !important;
 }
 .context-menu .item:hover {
-	background-color: rgba(0,57,57,0.95) !important;
+  background-color: rgba(0,57,57,0.95) !important;
 }
 .popout:not(.popout-top),
 #pubs-container,
@@ -1214,10 +1188,10 @@ span:active .modal:hover {
 }
 #voice-connection-popout header,
 #voice-connection-popout section {
-	background-color: rgba(0,114,114,0.8) !important;
+  background-color: rgba(0,114,114,0.8) !important;
 }
 #voice-connection-popout section::after {
-	display: none;
+  display: none;
 }
 @keyframes backdrop {
     0% {outline: 0vh solid rgba(8,8,8,0);}
@@ -1345,16 +1319,50 @@ div.bd-dropdown {
 
 
 /****************************************************************/
+/*Region Select and server invite*/
+.region-select-modal {
+  background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
+}
+.region-select-modal-option {
+  background: linear-gradient(to bottom, rgba(0, 57, 57, 0.6), rgba(0, 0, 0, 1)) !important; 
+}
+.region-select-modal-option:hover {
+  background: linear-gradient(to bottom, rgba(0, 94, 94, 0.6), rgba(0, 0, 0, 1)) !important; 
+}
+.instant-invite-modal {
+  background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
+}
+.form-header .blurb { 
+  color: white !important;
+}
+.instant-invite-modal .form-header, .instant-invite-modal .form-actions {
+  background: inherit !important
+}
+/****************************************************************/
+
+
+/****************************************************************/
 /*Search*/
-.search-popout .results-group,
 .date-picker {
-    background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
+    background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
 }
 .react-datepicker {
-    background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
+    background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
 }
 .react-datepicker__header {
-    background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
+    background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 85, 85, 1)) !important;
+}
+.search-popout:nth-child(1) {
+  background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
+}
+.option.search-query.selected {
+  background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
+}
+.results-group .option::after {
+  display: none;
+}
+.results-group .option:hover {
+  background: linear-gradient(to bottom, rgba(0, 57, 57, 0.6), rgba(0, 57, 57, 1)) !important;
 }
 .react-datepicker__current-month {
     color: white !important;
@@ -1532,7 +1540,9 @@ div p a {
 .form-inner {
     background-color: rgba(0, 0, 0, 0.1) !important;
 }
-
+.scroller.guild-settings-modal-list.settings-panel-with-header .member .member-username {
+  color: white;
+}
 /****************************************************************/
 
 
@@ -1540,11 +1550,11 @@ div p a {
 /*Smaller Channel Member Tab*/
 .channel-members {
     z-index:2;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
     transform: translateX(3%);
 }
 .channel-members:hover{
-    animation: member 300ms ease;
+    animation: member 400ms ease;
     transform: translateX(-60%);
 }
 .app { overflow-x: hidden; }
@@ -1552,7 +1562,7 @@ div p a {
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner{
     opacity:0;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
 }
 .channel-members .member .member-username-inner{
     margin-bottom:10px;
@@ -1560,20 +1570,20 @@ div p a {
 .channel-members:hover .member .member-activity,
 .channel-members:hover .member .member-username-inner{
     opacity:1;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
 }
 .channel-members h2 {
     transform: scale(0.7) translateX(-33%) !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    transition: all 300ms ease !important;
+    transition: all 400ms ease !important;
     border-radius: 5px !important;
 }
 .channel-members:hover h2 {
     transform: scale(1.0) translateX(8%) !important;
     padding-left: 20% !important;
     padding-right: 20% !important;
-    transition: all 300ms ease !important;
+    transition: all 400ms ease !important;
 }
 .header-toolbar button.active{
     display:none;
@@ -1581,12 +1591,12 @@ div p a {
 
 .channel-members .avatar-small{
     transform: scale(1) translateX(-30%) !important;
-    transition: all 300ms ease !important;
+    transition: all 400ms ease !important;
 }
 
 .channel-members:hover .avatar-small{
     transform: translateX(0%) !important;
-    transition: all 300ms ease !important;
+    transition: all 400ms ease !important;
 }
 
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
@@ -1604,7 +1614,7 @@ div p a {
 /****************************************************************/
 /*Status*/
 .popout.popout-top .status-picker.popout-menu .popout-menu-item:hover {
-	background-color: rgba(0,57,57,0.8);
+  background-color: rgba(0,57,57,0.8);
 }
 /*Dnd*/
 .status-dnd ~ .status-text {
@@ -1718,12 +1728,12 @@ div p a {
 .avatar-small .status {
     width: 30px !important;
     height: 30px !important;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
     border-radius: 7px !important;
 }
 .avatar-small:hover .status {
     border-radius: 50px !important;
-    transition:all 300ms ease;
+    transition:all 400ms ease;
 }
 .channel-members .avatar-small .status { right: -2px !important; }
 
@@ -1742,15 +1752,9 @@ div p a {
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     animation: guildtip 0.6s cubic-bezier(.65,1.79,.49,1.81) 0s, flash2 0.6s ease 0s;
-	filter:brightness(110%);
-	box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
-	transition:all 500ms ease;
-}
-/*Thanks to Maple for some tooltip animation code (Guildtip)*/
-.guild:hover a {
-	animation: guildtip2 .6s cubic-bezier(.65,1.79,.49,1.81);
-	filter:brightness(110%);
-	box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+  filter:brightness(110%);
+  box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+  transition:all 500ms ease;
 }
 
 .tooltip.tooltip-top.tooltip-normal,
@@ -1776,12 +1780,12 @@ div p a {
     display: none;
 }
 .tooltip.tooltip-right.tooltip-normal {
-	width: 0px !important;
-	transition: all 2s ease;
+  width: 0px !important;
+  transition: all 2s ease;
 }
 #app-mount:hover .tooltip.tooltip-right.tooltip-normal {
-	width: initial !important;
-	transition: all 2s ease;
+  width: initial !important;
+  transition: all 2s ease;
 }
 /****************************************************************/
 
@@ -1874,7 +1878,7 @@ div p a {
 .user-popout .avatar-wrapper:hover .avatar-hint {
     background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%);
     border-radius: 0px;
-    transition: opacity 300ms ease-in 80ms;
+    transition: opacity 400ms ease-in 80ms;
 }
 .user-popout .avatar-wrapper .avatar-hint {
     background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%);
@@ -1982,15 +1986,8 @@ div p a {
 
 /****************************************************************/
 /*User Profile Modal*/
-#user-profile-modal .header {
-    background-color: rgb(114, 137, 218);
-}
 #user-profile-modal .avatar-wrapper {
     border: 3px solid white;
-}
-#user-profile-modal .header:after {
-    content: ' ';
-    background-image: linear-gradient(-180deg,rgba(255,255,255,.18),rgba(255,255,255,.3));
 }
 #user-profile-modal .header .header-info .header-info-inner {
     padding: 5px;
@@ -1999,6 +1996,9 @@ div p a {
     border-radius: 4px;
     box-shadow: 1px 2px 3px 0 rgba(20,20,50,.14);
     word-break: break-all;
+}
+#user-profile-modal .header:after {
+  background: transparent;
 }
 #user-profile-modal .header .additional-actions-icon {
     -webkit-filter: brightness(200%);
@@ -2058,7 +2058,7 @@ div p a {
 #user-profile-modal .tab-bar-container {
     padding-left: 170px;
     padding-right: 64px;
-    background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 0, 0, 0)) !important;
+    background: linear-gradient(to bottom, rgba(0, 57, 57, 0.4), rgba(0, 0, 0, 0)) !important;
     border-bottom: 0px;
 }
 #user-profile-modal .empty {
@@ -2080,16 +2080,28 @@ div p a {
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
     background: linear-gradient(to right, rgba(0, 114, 114, 0.6), rgba(0, 57, 57, 1)) !important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
-    color: #030303 !important;
+.connected-account-name {
+  color: white !important;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username,
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    color: white !important;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator::before {
+  content: " ";
+}
+.header .header-info .header-info-inner {
+  background-color: rgba(0,0,0,0.2) !important;
+  border-radius: 2px !important;
+}
+#user-profile-modal .header .actions .btn.add-friend {
+  background-color: rgba(0,114,114,0.8);
 }
 #user-profile-modal .status {
     display: none;
 }
 #user-profile-modal .header {
-    background-image: url(https://www.xmple.com/wallpaper/blue-hexagon-glow-white-gradient-black-1920x1080-c4-000000-ffffff-0000ff-000000-l2-2-26-a-25-f-6.svg) !important;
-    background-size: cover;
-    background-color: transparent !important;
+    background: linear-gradient(to bottom, rgba(0, 57, 57, 0.7), rgba(0, 57, 57, 0.4)) !important;
 }
 #user-profile-modal .scroller {
     background: #fff;
@@ -2125,7 +2137,7 @@ div p a {
  .scroller-wrap.fade .scroller::-webkit-scrollbar,
  .scroller-wrap.fade .scroller::-webkit-scroll-track,
  .scroller-wrap.fade .scroller::-webkit-scroll-track-piece {
-	display: none;
+  display: none;
 }
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar,
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,
@@ -2176,12 +2188,7 @@ div p a {
     color: rgba(255, 255, 255, 0) !important;
 }
 .empty-message {
-	display: none !important;
-}
-header.header {
-    background: transparent !important;
-    background-image: url(https://www.xmple.com/wallpaper/blue-hexagon-glow-white-gradient-black-1920x1080-c4-000000-ffffff-0000ff-000000-l2-2-26-a-25-f-6.svg) !important;
-    background-size: cover !important;
+  display: none !important;
 }
 label.subtitle {
     color: #00cccc !important;
