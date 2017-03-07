@@ -38,13 +38,13 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/6k554Wn.png"></img></div><br>
 
 <b>User Profile:</b><i> Adjustments to the user profile popout for more desecriptions</i><br>
-<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/21MoWD7.png"></img></div><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/GJwRRPH.png"></img></div><br>
 
 <b>Guilds:</b><i> Adjustments and animations for the guilds list</i><br>
-<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/l0nd0Fr.gif"></img></div><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/SvwvWdg.gif"></img></div><br>
 
 <b>Search:</b><i> Recolor of the search</i><br>
-<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/fl7Ndrp.png"></img></div><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/jAZis0q.png"></img></div><br>
 
 <b>Public Servers:</b><i> Recolor of the public servers popup if enabled in BetterDiscord</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/BdtclQP.png"></img></div><br>
