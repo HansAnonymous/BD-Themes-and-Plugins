@@ -2129,6 +2129,10 @@ div p a {
 /**********************************************************************************************************************************/
 /****************************************************************/
 /*Other*/
+.live-on-twitch {
+  background-color: rgba(0,0,0,0.4) !important;
+  border-radius: 50px;
+}
 .scroller-wrap .scroller.settings-wrapper.settings-panel::-webkit-scrollbar,
 .scroller-wrap .scroller.settings-wrapper.settings-panel::-webkit-scrollbar-track,
 .scroller-wrap .scroller.settings-wrapper.settings-panel::-webkit-scroll-track-piece,
