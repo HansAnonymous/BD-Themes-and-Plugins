@@ -1,4 +1,4 @@
-#Plugins by HansAnonymous
+<h1>Plugins by HansAnonymous</h1>
 
 <br><div align=CENTER><br>
 
@@ -17,8 +17,8 @@ How to install:
 
 Plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plugins
 
-#HideServer<br>
+<h2>HideServer</h2><br>
 
-#<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/HideServers.plugin.js">HideServers</a></div></b></font>
+<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/HideServers.plugin.js">HideServers</a></div></b></font>
 <b>Description:</b><i> A plugin to hide multiple servers.</i><br>
 <b>Status:</b> <i>Officially released.</i> <b>If any bugs are found, PLEASE contact me on Discord at HansAnonymous#8784</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
