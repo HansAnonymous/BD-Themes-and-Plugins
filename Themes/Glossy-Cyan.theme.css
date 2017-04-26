@@ -20,7 +20,7 @@
     transition: all 400ms ease;
 }
 
-.layers::after {
+.::after {
   position: absolute;
   top: 2px;
   left: 6px;
@@ -455,7 +455,7 @@ body {
 .mention {
     background: rgba(255,255,255,0.05);
 }
-.layers { background: rgba(0,0,0,.05)!important; }
+.layer, .layers { background: rgba(0,0,0,.05)!important; }
 
 .create-guild-container {
   background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
