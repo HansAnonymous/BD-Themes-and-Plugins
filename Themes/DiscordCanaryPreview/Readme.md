@@ -1,5 +1,5 @@
 <DIV ALIGN=CENTER>DiscordCanary Preview by HansAnonymous</div><br><div align=CENTER><br>
-Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial
+Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial</div>
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
@@ -28,6 +28,11 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/qP61Vcz.png"></img></div><br>
 <b>Settings:</b><i> Original version</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/VTRIHmk.png"></img></div><br>
+
+<b>Guild Servers:</b><i> Themed version</i><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/gYgTDW0.png"></img></div><br>
+<b>Guild Servers:</b><i> Original version</i><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/8AaOVaB.png"></img></div><br>
 
 #Credits:
 Thanks to all of these people 
