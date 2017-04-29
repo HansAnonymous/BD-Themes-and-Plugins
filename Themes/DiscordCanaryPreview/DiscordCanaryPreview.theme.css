@@ -1,4 +1,4 @@
-//META{"name":"Discord Canary Preview","description":"The Discord Canary Modal replacement","author":"HansAnonymous","version":"0.3"}*//{}
+//META{"name":"Discord Canary Preview","description":"The Discord Canary Modal replacement","author":"HansAnonymous","version":"0.5"}*//{}
 .layers, .layer { background: transparent !important; }
 
 .modal-inner {
@@ -102,16 +102,15 @@
 	border-radius: 0px !important;
 }
 
-.upload-modal {
+.upload-modal,
+.markdown-modal,
+.modal-image {
+	margin: 0;
 	position: absolute;
-	left: 36.55%;
-	top: 40%;
-}
-
-.markdown-modal {
-	position: absolute;
-	left: 36.55%;
-	top: 40%;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 input#settings-current-password,
