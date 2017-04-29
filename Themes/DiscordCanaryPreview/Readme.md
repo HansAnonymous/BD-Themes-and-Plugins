@@ -20,7 +20,7 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <ol>3. Enable the plugin and edit variables to your liking*.</ol>
 *Note: Changing variables and messing with values could break the theme. If so, remove the plugin, reinstall the theme.
 
-#<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css">Glossy Cyan</a></div></b></font>
+<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css">Glossy Cyan</a></div></b></font>
 <b>Description:</b><i> BetterDiscord Theme to theme the settings and server modals to look like the upcoming modal-less feature from DiscordCanary.</i><br>
 <b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
@@ -34,6 +34,6 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <b>Guild Servers:</b><i> Original version</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/8AaOVaB.png"></img></div><br>
 
-#Credits:
+Credits:
 Thanks to all of these people 
 - No one yet.
