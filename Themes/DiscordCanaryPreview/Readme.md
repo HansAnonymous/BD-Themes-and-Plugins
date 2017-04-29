@@ -34,6 +34,9 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <b>Guild Servers:</b><i> Canary version</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/gYgTDW0.png"></img></div><br>
 
+<h2>Issues:</h2>
+Modals like uploading images, image view, and markdowns are unable to be closed out of them unless <b>Esc</b> is pressed.
+
 <h2>Credits:</h2>
 Thanks to all of these people 
 - No one yet.
