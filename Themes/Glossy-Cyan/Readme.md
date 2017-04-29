@@ -1,5 +1,5 @@
-<DIV ALIGN=CENTER>Glossy Cyan by HansAnonymous</div><br><div align=CENTER><br>
-Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial
+<h1><DIV ALIGN=CENTER>Glossy Cyan by HansAnonymous</div></h1><br><div align=CENTER><br>
+Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial</div><br>
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
@@ -20,7 +20,7 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <ol>3. Enable the plugin and edit variables to your liking*.</ol>
 *Note: Changing variables and messing with values could break the theme. If so, remove the plugin, reinstall the theme.
 
-#<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/Glossy-Cyan/Glossy-Cyan.H.theme.css">Glossy Cyan</a></div></b></font>
+<h2><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/Glossy-Cyan/Glossy-Cyan.H.theme.css">Glossy Cyan</a></div></b></h2>
 <b>Description:</b><i> Dark theme with variations of blue with a customizable background. Focuses on the aesthetic pleasure for the user.  Includes a general glossy look.</i><br>
 <b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
@@ -75,7 +75,7 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <b>Changelog:</b><i> Adjustments to the changelog appearance</i><br>
 <div><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/Glossy-Cyan/Glossy-Cyan.H.theme.css" src="https://i.imgur.com/0VmlcNz.png"></img></div><br>
 
-#Credits:
+<h2>Credits:</h2>
 Thanks to all of these people 
 - Zerthox#6648 (him and his themes) for classes (and some css), copied some things like bg...
 - HoLLy#2750 for help with css
