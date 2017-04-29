@@ -1,5 +1,5 @@
 <DIV ALIGN=CENTER>DiscordCanary Preview by HansAnonymous</div><br><div align=CENTER>
-Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial</div>
+Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial</div><br>
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
