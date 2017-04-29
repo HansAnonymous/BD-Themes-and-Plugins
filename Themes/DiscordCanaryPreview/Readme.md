@@ -21,12 +21,12 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 *Note: Changing variables and messing with values could break the theme. If so, remove the plugin, reinstall the theme.
 
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css">Glossy Cyan</a></div></b></font>
-<b>Description:</b><i> Dark theme with variations of blue with a customizable background. Focuses on the aesthetic pleasure for the user.  Includes a general glossy look.</i><br>
+<b>Description:</b><i> BetterDiscord Theme to theme the settings and server modals to look like the upcoming modal-less feature from DiscordCanary.</i><br>
 <b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
-<b>Settings:</b><i>Themed version</i><br>
+<b>Settings:</b><i> Themed version</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/qP61Vcz.png"></img></div><br>
-<b>Settings:</b><i>Original version</i><br>
+<b>Settings:</b><i> Original version</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/DiscordCanaryPreview/DiscordCanaryPreview.theme.css" src="https://i.imgur.com/VTRIHmk.png"></img></div><br>
 
 #Credits:
