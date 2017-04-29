@@ -52,14 +52,14 @@
 	border-left: none !important;
 	display: none;
 }
-.tab-bar.SIDE .tab-bar-item:nth-child(2) {
+
+.form.settings.user-settings-modal .settings-header .tab-bar.SIDE .tab-bar-item:nth-child(2) {
 	font-size: 0px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-right: 177px;
 }
-
-.tab-bar.SIDE .tab-bar-item:nth-child(2)::after {
+.form.settings.user-settings-modal .settings-header .tab-bar.SIDE .tab-bar-item:nth-child(2)::after {
 	content: "My Account" !important;
 	font-size: 14px;
 }
@@ -96,6 +96,11 @@
 	min-height: 100%;
 	border-radius: 0px !important;
 }
+.form.settings.guild-settings-modal {
+	width: 100%;
+	min-height: 100%;
+	border-radius: 0px !important;
+}
 
 .upload-modal {
 	position: absolute;
@@ -103,11 +108,33 @@
 	top: 40%;
 }
 
+.markdown-modal {
+	position: absolute;
+	left: 36.55%;
+	top: 40%;
+}
+
 input#settings-current-password,
 input#settings-email,
-input#settings-username {
-	border-radius: 1px;
+input#settings-username,
+input#settings-name {
+	border-radius: 2px;
 	background-color: rgb(42,45,50);
 	color: rgb(255,255,255);
 	border-bottom: none;
+}
+
+.Select-placeholder,
+.Select-input {
+	border-radius: 2px;
+	background-color: rgb(42,45,50);
+}
+.has-value>.Select-control>.Select-placeholder {
+	color: rgb(255,255,255);
+}
+.Select-menu {
+	background-color: rgb(42,45,50);
+}
+.form .Select-option {
+	color: rgb(255,255,255);
 }
