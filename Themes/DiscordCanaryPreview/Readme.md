@@ -1,6 +1,8 @@
 <h1><DIV ALIGN=CENTER>DiscordCanary Preview by HansAnonymous</div><br></h1><div align=CENTER>
 Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial</div><br>
 
+<h2><DIV ALIGN=CENTER>Well, looks like the Discord now has the new settings panel 4 days after I released this theme. I guess you can still download it if you haven't updated Discord...</div><h2><br>
+
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 
