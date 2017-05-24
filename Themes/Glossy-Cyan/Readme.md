@@ -4,7 +4,7 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 
-<img src="http://i.imgur.com/lczPQxW.png"></img><br/>
+<img src="https://hansanonymous.github.io/files/itp.png"></img><br/>
 Credits to Jiiks<br/>
 How to install:<br/>
 <ol>1. Make sure BetterDiscord is installed.</ol>
