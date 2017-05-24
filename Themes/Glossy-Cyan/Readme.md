@@ -6,6 +6,8 @@ Plese refer to the  BetterDiscord documentation if you need help: <a href="https
 
 How to install:
 <img src="http://i.imgur.com/lczPQxW.png"></img>
+Credits to Jiiks
+
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Themes</ol>
 <ol>3. Click on Open folder and move CyanGlossy.H.theme.css into the opened folder.</ol>
