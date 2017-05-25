@@ -1,4 +1,4 @@
-<h1><DIV ALIGN=CENTER>Glossy Cyan by HansAnonymous</div></h1><br><div align=CENTER><br>
+<h1><DIV ALIGN=CENTER>Tooltips by HansAnonymous</div></h1><br><div align=CENTER><br>
 Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>. *Unofficial</div><br>
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
