@@ -1,0 +1,5 @@
+//Yes, thanks Beard :)
+body .ui-standard-sidebar-view #bd-settingspane-container .content-column.default[data-reactid*="$scroller.$tcolumn"] .ui-form-title.h2:after,
+body #bd-themes-pane .bda-slist:before {
+    content: "Please check out my Github for more themes! THIS THEME IS STILL IN BETA"!important;
+}
