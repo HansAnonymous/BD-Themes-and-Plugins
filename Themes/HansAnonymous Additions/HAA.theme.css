@@ -23,43 +23,43 @@
 }
 
 /*Guilds*/
-.guild-inner {
+.guilds-wrapper .guild-inner {
     border-radius: 0px !important;
     width: 60px !important;
     height: 60px !important;
 }
-.guild.active .guild-inner {
+.guilds-wrapper .guild.active .guild-inner {
     border-radius: 0px !important;
     width: 50px !important;
     height: 50px !important;
 }
-.guild-inner .avatar-small {
+.guilds-wrapper .guild-inner .avatar-small {
     border-radius: 0px !important;
     width: 60px !important;
     height: 60px !important;
     background-size: 60px 60px !important;
 }
-.guild.unread::before {
+.guilds-wrapper .guild.unread::before {
     left: -10px !important;
     height: 58px !important;
     top: 6px !important;
     border-radius: 0px !important;
 }
-.guild.selected::before {
+.guilds-wrapper .guild.selected::before {
     left: -10px !important;
     height: 58px !important;
     top: 20px !important;
     border-radius: 0px !important;
     background-color: rgb(0,144,212) !important;
 }
-.guilds.scroller {
+.guilds-wrapper .guilds.scroller {
     background-color: #2F3136 !important;
 }
 .new-messages-indicator.new-messages-indicator-guild.new-messages-indicator-mention.bottom,
 .new-messages-indicator.new-messages-indicator-guild.new-messages-indicator-mention {
     display: none !important;
 }
-.guilds .guild-placeholder {
+.guilds-wrapper .guilds .guild-placeholder {
     margin-left: 13px!important;
     background-position: 50%!important;
     background-repeat: no-repeat!important;
