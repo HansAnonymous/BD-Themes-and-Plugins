@@ -28,11 +28,11 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
 <b>Server Hover:</b><i>When a server is hovered over.</i><br>
-<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/raw/master/Themes/HansAnonymous%20Additions/servers.gif" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/HAA.theme.css"></img></div><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/HansAnonymous%20Additions/servers.gif?raw=true" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/HAA.theme.css"></img></div><br>
 <b>Notification Alert:</b><i>When there are unread messages in a guild.</i><br>
-<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/raw/master/Themes/HansAnonymous%20Additions/Servers.gif" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/HAA.theme.css"></img></div><br>
+<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/HansAnonymous%20Additions/servers.gif?raw=true" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/HAA.theme.css"></img></div><br>
 <b>Title Bar:</b><i>Title Bar added by the theme</i><br>
-<DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/raw/master/Themes/HansAnonymous%20Additions/TitleBar.png" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/HAA.theme.css"></img></div><br>
+<DIV ALIGN=CENTER><img href="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/TitleBar.png" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/HansAnonymous%20Additions/HAA.theme.css"></img></div><br>
 
 Credits:<br/>
 Thanks to all of these people<br/>
