@@ -1,0 +1,198 @@
+//META{"name":"HansAnonymous Additions Theme","description":"Some additional adjustments like title bar and adjusted server list.","author":"HansAnonymous","version":"1.0.0"}*//{}
+:root {
+    --version: "HAA V1.0 Theme";
+    -acent-color: #00c4c4;
+}
+
+#bd-settings-sidebar>span>span::after{
+    padding-left:10px;
+    display:block;
+    padding-top:5px;
+    margin-bottom:-10px;
+    content: var(--version);
+}
+/*General*/
+.app::after {
+  position: absolute !important;
+  top: -10px !important;
+  left: 25px !important;
+  font-size: 10px !important;
+  color: rgba(0,255,255,0.4) !important;
+  content: var(--version) !important;
+  #animation: glowpulse 1s infinite alternate !important;
+}
+
+/*Guilds*/
+.guild-inner {
+    border-radius: 0px !important;
+    width: 60px !important;
+    height: 60px !important;
+}
+.guild.active .guild-inner {
+    border-radius: 0px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+.guild-inner .avatar-small {
+    border-radius: 0px !important;
+    width: 60px !important;
+    height: 60px !important;
+    background-size: 60px 60px !important;
+}
+.guild.unread::before {
+    left: -10px !important;
+    height: 58px !important;
+    top: 6px !important;
+    border-radius: 0px !important;
+}
+.guild.selected::before {
+    left: -10px !important;
+    height: 58px !important;
+    top: 20px !important;
+    border-radius: 0px !important;
+    background-color: rgb(0,144,212) !important;
+}
+.guilds.scroller {
+    background-color: #2F3136 !important;
+}
+.new-messages-indicator.new-messages-indicator-guild.new-messages-indicator-mention.bottom,
+.new-messages-indicator.new-messages-indicator-guild.new-messages-indicator-mention {
+    display: none !important;
+}
+.guilds .guild-placeholder {
+    margin-left: 13px!important;
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    border: 0px!important;
+    margin-top: 7px!important;
+    padding-bottom: 20px!important;
+    height: 64px!important;
+    padding: 0!important;
+    margin-bottom: 7px;
+    margin: 0!important;
+    width: 64px!important;
+    margin-left: 5px!important;
+    border-radius: 0!important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2) inset;
+}
+
+/*Badges*/
+
+.badge {
+    bottom: -10px !important;
+    right: -10px !important;
+    border-radius: 0px !important;
+    border-top-left-radius: 25px !important;
+    -webkit-animation: glowpulse 1s infinite alternate !important;
+    animation: glowpulse 1s infinite alternate !important;
+    background-color: rgb(0,255,255) !important;
+    color: black !important;
+}
+
+@-webkit-keyframes glowpulse {
+    0%{
+        -webkit-filter: drop-shadow(0 0 0 rgba(0,255,255,0));
+    }
+    100%{
+        -webkit-filter: drop-shadow(0 0 5px rgba(0,255,255,1)) drop-shadow(0 0 5px rgba(0,255,255,1)) drop-shadow(0 0 5px rgba(0,255,255,1)) saturate(200%);
+    }
+}
+@keyframes glowpulse {
+    0%{
+        filter: drop-shadow(0 0 0 rgba(0,255,255,0));
+    }
+    100%{
+        filter: drop-shadow(0 0 5px rgba(0,255,255,1)) drop-shadow(0 0 5px rgba(0,0,255,1)) drop-shadow(0 0 5px rgba(0,255,255,1)) saturate(200%);
+    }
+}
+
+/*Tooltips*/
+.tooltip.tooltip-right.tooltip-normal {
+    height: 58px !important;
+    transform: translate(-8px, -1px) !important;
+    border-radius: 0px !important;
+    padding-top: 22px !important;
+    animation: guildtip 5s cubic-bezier(.65,1.79,.49,1.81) !important;
+    transition: width 1s !important;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.tooltip.tooltip-right.tooltip-normal::after {
+    display: none !important;
+}
+
+@keyframes guildtip {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/*Scrollers*/
+.scroller-wrap .scroller::-webkit-scrollbar-thumb, 
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    display: none !important;
+}
+
+/*Title bar*/
+.titlebar {
+    height:35px!important;
+}
+.popout-bottom[style*="overflow: hidden; visibility: visible;"]
+{
+    top:92px!important;
+}
+
+/*Discord logo*/
+.titlebar:after
+{
+    content:url(https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg);
+    position:absolute;
+    top:7px;
+    left:2px;
+    opacity:1;
+    height:20px;
+    width:24px;
+}
+/*Discord text*/
+.titlebar:before
+{
+    content:url(https://discordapp.com/assets/9babbea9acbfec5302d832bae6c3c184.svg);
+    position:absolute;
+    top:7px;
+    left:23px;
+    opacity:1;
+    height:20px;
+    width:80px
+}
+.win-buttons button
+{
+    height:33px !important;
+    width:40px !important;
+    background-size: 25px;
+    background-repeat:no-repeat;
+}
+
+.win-buttons
+{
+    height:36px;
+    right:0px;
+}
+.win-buttons.win-buttons-notice
+{
+    top:0 !important
+}
+.app
+{
+    margin-top:35px
+}
+.separator-win
+{
+    display:none
+}
