@@ -22,7 +22,7 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 
 #<font size="25"><b><DIV ALIGN=CENTER><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css">Glossy Cyan</a></div></b></font>
 <b>Description:</b><i> Dark theme with variations of blue with a customizable background. Focuses on the aesthetic pleasure for the user.  Includes a general glossy look.</i><br>
-<b>Status:</b> <i>Officially released.</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
+<b>Status:</b> <i>Officially released. Not updated</i> <b>May contain unthemed elements.</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 
 <b>Main:</b><i> Main appearance of the theme</i><br>
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/5axo305.png"></img></div><br>
