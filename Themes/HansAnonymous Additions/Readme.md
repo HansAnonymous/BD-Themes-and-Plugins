@@ -36,3 +36,4 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 Credits:<br/>
 Thanks to all of these people<br/>
 - Jiiks#5000 for creating BetterDiscord<br/>
+- Zerebox#7790 for helping with CSS
