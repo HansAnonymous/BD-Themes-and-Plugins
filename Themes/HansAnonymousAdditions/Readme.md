@@ -32,7 +32,8 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <DIV ALIGN=CENTER><img href="https://raw.githubusercontent.com/HansAnonymous/HansAnonymous.github.io/master/files/servers.gif" src="https://raw.githubusercontent.com/HansAnonymous/HansAnonymous.github.io/master/files/servers.gif"></img></div><br>
 <b>Title Bar:</b><i>Title Bar added by the theme</i><br>
 <DIV ALIGN=CENTER><img href="https://raw.githubusercontent.com/HansAnonymous/HansAnonymous.github.io/master/files/TitleBar.png" src="https://raw.githubusercontent.com/HansAnonymous/HansAnonymous.github.io/master/files/TitleBar.png"></img></div><br>
-
+<br>Please stay tuned for updates here: https://discord.gg/x6h7usC<br>
+Donate to me here: paypal.me/HansAnonymous<br>
 Credits:<br/>
 Thanks to all of these people<br/>
 - Jiiks#5000 for creating BetterDiscord<br/>
