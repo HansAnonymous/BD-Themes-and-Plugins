@@ -11,7 +11,6 @@ body {
     --grad-webkit: -webkit-linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
     --grad: linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
     --grad-moz: -moz-linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
-    ;
     --grad-web: -webkit-gradient(linear, left bottom, right bottom, color-stop(10%, rgba(224, 22, 42, 0.2)), color-stop(50%, rgba(255, 255, 255, 0.6)), color-stop(80%, rgba(0, 82, 165, 0.5)));
     --grads: linear-gradient(to right, transparent, var(--red), var(--white), var(--blue));
 }
@@ -1633,30 +1632,31 @@ div.form-inner,
     }
 }
 /*Tooltips*/
-
 .tooltip.tooltip-right.tooltip-normal {
     height: 58px !important;
     transform: translate(-8px, -1px) !important;
     border-radius: 0px !important;
     padding-top: 22px !important;
-    animation: guildtip 5s cubic-bezier(.65, 1.79, .49, 1.81) !important;
-    transition: width 1s !important;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
-    background-color: rgba(0, 82, 165, 0.9);
+    animation: guildtip 5s cubic-bezier(.65,1.79,.49,1.81) !important;
+    transition: width 1s;
+    overflow: hidden;
 }
+
 .tooltip.tooltip-right.tooltip-normal::after {
     display: none !important;
 }
+
 @keyframes guildtip {
     0% {
         width: 0%;
+        white-space: nowrap;
     }
     50% {
         width: 50%;
     }
     100% {
         width: 100%;
+        white-space: initial;
     }
 }
 /*Title bar*/
