@@ -27,7 +27,7 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 <DIV ALIGN=CENTER><img href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Themes/GlossyCyan.H.theme.css" src="https://i.imgur.com/5axo305.png"></img></div><br>
 
 <br>Please stay tuned for updates here: https://discord.gg/x6h7usC<br>
-<br>Donate to me here: paypal.me/HansAnonymous<br>
+Donate to me here: paypal.me/HansAnonymous<br>
 
 #Credits:
 Thanks to all of these people 
