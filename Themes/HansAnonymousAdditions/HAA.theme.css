@@ -1,6 +1,6 @@
 //META{"name":"HansAnonymousAdditions","description":"Some additional adjustments like title bar and adjusted server list.","author":"HansAnonymous","version":"1.0.0"}*//{}
 :root {
-    --version: "HAA V1.0 Theme";
+    --HAA-version: "HAA V1.0 Theme";
     -acent-color: #00c4c4;
 }
 
@@ -9,7 +9,7 @@
     display:block;
     padding-top:5px;
     margin-bottom:-10px;
-    content: var(--version);
+    content: var(--HAA-version);
 }
 /*General*/
 .app::after {
@@ -18,7 +18,7 @@
   left: 25px !important;
   font-size: 10px !important;
   color: rgba(0,255,255,0.4) !important;
-  content: var(--version) !important;
+  content: var(--HAA-version) !important;
   #animation: glowpulse 1s infinite alternate !important;
 }
 
