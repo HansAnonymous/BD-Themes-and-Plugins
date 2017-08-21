@@ -22,7 +22,7 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 *Note: Changing variables and messing with values could break the theme. If so, remove the plugin, reinstall the theme.
 
 <br>Please stay tuned for updates here: https://discord.gg/x6h7usC<br>
-Donate to me here: paypal.me/HansAnonymous<br>
+Donate to me here: https://www.paypal.me/HansAnonymous<br>
 
 <h2>Credits:</h2>
 Thanks to all of these people 
