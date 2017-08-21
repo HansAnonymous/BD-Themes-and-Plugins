@@ -59,6 +59,67 @@
 .new-messages-indicator.new-messages-indicator-guild.new-messages-indicator-mention {
     display: none !important;
 }
+
+.guilds-wrapper .guild.guilds-add {
+    border: 0px;
+    background: transparent;
+    font-size: 35px;
+    font-weight: 600;
+    position: fixed;
+    padding-left: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 70px;
+    height: 60px;
+    z-index: 1000;
+}
+
+.guilds-wrapper .guild.guilds-add::after {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    content: "";
+    display: block;
+    height: 60px;
+    width: 70px;
+    background-repeat: no-repeat !important;
+    border-radius: 0;
+    line-height:53px !important;
+}
+
+.guilds-wrapper .guild.guilds-add:hover::after {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .4), 0 -1px 0px rgba(0, 0, 0, 0.2) inset, 0 2px 1px rgba(255, 255, 255, 0) inset !important;
+    background-color: var(--accent-color) !important;
+}
+
+.guilds-wrapper .guild.guilds-add::before {
+    content: "" !important;
+    width: 70px !important;
+    height: 120px !important;
+    background: #fff !important;
+    display: block !important;
+    position: fixed !important;
+    left: 0px !important;
+    bottom: -16px !important;
+    z-index: -1 !important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 144, 212, 0)), color-stop(60%, rgba(0, 144, 212, 1)), color-stop(100%, rgba(0, 144, 212, 1))) !important;
+    background: linear-gradient(to bottom, rgba(0, 144, 212, 0) 0%, rgba(0, 144, 212, 1) 60%, rgba(0, 144, 212, 1) 100%) !important;
+    pointer-events: none !important;
+}
+
+.guilds .guild:not(.guilds-add):last-of-type {
+    margin-bottom: 80px!important
+}
+
+#user-profile-modal .guilds .guild:not(.guilds-add):last-of-type {
+    margin-bottom: 0px!important
+}
+
+.dms .guild:not(.guilds-add):last-of-type {
+    margin-bottom: 0px!important
+}
+
 .guilds-wrapper .guilds .guild-placeholder {
     margin-left: 13px!important;
     background-position: 50%!important;
@@ -113,9 +174,8 @@
     border-radius: 0px !important;
     padding-top: 22px !important;
     animation: guildtip 5s cubic-bezier(.65,1.79,.49,1.81) !important;
-    transition: width 1s !important;
-    overflow-x: hidden !important;
-    overflow-y: hidden !important;
+    transition: width 1s;
+    overflow: hidden;
 }
 
 .tooltip.tooltip-right.tooltip-normal::after {
@@ -125,12 +185,14 @@
 @keyframes guildtip {
     0% {
         width: 0%;
+        white-space: nowrap;
     }
     50% {
         width: 50%;
     }
     100% {
         width: 100%;
+        white-space: initial;
     }
 }
 
