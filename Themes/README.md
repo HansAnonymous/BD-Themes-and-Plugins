@@ -6,10 +6,10 @@
 How to install:
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Themes</ol>
-<ol>3. Click on Open folder and move CyanGlossy.H.theme.css into the opened folder.</ol>
+<ol>3. Click on Open folder and move the theme into the opened folder.</ol>
 <ol>4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.</ol>
 <ol>5. Go back to Settings -> BetterDiscord -> Themes</ol>
-<ol>6. Click check on Glossy Theme - Cyan.</ol>
+<ol>6. Click check on newly installed theme.</ol>
 
 Themes: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Themes
 
