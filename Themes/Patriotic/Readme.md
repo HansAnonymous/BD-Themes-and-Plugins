@@ -23,4 +23,6 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 
 <h2>Credits:</h2>
 Thanks to all of these people 
+- Jiiks#5000 for creating BetterDiscord
 - heyboi03#5798 for request
+- Zerebox#7790 for helping with CSS
