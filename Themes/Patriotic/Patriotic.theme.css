@@ -1,4 +1,4 @@
-//META{"name":"Patriotic","description":"A theme requested by HeyBoi03#5798","author":"HansAnonymous","version":"1.0.0"}*//{}
+//META{"name":"PatrioticTheme","description":"A theme requested by HeyBoi03#5798","author":"HansAnonymous","version":"1.0.0"}*//{}
 body {
     background-image: url("https://HansAnonymous.github.io/files/2117920-RHRXMXOJ-8.jpg");
 }
@@ -1007,11 +1007,11 @@ div.flex-spacer.flex-vertical form {
     font-weight: normal;
 }
 .nameDefaultText-QoumjC.name-2SL4ev {
-    color: var(--white);
+    color: rgba(255,255,255,0.8);
     font-size: 14px;
 }
 .nameMutedText-1YDcP-.name-2SL4ev {
-    color: var(--red);
+    color: rgba(255,255,255,0.4);
 }
 .nameUnreadText-1pxldj.name-2SL4ev {
     color: var(--blue);
