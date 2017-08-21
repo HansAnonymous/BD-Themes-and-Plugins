@@ -1,5 +1,4 @@
 <DIV ALIGN=CENTER>Glossy Cyan by HansAnonymous</div><br><div align=CENTER><br>
-Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>.
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
