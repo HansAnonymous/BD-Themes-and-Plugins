@@ -2,8 +2,6 @@
 
 <br><div align=LEFT><br>
 
-Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation</a>.
-
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 
@@ -19,7 +17,7 @@ Plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plug
 
 <h2>HideServer</h2><br>
 <font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/HideServers/HideServers.plugin.js">HideServer</a></div></b></font>
-<b>Description:</b><i> A plugin to hide multiple servers.</i><br>
+<b>Description:</b><i> A plugin to hide multiple servers. PLEASE KNOW THAT THIS MAY NOT BE ALLOWED ON MANY SERVERS. ESPECIALLY THE BETTERDISCORD SERVER. PLEASE STAY TUNED FOR AN UPDATE THAT DOES NOT USE AN EXPLOIT HERE: https://discord.gg/x6h7usC</i><br>
 <b>Status:</b> <i>Officially released.</i> <b>If any bugs are found, PLEASE contact me on Discord at HansAnonymous#1007</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
 <b>How to use:</b> <i>Once installed, enter the number of servers to hide (more instructions in the settings) and click save!</i>
 <h2>SendEmbeds</h2><br>
