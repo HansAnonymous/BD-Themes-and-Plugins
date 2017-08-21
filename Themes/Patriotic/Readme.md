@@ -25,4 +25,4 @@ Optional <b>*CURRENTLY UNAVAILABLE*</b>:
 Thanks to all of these people 
 - Jiiks#5000 for creating BetterDiscord<br/>
 - heyboi03#5798 for request<br/>
-- Zerebox#7790 for helping with CSS<br/>
+- Zerebos#7790 for helping with CSS<br/>
