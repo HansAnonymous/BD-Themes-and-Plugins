@@ -2,6 +2,10 @@
 /****************************************************************/
 /*A Section for App, General, Title, and Debugging (Needed this to start with A)*/
 
+:root {
+  --GC-version: "Glossy Cyan V3.3.4 by HansAnonymous";
+}
+
 .friends-header .header-toolbar {
     transform: translateX(-70%);
 }
@@ -20,15 +24,6 @@
     transition: all 400ms ease;
 }
 
-.::after {
-  position: absolute;
-  top: 2px;
-  left: 6px;
-  font-size: 10px;
-  color: cyan;
-  content: "Glossy Cyan V3.3.4 by HansAnonymous";
-  animation: glowpulse 1s infinite alternate;
-}
 /****************************************************************/
 
 
@@ -378,6 +373,10 @@ body {
 
 /****************************************************************/
 /*Background*/
+.layers,
+.layer,
+.theme-dark .ui-standard-sidebar-view .content-region,
+.theme-dark .ui-standard-sidebar-view .sidebar-region,
 .search-header,
 .theme-dark .chat,
 #voice-connection,
@@ -397,7 +396,6 @@ body {
 .guild-header header,
 .ider-red span,
 .theme-light .chat,
-.theme-dark .chat,
 .typing,
 .typing-animate,
 .friends-row:hover,
@@ -414,9 +412,24 @@ body {
 #voice-connection .btn,
 .channel-textarea-inner,
 .theme-light .channel-textarea-inner textarea,
-.private-channels {
-    background: transparent;
-    background-color: rgba(0,0,0,0.0);
+.member.member-status.member-status-online,
+.auth-inner .auth-logo,
+.auth-inner .auth-name,
+.auth-inner .auth-name:after,
+.header-1tSljs,
+.container-3NvGrL,
+.flexChild-1KGW5q,
+.name-3gtcmp,
+.container-RYiLUQ,
+.wrapper-2ldvyE,
+.private-channels .channel.selected a,
+.private-channels .channel:hover a,
+.private-channels,
+.ui-standard-sidebar-view,
+.container-iksrDt,
+.CodeMirror.cm-s-material.CodeMirror-simplescroll {
+    background: transparent !important;
+    background-color: rgba(0,0,0,0.0) !important;
 }
 .typing, .typing-animate {
     background: transparent !important;
@@ -437,7 +450,32 @@ body {
 .theme-light .account, .theme-light .links {
     border-top: 1px solid #1c1e22;
 }
-
+.CodeMirror-scroll,
+#bd-customcss-attach-controls,
+.autocomplete-1TnWNR.autocomplete-1LLKUa {
+    background-color: rgba(0,14,14,0.4) !important;
+}
+.CodeMirror-gutter.CodeMirror-linenumbers {
+    transform: translateY(-5px);
+    background-color: rgba(0,7,7,0.4) !important;
+}
+#bd-customcss-detach-controls-button .btn.btn-primary,
+.selectorSelected-2M0IGv.selector-nbyEfM.selectable-3iSmAf,
+.innerEnabled-gLHeOL.inner-3if5cm.flex-3B1Tl4.innerAutocomplete-2qsvzH,
+.buttonBrandFilledDefault-2Rs6u5.buttonFilledDefault-AELjWf.buttonDefault-2OLW-v.button-2t3of8.buttonFilled-29g7b5.buttonBrandFilled-3Mv0Ra.mediumGrow-uovsMu {
+    background-color: rgba(0,28,28,0.4) !important;
+}
+#bd-customcss-detach-controls-button .btn.btn-primary:hover,
+.autocompleteRowVertical-3_UxVA.autocompleteRow-31UJBI,
+.buttonBrandFilledDefault-2Rs6u5.buttonFilledDefault-AELjWf.buttonDefault-2OLW-v.button-2t3of8.buttonFilled-29g7b5.buttonBrandFilled-3Mv0Ra.mediumGrow-uovsMu:hover {
+    background-color: rgba(0,56,56,0.8) !important;
+}
+.content-region#bd-settingspane-container .content-column.default {
+    background: transparent !important;
+}
+.bda-slist li{
+    background-color: rgba(0,28,28,0.4) !important;
+}
 .private-channel-call {
     background-color: rgba(0,0,0,0.7);
     box-shadow: inset 0 -4px 10px 0 rgba(0,0,0,0.0);
@@ -464,7 +502,15 @@ body {
   background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
 }
 .create-guild-container .actions .action.create, .create-guild-container .actions .action.join {
-  background-color: rgba(0,57,57, 0.8);
+  background: rgba(0,57,57,0.7);
+}
+.inner-1_1f7b,
+.modal-3HOjGZ.modal-2CasLk.sizeSmall-1sh0-r,
+.flex-lFgbSz.flex-3B1Tl4.horizontalReverse-2LanvO.horizontalReverse-k5PqxT.flex-3B1Tl4.directionRowReverse-2eZTxP.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.footer-1PYmcw,
+.headerNormal-1cioxU.header-3mZJcV,
+.body-3rkFrF,
+.footer-2J5zqP {
+  background: rgba(0,57,57,0.2);
 }
 /****************************************************************/
 
@@ -1083,10 +1129,12 @@ animation: glowpulse 1s infinite alternate;
 .markdown-modal.selectable .scroller-wrap.fade .scroller {
     transform: translate(0%,-25%);
 }
-.markdown-modal.change-log .scroller-wrap.fade {
+.markdown-modal.change-log .scroller-wrap.fade,
+.modal-3HOjGZ.modal-KwRiOq.size-2pbXxj {
   background: linear-gradient(to bottom, rgba(0, 114, 114, 0.6), rgba(0, 114, 114, 0.1));
 }
-.markdown-modal.change-log .markdown-modal-footer {
+.markdown-modal.change-log .markdown-modal-footer,
+.flex-lFgbSz.flex-3B1Tl4.horizontal-2BEEBe.horizontal-2VE-Fw.flex-3B1Tl4.directionRow-yNbSvJ.justifyStart-2yIZo0.alignStretch-1hwxMa.noWrap-v6g9vO.footer-1PYmcw {
   border-top: none;
   background: linear-gradient(to bottom, rgba(0, 114, 114, 0.1), rgba(0, 0, 0, 0));
 }
@@ -1183,10 +1231,13 @@ span:active .modal:hover {
 .context-menu,
 .context-menu .item,
 .status-picker.popout-menu {
-    background-color: rgba(0,114,114,0.95) !important;
+    background-color: rgba(0,57,57,0.8) !important;
 }
 .context-menu .item:hover {
   background-color: rgba(0,57,57,0.95) !important;
+}
+.popout-menu-item:hover {
+  background-color: rgba(0,57,114,0.95) !important;
 }
 .popout:not(.popout-top),
 #pubs-container,
@@ -1751,6 +1802,67 @@ div p a {
 
 
 /****************************************************************/
+/*Title bar*/
+.titlebar {
+    height:35px!important;
+}
+.popout-bottom[style*="overflow: hidden; visibility: visible;"]
+{
+    top:92px!important;
+}
+
+/*Discord logo*/
+.titlebar:after
+{
+    content:url(https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg);
+    position:absolute;
+    top:7px;
+    left:2px;
+    opacity:1;
+    height:20px;
+    width:24px;
+}
+/*Discord text*/
+.titlebar:before
+{
+    content:url(https://discordapp.com/assets/9babbea9acbfec5302d832bae6c3c184.svg);
+    position:absolute;
+    top:7px;
+    left:23px;
+    opacity:1;
+    height:20px;
+    width:80px
+}
+.win-buttons button
+{
+    height:33px !important;
+    width:40px !important;
+    background-size: 25px;
+    background-repeat:no-repeat;
+}
+
+.win-buttons
+{
+    height:36px;
+    right:0px;
+}
+.win-buttons.win-buttons-notice
+{
+    top:0 !important
+}
+.app
+{
+    margin-top:35px
+}
+.separator-win
+{
+    display:none
+}
+
+/****************************************************************/
+
+
+/****************************************************************/
 /*Tooltips*/
 .tooltip.tooltip-right.tooltip-normal {
     background: rgba(0,114,114,0.8) !important;
@@ -2194,6 +2306,9 @@ div p a {
 }
 .form-inner.loading {
     background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.channel-members-loading {
+    display: none;
 }
 .countdown {
     color: #00cccc !important;
