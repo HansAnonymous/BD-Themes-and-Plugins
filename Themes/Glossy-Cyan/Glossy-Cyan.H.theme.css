@@ -1,4 +1,4 @@
-//META{"name":"GlossyCyan","description":"Current Version: V4.0.0.Cyan","author":"HansAnonymous","version":"4.0.0.Cyan"}*//{}
+//META{"name":"GlossyCyan","description":"Current Version: V4.0.1.Cyan","author":"HansAnonymous","version":"4.0.1.Cyan"}*//{}
 
 /*
    ____ _                                ____                                                   
@@ -71,7 +71,7 @@ body,
 .radio-theme.dark label,
 div[data-bd="backdrop"] {
     /*Background Image: Make sure it is an https link! Make sure it is also a direct link to the image!*/
-    background-image: url(https://hansanonymous.github.io/files/bg.png);
+    background: url(https://hansanonymous.github.io/files/bg.png) no-repeat center center fixed;
     background-size: cover;
 }
 
