@@ -1,4 +1,4 @@
-<h1><DIV ALIGN=CENTER>Glossy Cyan by HansAnonymous OUTDATED</div></h1><br><div align=CENTER><br>
+<h1><DIV ALIGN=CENTER>Glossy Cyan by HansAnonymous</div></h1><br><div align=CENTER><br>
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
