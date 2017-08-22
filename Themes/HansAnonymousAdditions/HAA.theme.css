@@ -1,6 +1,6 @@
 //META{"name":"HansAnonymousAdditions","description":"Some additional adjustments like title bar and adjusted server list.","author":"HansAnonymous","version":"1.0.0"}*//{}
 :root {
-    --HAA-version: "HAA V1.0 Theme";
+    --HAA-version: "HAA V1.1 Theme";
     -acent-color: #00c4c4;
 }
 
@@ -200,6 +200,11 @@
 .scroller-wrap .scroller::-webkit-scrollbar-thumb, 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
     display: none !important;
+}
+
+/*User List*/
+.channel-members-loading {
+    display: none;
 }
 
 /*Title bar*/
