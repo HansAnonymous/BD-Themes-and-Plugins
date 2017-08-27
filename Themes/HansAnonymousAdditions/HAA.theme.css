@@ -1,6 +1,6 @@
-//META{"name":"HansAnonymousAdditions","description":"Some additional adjustments like title bar and adjusted server list.","author":"HansAnonymous","version":"1.0.0"}*//{}
+//META{"name":"HansAnonymousAdditions","description":"Some additional adjustments like title bar and adjusted server list.","author":"HansAnonymous","version":"1.1.2"}*//{}
 :root {
-    --HAA-version: "HAA V1.1 Theme";
+    --HAA-version: "HAA V1.1.2 Theme";
     -acent-color: #00c4c4;
 }
 
@@ -168,7 +168,7 @@
 }
 
 /*Tooltips*/
-.tooltip.tooltip-right.tooltip-normal {
+.tooltip.tooltip-right.tooltip-brand {
     height: 58px !important;
     transform: translate(-8px, -1px) !important;
     border-radius: 0px !important;
@@ -178,7 +178,7 @@
     overflow: hidden;
 }
 
-.tooltip.tooltip-right.tooltip-normal::after {
+.tooltip.tooltip-right.tooltip-brand::after {
     display: none !important;
 }
 
