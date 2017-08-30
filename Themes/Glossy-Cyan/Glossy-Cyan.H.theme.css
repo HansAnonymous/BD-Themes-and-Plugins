@@ -1,4 +1,4 @@
-//META{"name":"GlossyCyan","description":"Current Version: V4.0.2.Cyan","author":"HansAnonymous","version":"4.0.2.Cyan"}*//{}
+//META{"name":"GlossyCyan","description":"Current Version: V4.0.3.Cyan","author":"HansAnonymous","version":"4.0.3.Cyan"}*//{}
 
 /*
    ____ _                                ____                                                   
@@ -62,21 +62,9 @@ Thanks to all of these people!!!
 :root {
     --GCB: url(https://hansanonymous.github.io/files/bg.png);
 }
-body,
-.callout-backdrop,
-.user-popout::before,
-#user-profile-modal .header::before,
-#pubs-container::before,
-.auth-background,
-.auth-tiling-bg,
-.invite-modal .invite-splash,
-.radio-theme.light label,
-.radio-theme.dark label,
-div[data-bd="backdrop"] {
-    /*Background Image: Make sure it is an https link! Make sure it is also a direct link to the image!*/
+.app, #pubslayerroot .layer .ui-standard-sidebar-view {
     background: var(--GCB) no-repeat center center fixed;
     background-size: cover;
 }
-
 /****************************************************************/
 /**********************************************************************************************************************************/
