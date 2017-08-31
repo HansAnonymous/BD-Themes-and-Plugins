@@ -2,8 +2,6 @@
 
 <br><div align=LEFT><br>
 
-Plese refer to the  BetterDiscord documentation if you need help: <a href="https://betterdocs.net/">BetterDiscord Documentation (Unofficial, not supported by BetterDiscord)</a>.
-
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 
