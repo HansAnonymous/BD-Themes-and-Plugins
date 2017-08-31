@@ -22,7 +22,7 @@ class BackgroundImage {
 
 	stop() {
 		$(".background-image").remove();
-		
+		BdApi.clearCSS("BackgroundImage");
 		this.Log("Stopped");
 	}
 
@@ -34,7 +34,7 @@ class BackgroundImage {
     unload() { this.Log("Unloaded") }
     getName() { return "BackgroundImage"; }
     getDescription() { return "Add a class to allow background images for easy background customization."; }
-    getVersion() { return "0.0.1"; }
+    getVersion() { return "0.2.0"; }
     getAuthor() { return "HansAnonymous"; }
     Log(msg, reason, method = "log") {
 		if(reason === undefined) {
