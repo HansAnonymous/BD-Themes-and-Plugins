@@ -1,4 +1,4 @@
-//META{"name":"GlossyCyan","description":"Current Version: V4.0.3.Cyan","author":"HansAnonymous","version":"4.0.3.Cyan"}*//{}
+//META{"name":"GlossyCyan","description":"Current Version: V4.1.0.Cyan","author":"HansAnonymous","version":"4.1.0.Cyan"}*//{}
 
 /*
    ____ _                                ____                                                   
@@ -61,6 +61,7 @@ Thanks to all of these people!!!
 /*Background*/
 :root {
     --GCB: url(https://hansanonymous.github.io/files/bg.png);
+    --GC-version: "Glossy Cyan V4.1.0 by HansAnonymous";
 }
 .app, #pubslayerroot .layer .ui-standard-sidebar-view {
     background: var(--GCB) no-repeat center center fixed;
@@ -68,3 +69,4 @@ Thanks to all of these people!!!
 }
 /****************************************************************/
 /**********************************************************************************************************************************/
+
