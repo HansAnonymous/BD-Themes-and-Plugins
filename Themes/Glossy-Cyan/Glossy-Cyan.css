@@ -1,10 +1,7 @@
+
 /**********************************************************************************************************************************/
 /****************************************************************/
 /*A Section for App, General, Title, and Debugging (Needed this to start with A)*/
-
-:root {
-  --GC-version: "Glossy Cyan V4.0.0 by HansAnonymous";
-}
 
 .friends-header .header-toolbar {
     transform: translateX(-70%);
@@ -1805,15 +1802,15 @@ div p a {
 /*Title bar*/
 .titlebar {
     height:35px!important;
+    background: var(--GCB) no-repeat center center fixed;
+    background-size: cover;
 }
-.popout-bottom[style*="overflow: hidden; visibility: visible;"]
-{
+.popout-bottom[style*="overflow: hidden; visibility: visible;"] {
     top:92px!important;
 }
 
 /*Discord logo*/
-.titlebar:after
-{
+.titlebar:after {
     content:url(https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg);
     position:absolute;
     top:7px;
@@ -1823,8 +1820,7 @@ div p a {
     width:24px;
 }
 /*Discord text*/
-.titlebar:before
-{
+.titlebar:before {
     content:url(https://discordapp.com/assets/9babbea9acbfec5302d832bae6c3c184.svg);
     position:absolute;
     top:7px;
@@ -1833,29 +1829,24 @@ div p a {
     height:20px;
     width:80px
 }
-.win-buttons button
-{
+.win-buttons button {
     height:33px !important;
     width:40px !important;
     background-size: 25px;
     background-repeat:no-repeat;
 }
 
-.win-buttons
-{
+.win-buttons {
     height:36px;
     right:0px;
 }
-.win-buttons.win-buttons-notice
-{
+.win-buttons.win-buttons-notice {
     top:0 !important
 }
-.app
-{
+.app {
     margin-top:35px
 }
-.separator-win
-{
+.separator-win {
     display:none
 }
 
@@ -1864,7 +1855,7 @@ div p a {
 
 /****************************************************************/
 /*Tooltips*/
-.tooltip.tooltip-right.tooltip-normal {
+.tooltip.tooltip-right.tooltip-brand {
     background: rgba(0,114,114,0.8) !important;
     transform: translateX(-30px) !important;
     z-index: 0;
@@ -1879,33 +1870,33 @@ div p a {
   transition:all 500ms ease;
 }
 
-.tooltip.tooltip-top.tooltip-normal,
-.tooltip.tooltip-bottom.tooltip-normal {
+.tooltip.tooltip-top.tooltip-brand,
+.tooltip.tooltip-bottom.tooltip-brand {
     background: rgba(0,114,114,0.8) !important;
     z-index: 1;
     animation: flash 0.5s;
     -webkit-animation: flash 0.5s;
 }
-.tooltip.tooltip-right:after {
+.tooltip.tooltip-right.tooltip-brand:after {
     border-right-color: rgba(0,114,114,0.8) !important;
 }
-.tooltip.tooltip-left:after {
+.tooltip.tooltip-left.tooltip-brand:after {
     border-left-color: rgba(0,114,114,0.8) !important;
 }
-.tooltip.tooltip-top:after {
+.tooltip.tooltip-top.tooltip-brand:after {
     border-top-color: rgba(0,114,114,0) !important;
 }
-.tooltip.tooltip-bottom:after {
+.tooltip.tooltip-bottom.tooltip-brand:after {
     border-bottom-color: rgba(0,114,114,0) !important;
 }
-.tooltip.tooltip-right.tooltip-error::after {
+.tooltip.tooltip-right.tooltip-brand.tooltip-error::after {
     display: none;
 }
-.tooltip.tooltip-right.tooltip-normal {
+.tooltip.tooltip-right.tooltip-brand {
   width: 0px !important;
   transition: all 2s ease;
 }
-#app-mount:hover .tooltip.tooltip-right.tooltip-normal {
+#app-mount:hover .tooltip.tooltip-right.tooltip-brand {
   width: initial !important;
   transition: all 2s ease;
 }
