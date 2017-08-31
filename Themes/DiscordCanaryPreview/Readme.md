@@ -1,4 +1,4 @@
-<h1><DIV ALIGN=CENTER>DiscordCanary Preview by HansAnonymous</div><br></h1><div align=CENTER>
+<h1><DIV ALIGN=CENTER>DiscordCanary Preview by HansAnonymous <i>OUTDATED</i></div><br></h1><div align=CENTER>
 <h2><DIV ALIGN=CENTER>Well, looks like the Discord now has the new settings panel 4 days after I released this theme. I guess you can still download it if you haven't updated Discord...</div></h2><br>
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
