@@ -15,6 +15,9 @@ class BackgroundImage {
 			    background: transparent !important;
 			    z-index: 5 !important;
 			}
+			.titlebar {
+			    background: transparent !important;
+			}
 		`);
 		$(".app").before('<div class="background-image"></div>');
 		this.Log("Started");
@@ -34,7 +37,7 @@ class BackgroundImage {
     unload() { this.Log("Unloaded") }
     getName() { return "BackgroundImage"; }
     getDescription() { return "Add a class to allow background images for easy background customization."; }
-    getVersion() { return "0.2.0"; }
+    getVersion() { return "0.3.0"; }
     getAuthor() { return "HansAnonymous"; }
     Log(msg, reason, method = "log") {
 		if(reason === undefined) {
