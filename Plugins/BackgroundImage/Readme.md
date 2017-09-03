@@ -16,7 +16,7 @@ How to install:
 Plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plugins
 
 <h2>BackgroundImage</h2><br>
-<font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/BackgroundImage/BackgroundImage.plugin.js">BackGroundImage</a></div></b></font>
-<b>Description:</b><i> A plugin that enables custom editing of a background image like blur.</i><br>
+<font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/BackgroundImage/BackgroundImage.plugin.js">BackgroundImage</a></div></b></font>
+<b>Description:</b><i> A plugin that enables a custom background image. CSS filters can also be used on the image itself. The shade filter will edit the opacity of Discord itself.</i><br>
 
 <b>Status:</b> <i>Officially released.</i> <b>If any bugs are found, PLEASE contact me on Discord at HansAnonymous#1007</b> Will be updated to work with latest Discord/BetterDiscord updates.<br>
