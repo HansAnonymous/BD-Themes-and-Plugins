@@ -1,4 +1,4 @@
-//META{"name":"PatrioticTheme","description":"A theme requested by HeyBoi03#5798","author":"HansAnonymous","version":"1.0.0"}*//{}
+//META{"name":"PatrioticTheme","description":"A theme requested by HeyBoi03#5798","author":"HansAnonymous","version":"1.1.0"}*//{}
 body {
     background-image: url("https://HansAnonymous.github.io/files/2117920-RHRXMXOJ-8.jpg");
 }
@@ -1632,7 +1632,7 @@ div.form-inner,
     }
 }
 /*Tooltips*/
-.tooltip.tooltip-right.tooltip-normal {
+.tooltip.tooltip-right {
     height: 58px !important;
     transform: translate(-8px, -1px) !important;
     border-radius: 0px !important;
@@ -1642,7 +1642,7 @@ div.form-inner,
     overflow: hidden;
 }
 
-.tooltip.tooltip-right.tooltip-normal::after {
+.tooltip.tooltip-right::after {
     display: none !important;
 }
 
