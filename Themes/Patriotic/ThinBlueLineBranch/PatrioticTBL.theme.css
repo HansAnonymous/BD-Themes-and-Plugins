@@ -1,17 +1,20 @@
-//META{"name":"PatrioticTheme","description":"A theme requested by HeyBoi03#5798","author":"HansAnonymous","version":"1.1.0"}*//{}
+//META{"name":"PatrioticBlueTheme","description":"A theme requested by HeyBoi03#5798 with adjustments requested by Mr. Admin Abuse#3193","author":"HansAnonymous","version":"1.1.0"}*//{}
 body {
-    background-image: url("https://HansAnonymous.github.io/files/2117920-RHRXMXOJ-8.jpg");
+    background-image: url("https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Patriotic/ThinBlueLineBranch/thin_blue_line.png");
+	background-repeat: no-repeat !important;
+	background-size:100%;
+	background-position: fixed !important;
 }
 :root {
-    --red: rgba(224, 22, 42, 0.3);
-    --white: rgba(255, 255, 255, 0.3);
-    --blue: rgba(0, 82, 165, 0.3);
+    --red: rgba(43, 43, 43, 0.3);
+    --white: rgba(0, 82, 165, 0.3);
+    --blue: rgba(88, 88, 88, 0.3);
     --grad-ms: -ms-linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
     --grad-o: -o-linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
     --grad-webkit: -webkit-linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
     --grad: linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
     --grad-moz: -moz-linear-gradient(left, var(--red) 10%, var(--white) 50%, var(--blue) 80%);
-    --grad-web: -webkit-gradient(linear, left bottom, right bottom, color-stop(10%, rgba(224, 22, 42, 0.2)), color-stop(50%, rgba(255, 255, 255, 0.6)), color-stop(80%, rgba(0, 82, 165, 0.5)));
+    --grad-web: -webkit-gradient(linear, left bottom, right bottom, color-stop(10%, rgba(43, 43, 43, 0.3)), color-stop(50%, rgba(0, 82, 165, 0.3)), color-stop(80%, rgba(88, 88, 88, 0.3)));
     --grads: linear-gradient(to right, transparent, var(--red), var(--white), var(--blue));
 }
 
@@ -122,7 +125,7 @@ form.deprecated.auth-form .btn-forgot-password,
     border-bottom-color: var(--white);
 }
 .search-bar {
-    background: rgba(224, 22, 42, 0.1) !important;
+    background: rgba(0, 82, 165, 0.3) !important;
 }
 #friends,
 #friends .btn,
