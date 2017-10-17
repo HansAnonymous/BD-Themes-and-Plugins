@@ -13,9 +13,9 @@ class BackgroundImage {
 			.layers, .layer {
 				background: transparent !important;
 			}
-			::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scroll-track-piece {
+			/*::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scroll-track-piece {
 				display: none;
-			}
+			}*/
 			.background-image {
 				background: cover !important;
 				background-repeat: no-repeat !important;
