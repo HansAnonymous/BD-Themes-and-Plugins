@@ -8,10 +8,10 @@
 How to install:
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Plugins</ol>
-<ol>3. Click on Open folder and move HideServers.plugin.js into the opened folder.</ol>
+<ol>3. Click on Open folder and move BackgroundImage.plugin.js into the opened folder.</ol>
 <ol>4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.</ol>
 <ol>5. Go back to Settings -> BetterDiscord -> Plugins</ol>
-<ol>6. Click check on HideServers</ol>
+<ol>6. Click check on BackgroundImage</ol>
 
 Plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plugins
 
