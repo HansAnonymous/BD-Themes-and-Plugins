@@ -55,6 +55,7 @@ class BackgroundImage {
 		this.saveConfigs();
 		$(".background-image").remove();
 		BdApi.clearCSS("BackgroundImage");
+		BdApi.clearCSS("BackgroundImageCSS");
 		this.Log("Stopped");
 	}
 
