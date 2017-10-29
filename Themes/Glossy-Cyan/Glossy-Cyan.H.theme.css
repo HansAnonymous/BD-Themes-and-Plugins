@@ -1,4 +1,5 @@
 //META{"name":"GlossyCyan","description":"Current Version: V5.0.0.Cyan","author":"HansAnonymous","version":"5.0.0.Cyan"}*//{}
+@import url(https://cdn.rawgit.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan/theme.css);
 /*
 ____ _                                ____                                                   
 / ___| | ___  ___ ___ _   _           / ___|   _  __ _ _ __                                   
@@ -58,7 +59,5 @@ background-color: rgba(0,0,0,0) !important;
 *:not(code) {
 /*font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
-
-@import url(https://cdn.rawgit.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan/theme.css);
 /****************************************************************/
 /**********************************************************************************************************************************/
