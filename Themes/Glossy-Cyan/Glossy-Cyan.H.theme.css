@@ -47,7 +47,7 @@ Thanks to all of these people!!!
 /*Background*/
 :root {
 --GCB: url(https://hansanonymous.github.io/files/bg.png);
---GC-version: "Glossy Cyan V4.1.0 by HansAnonymous";
+--GC-version: "Glossy Cyan 5.0.0 by HansAnonymous";
 }
 .app, #pubslayerroot .layer .ui-standard-sidebar-view, body {
 background: url(https://hansanonymous.github.io/files/bg.png) no-repeat center center fixed;
@@ -59,6 +59,6 @@ background-color: rgba(0,0,0,0) !important;
 /*font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
 }
 
-@import url(https://www.gitcdn.xyz/repo/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan/theme.css);
+@import url(https://cdn.rawgit.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan/theme.css);
 /****************************************************************/
 /**********************************************************************************************************************************/
