@@ -2166,10 +2166,7 @@ left: -11px;
 .channel.channel-text.unread:not(.channel-muted):not(.selected) {
 -webkit-animation: glowpulse 1s infinite alternate;
 animation: glowpulse 1s infinite alternate;
-}
-.guild-channels .channel {
-font-size: 15.5px;
-}   
+} 
 .channel:not(.selected) {
 transition: background 1s ease-out;
 }
@@ -3770,6 +3767,9 @@ width:90px!important
 /****************************************************************/
 /****************************************************************/
 /*Status*/
+.status.status-typing {
+    right: -2px !important;
+}
 .popout.popout-top .status-picker.popout-menu .popout-menu-item:hover {
 background-color: rgba(0,57,57,0.8);
 }
