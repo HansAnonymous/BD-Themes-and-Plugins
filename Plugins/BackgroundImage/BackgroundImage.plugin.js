@@ -156,7 +156,7 @@ class BackgroundImage {
     load() { this.Log("Loaded"); this.loadConfigs(); $("body").prepend('<script type="text/javascript" charset="utf-8" src="https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Plugins/JQueryPlugins/jquery.clearsearch.js"></script>'); }
     getName() { return "BackgroundImage";}
     getDescription() { return "Add a class to allow background images for easy background customization."; }
-    getVersion() { return "1.2.0"; }
+    getVersion() { return "1.2.1"; }
     getAuthor() { return "HansAnonymous"; }
     Log(msg, reason, method = "log") {
 		if(reason === undefined) {
