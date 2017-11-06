@@ -16,6 +16,12 @@ class BackgroundImage {
 			/*::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scroll-track-piece {
 				display: none;
 			}*/
+			.app.flex-vertical.theme-dark, .layers.flex-vertical.flex-spacer, .layer, .container-2OU7Cz, .titleWrapper-3Vi_wz, .theme-dark .title-qAcLxz {
+			    background: transparent;
+			}
+			.directionColumn-2h-LPR, .channelTextArea-1HTP3C, .flex-spacer.flex-vertical form {
+			    background-color: rgba(0,0,0,0.2);
+			}
 			.background-image {
 				background: cover !important;
 				background-repeat: no-repeat !important;
