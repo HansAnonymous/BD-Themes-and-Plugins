@@ -6,9 +6,10 @@
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: #000000;
 }
+/*THIS IS AN EXAMPLE OF BAD DESIGN:
 * {
     transition: all 400ms ease;
-}
+}*/
 /****************************************************************/
 /****************************************************************/
 /*Acount*/
@@ -303,12 +304,13 @@ transform: rotateY(-360deg);
 /*Animated Gifs*/
 /*Thanks for using this theme!*/
 /*HansAnonymous#8784*/
-.avatar-profile[style*="168216897450541056"],
+/*.avatar-profile[style*="168216897450541056"],
 .avatar-large[style*="168216897450541056"],
 .avatar-small[style*="168216897450541056"] {
 background: url('https://i.imgur.com/3bbqVxD.gif') !important;
 background-size: cover !important;
-}
+}*/
+
 /*Howdy! It's ya girl Pierçalina#5403*/
 .avatar-profile[style*="215925240646205440"],
 .avatar-large[style*="215925240646205440"],
@@ -372,7 +374,7 @@ background-color: rgba(0,0,0,0.0) !important;
 background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.04)) !important;
 }
 .headerBar-cxbhPD{
-background-color: rgba(0, 0, 0, 0.5);
+background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04)) !important;
 }
 .header-1tSljs:hover {
 background: linear-gradient(to right, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.07)) !important;
@@ -1162,7 +1164,6 @@ div.search-header,
 div.search-results-wrap{
 background-color: rgba(0, 0, 0, 0.2) !important;
 }
-div.emoji-picker .sticky-header,
 span.channel-name{
 background-color: rgba(0, 0, 0, 0.0) !important;
 }
@@ -2345,6 +2346,66 @@ margin-bottom: 0;
 margin: 0;
 display: none;
 }
+
+.message-group .avatar-large {
+    border-color: rgba(0,0,0,0.5) !important;
+    border-width: 9px !important;
+    border: solid;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat !important;
+    background-size: 100%;
+    background-color: transparent !important;
+    position: relative;
+    top: -10px;
+    left: -5px;
+    box-shadow: none;
+    background-clip: content-box;
+}
+.message-group .avatar-large:hover {
+    opacity: 1;
+}
+.message-group .comment {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 0px;
+    border: none;
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    border-color: rgba(255,255,255,0);
+    margin: 0px 5px 0px -60px;
+    background-color: rgba(255,255,255,0.1);
+    /*background: radial-gradient(circle at -3px 15px, rgba(0,0,0,0) 47px, rgba(255,255,255,0.1) 15px);*/
+}
+
+.chat .divider:not(.divider-red) {
+    margin-bottom: 10px;
+}
+.message-group {
+    margin-bottom: -15px;
+    border: none;
+}
+.chat .divider {
+    margin-top: 20px;
+}
+.chat .divider > div{
+    flex: 0;
+}
+.chat .divider.divider-red > div{
+    flex: 0;
+}
+.divider.divider-red span {
+    background-color: rgba(255,255,255,0.1) !important;
+}
+.divider.divider-red::before {
+    display: none;
+}
+.divider span {
+    background-color: rgba(255,255,255,0.1) !important;
+}
+.divider::before {
+    display: none;
+}
 /****************************************************************/
 /****************************************************************/
 /*Chat Input Inner*/
@@ -2689,9 +2750,6 @@ background-color: rgba(0,100, 200, 1) !important;
 }
 .scroller.messages .avatar-large{
 transform: translateX(5%);
-}
-.message-group .avatar-large {
-margin-left: 4px;
 }
 .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge {
 filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.7)) !important;
