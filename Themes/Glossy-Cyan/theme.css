@@ -2377,6 +2377,22 @@ display: none;
     /*background: radial-gradient(circle at -3px 15px, rgba(0,0,0,0) 47px, rgba(255,255,255,0.1) 15px);*/
 }
 
+.edit-container-outer .avatar-large{
+    opacity: 0;
+    transition: opacity 0s;
+    display: none;
+}
+.innerNoAutocomplete-kaUXJZ {
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.edit-container-inner .old-h2 .timestamp{
+    padding-left: 60px;
+}
+.edit-container-inner .old-h2 .user-name {
+    display: none;
+}
+
 .chat .divider:not(.divider-red) {
     margin-bottom: 10px;
 }
