@@ -1121,7 +1121,6 @@ background-color: #eceeef !important;
 opacity: 0.05;
 }
 .theme-dark .messages-wrapper .messages .divider.divider-red>span{
-margin-left: calc(-100% + 242px);
 background-color: rgba(240, 71, 71, 0.35) !important;
 color: rgb(240, 71, 71);
 z-index: 1 !important;
