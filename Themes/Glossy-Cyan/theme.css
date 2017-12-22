@@ -2467,9 +2467,9 @@ background: rgba(0, 204, 204, 0.7);
 /****************************************************************/
 /****************************************************************/
 /*Embeds*/
-.embed-color-pill { 
-background-color: rgba(0, 255, 255, .75) !important;
-}
+/*.embed-color-pill { 
+background-color: rgba(0, 255, 255, .75);
+}*/
 .embed.embed-rich {
 border-radius: 5px !important;
 border-bottom-left-radius: 0px;
@@ -3009,7 +3009,7 @@ background: transparent;
 background-color: rgba(0, 57, 57, 0.8);
 border: 1px solid #00cccc;
 }
-[class*=userPopout] [class*=avatarWrapperNormal] [style*=image] {
+[class*=userPopout] [class*=avatarWrapper] [style*=image] {
     background-color:unset;
     width:100%;
     height:242px;
@@ -3017,21 +3017,19 @@ border: 1px solid #00cccc;
     background-size:contain;
     background-position:center;
     background-repeat:no-repeat;
-    border-radius:0;
+    border-radius:4px;
     border:none;
     mask:unset;
     -webkit-mask:unset;
     box-shadow:unset;
-    margin-bottom: 11px;
+    margin-bottom: 4px;
+    margin-top: 4px;
 }
-[class*=userPopout] [class*=avatarWrapperNormal] {
-    margin:0;
-    position:absolute;
-    top:4px;
-    left:4px;
-    width:100%;
-    height:250px;
-    border-radius:0
+[class*=userPopout] [class*=header] {
+    padding: 0;
+}
+[class*=userPopout] [class*=header] [class*=header] {
+    padding: 0;
 }
 [class*=userPopout] [class*=avatar-][class*=popout-] {
     width:100%;
@@ -3039,34 +3037,19 @@ border: 1px solid #00cccc;
     border:none;
     border-radius:unset
 }
-[class*=userPopout] [class*=header]:hover [class*=avatarWrapperNormal] {
+[class*=userPopout] [class*=header]:hover [class*=avatarWrapper] {
     -webkit-filter: grayscale(14%);
     transition: -webkit-filter 500ms ease-out;
 }
-[class*=userPopout] [class*=headerNormal],
-[class*=userPopout] [class*=headerStreaming] {
-    height:254px;
-    transition: -webkit-filter 100ms;
-    background:#fff;
-    padding:0
+[class*=userPopout] [class*=avatarWrapper] {
+    margin-bottom: 0px;
 }
-[class*=userPopout] [class*=headerText] {
-    height:236px;
-    width:200px;
-    overflow:hidden;
-    position:absolute;
-    top:2px;
-    display:flex;
-    flex-flow:column;
-    pointer-events:none;
-    justify-content:flex-end
-}
-[class*=userPopout] [class*=avatarWrapperNormal] [class*=avatarHint-] {
+[class*=userPopout] [class*=avatarWrapper] [class*=avatarHint-] {
     background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 80%, rgba(0,0,0,0) 100%);
-    margin:0;
+    margin:4px 0 0 0;
     box-shadow:none;
     opacity:0;
-    border-radius:0;
+    border-radius: 0;
     transition: opacity 180ms ease-out 100ms;
     -webkit-mask:unset;
 }
@@ -3075,73 +3058,88 @@ border: 1px solid #00cccc;
     transition:opacity 300ms ease-in 80ms;
     opacity:1;
 }
+[class*=userPopout] [class*=Streaming] {
+    height: 350px;
+}
 [class*=userPopout] [class*=headerText] div[class*=header] {
     background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.4) 15%,85%,rgba(0,0,0,0) 100%);
     width: 200px;
-    max-width: 200px;
-    padding:0;
+    position: absolute;
+    top: 20px;
+    padding:0 35px 0 35px;
     order:2;
-    opacity:1;
+    opacity:0.2;
     transition: opacity 200ms ease-in;
     transition-delay: 170ms;
     min-height:19px;
     pointer-events:auto
 }
-[class*=userPopout] .username-wrapper .nickname {
-    margin-bottom:4px;
+[class*=userPopout] [class*=headerTop]:hover [class*=headerText] div[class*=header] {
+    opacity: 1;
 }
-[class*=userPopout] [class*=headerText] [class*=ctivity] {
-    height:auto;
-    max-height:40px;
-    overflow:hidden;
+[class*=userPopout] [class*=image] {
+	opacity: 0.6;
+	background-color: rgba(0,144,144,0.8);
+	transition: opacity 200ms ease-in;
 }
-[class*=userPopout] [class*=tatus] {
-    bottom:-4px;
-    width:246px;
-    height:8px;
+[class*=userPopout]:hover [class*=image] {
+	opacity: 0.8;
+	background-color: rgba(0,144,144,0);
+}
+[class*=userPopout] [class*=tatusDnd] {
+    top: -4px;
+    width: 250px;
+    height: 250px;
     left:-4px;
-    box-shadow: inset 0 0 0 1.8px rgba(255,255,255,.2);
-    border-radius:0;
+    border-radius: 4px;
     pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #d01414;
 }
-[class*=userPopout] [class*=header]:hover [class*=avatarWrapperNormal] [class*=tatus] {
-    -webkit-filter: contrast(105%);
-    transition: -webkit-filter 480ms ease-out;
+[class*=userPopout] [class*=tatusOnline] {
+    top: -4px;
+    width: 250px;
+    height: 250px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #43b581;
 }
-[class*=userPopout] [class*=headerStreaming] [style*=image] [class*=tatus] {
-    border:none;
+[class*=userPopout] [class*=tatusIdle] {
+    top: -4px;
+    width: 250px;
+    height: 250px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #faa61a;
 }
-[class*=userPopout] a[class*=Live] {
-    position:fixed;
+[class*=userPopout] [class*=Playing] {
+	background-color: rgba(0,144,144,0.5);
+}
+[class*=userPopout] [class*=Streaming] {
     left:0;
     right:0;
     top:20px;
     z-index:2;
     border:none !important;
-    border-bottom:1px solid rgba(255,255,255,.08);
+    border-bottom:1px solid rgba(255,255,255,.8);
     padding:3px 25px;
     pointer-events:auto;
-    width:200px;
-    height:16px;
 }
-[class*=userPopout] a[class*=Live]:hover {
-    background:transparent;
+[class*=userPopout] [class*=body-]:not([class*=bodyNormal]) {
+	background-color: rgba(0,144,144,0.5);
 }
-[class*=userPopout] a[class*=Live] [class*=con] {
-    position:absolute;
-    z-index:-1;
-    width:200px;
-    height:100%;
-    border-radius:0;
-    background:linear-gradient(to right,transparent,#f04747 15%,#f04747 85%,transparent);
-    animation:l-p 1s ease-in-out infinite alternate;
+[class*=userPopout] [class*=body-]:not([class*=bodyNormal]) textarea:focus {
+	background-color: rgba(0,72,72,0.5);
 }
-@keyframes l-p {0%,20%{opacity:.6} 0%,10%,30% {opacity:1}}
-[class*=userPopout] .member-roles {
-    max-height: 90px;
-    overflow-y: scroll;
+[class*=userPopout] [class*=footer-] {
+	border: none;
+	background-color: rgba(0,144,144,0.5);
 }
-[class*=userPopout] .member-roles::-webkit-scrollbar {
+[class*=userPopout] [class*=rolesList]::-webkit-scrollbar {
     width:0;
 }
 /****************************************************************/
