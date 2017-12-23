@@ -1,4 +1,4 @@
-//META{"name":"GlossyCyan","description":"Current Version: V5.1.1.Cyan","author":"HansAnonymous","version":"5.1.1.Cyan"}*//{}
+//META{"name":"GlossyCyan","description":"Current Version: V5.1.2.Cyan","author":"HansAnonymous","version":"5.1.2.Cyan"}*//{}
 @import url(https://cdn.rawgit.com/HansAnonymous/BD-Themes-and-Plugins/master/Themes/Glossy-Cyan/theme.css);
 /*
 ____ _                                ____                                                   
@@ -48,7 +48,7 @@ Thanks to all of these people!!!
 /*Background*/
 :root {
 --GCB: url(https://hansanonymous.github.io/files/bg.png);
---GC-version: "Glossy Cyan 5.1.1 by HansAnonymous";
+--GC-version: "Glossy Cyan 5.1.2 by HansAnonymous";
 }
 .app, #pubslayerroot .layer .ui-standard-sidebar-view, body {
 background: url(https://hansanonymous.github.io/files/bg.png) no-repeat center center fixed;
