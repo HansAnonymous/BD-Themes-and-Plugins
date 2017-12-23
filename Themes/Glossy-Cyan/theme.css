@@ -18,6 +18,17 @@
 }
 /****************************************************************/
 /****************************************************************/
+/*Activity*/
+[class*=cardBody] [class*=content] {
+	background-color: rgba(0,144,144,0.4);
+	transition: background-color 0.5s ease-in-out;
+}
+[class*=card] [class*=header]:hover {
+	background-color: rgba(0,144,144,0.1);
+	transition: background-color 0.5s ease-in-out;
+}
+/****************************************************************/
+/****************************************************************/
 /*Animations*/
 .message:not(.message-sending),
 .message-content:not(.message-sending),
@@ -343,9 +354,15 @@ backface-visibility: hidden;
 .guild-header header,
 .guild-header header:after,
 .typing,
-.divider-red span {
+.divider-red span,
+[class*=activityFeed],
+.card-2WxYqG,
+[class*=newsIconCircle] {
     background: transparent !important;
     border: 0 !important;
+}
+[class*=card] [class*=header] {
+	background: transparent;
 }
 .markup pre code,
 .theme-dark .layers, .layer {
@@ -408,10 +425,9 @@ border-radius: 0 !important;
 .CodeMirror-scroll,
 #bd-customcss-attach-controls,
 .autocomplete-1TnWNR.autocomplete-1LLKUa {
-background-color: rgba(0,14,14,0.4) !important;
+background-color: rgba(0,7,7,0.4) !important;
 }
 .CodeMirror-gutter.CodeMirror-linenumbers {
-transform: translateY(-5px);
 background-color: rgba(0,7,7,0.4) !important;
 }
 #bd-customcss-detach-controls-button .btn.btn-primary,
@@ -458,7 +474,6 @@ background: linear-gradient(90deg,rgba(0, 0, 0, 0) 85%,rgba(0, 0, 0, 0));
 .create-guild-container .actions .action.create, .create-guild-container .actions .action.join {
 background: rgba(0,57,57,0.7);
 }
-.inner-1_1f7b,
 .modal-3HOjGZ.modal-2CasLk.sizeSmall-1sh0-r,
 .headerNormal-1cioxU.header-3mZJcV,
 .body-3rkFrF,
@@ -683,6 +698,11 @@ height: 57px;
 .theme-dark .friends-table .messages .divider:not(.red) div,
 .theme-dark .messages-wrapper .messages .divider:not(.red) div{
 background-color: rgba(255, 255, 255, 0.1);
+}
+[class*=system-message]:not([class*=system-message-]) {
+	color: cyan !important;
+	margin-left: 10px;
+	padding-left: 20px;
 }
 .new-messages-indicator{
 display: none;
@@ -2163,7 +2183,8 @@ background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 85%, transparent);
 left: -11px;
 }
 .guilds-wrapper .guilds .guild.unread, 
-.channel.channel-text.unread:not(.channel-muted):not(.selected) {
+.channel.channel-text.unread:not(.channel-muted):not(.selected),
+[class*=unreadIndicator] {
 -webkit-animation: glowpulse 1s infinite alternate;
 animation: glowpulse 1s infinite alternate;
 } 
@@ -2691,8 +2712,7 @@ font-size: 14px;
 .css .hljs-keyword { color: #0080ff; }
 .css .hljs-pseudo { color: #ff8000; }
 #bd-customcss-detach-container { background-color: rgba(0,114,114,0.3); }
-#bd-customcss-detach-editor #bd-customcss-innerpane, #bd-customcss-detach-editor .CodeMirror, .CodeMirror-code { background-color: rgba(7,77,114,0.8) !important; }
-.CodeMirror-gutter.CodeMirror-linenumbers { background-color: rgba(7,57,57,0.8); }
+#bd-customcss-detach-editor #bd-customcss-innerpane, #bd-customcss-detach-editor .CodeMirror { background-color: rgba(7,77,114,0.8) !important; }
 #bd-customcss-attach-controls { background-color: rgba(0,114,114,0.3); }
 .cm-property { color: white; }
 .cm-qualifier { color: orange; }
@@ -3115,6 +3135,16 @@ border: 1px solid #00cccc;
     pointer-events:none;
     background-color: rgba(0,0,0,0);
     box-shadow: inset 0 0 0 4px #faa61a;
+}
+[class*=userPopout] [class*=tatusOffline] {
+    top: -4px;
+    width: 250px;
+    height: 250px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #747f8d;
 }
 [class*=userPopout] [class*=Playing] {
 	background-color: rgba(0,144,144,0.5);
@@ -4217,22 +4247,107 @@ display: none !important;
 /****************************************************************/
 /****************************************************************/
 /*User Profile Modal*/
-#user-profile-modal .avatar-wrapper {
-    border: 3px solid white;
-    border-radius: 3px;
-    top: 37px;
-    left: 16px;
-    box-shadow: 1px 0px 8px 0px rgba(50,56,97,.24);
+[class*=modal] [class*=inner],
+[class*=modal] [class*=root],
+[class*=modal] [class*=root] [class*=header] {
+	background: transparent;
 }
-#user-profile-modal .avatar-profile {
-    border-radius: 3px;
+[class*=modal] [class*=root] [class*=topSection],
+[class*=modal] [class*=root] [class*=body] {
+	background: rgba(0,255,255,0.4);
 }
-#user-profile-modal .header .header-info .header-info-inner {
-    padding: 5px;
-    margin: -5px;
+[class*=modal] [class*=activityProfile] [class*=body] {
+	background-color: transparent;
+}
+[class*=modal] [class*=body] [class*=userInfoSectionHeader] {
+	color: cyan;
+}
+[class*=modal] [class*=avatar] [class*=image] {
+	border-radius: 3px;
+}
+[class*=modal] [class*=avatar] [class*=mask] {
+	mask: none !important;
+	-webkit-mask: none !important;
+}
+[class*=modal] [class*=avatar-4g] [class*=tatusDnd] {
+    top: -4px;
+    width: 98px;
+    height: 98px;
+    left:-4px;
     border-radius: 4px;
-    box-shadow: 1px 2px 3px 0 rgba(20,20,50,.14);
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #d01414;
+}
+[class*=modal] [class*=avatar-4g] [class*=tatusOnline] {
+    top: -4px;
+    width: 98px;
+    height: 98px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #43b581;
+}
+[class*=modal] [class*=avatar-4g] [class*=tatusIdle] {
+    top: -4px;
+    width: 98px;
+    height: 98px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 4px #faa61a;
+}
+[class*=modal] [class*=listAvatar] [class*=tatusOffline] {
+    top: -4px;
+    width: 48px;
+    height: 48px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #747f8d;
+}
+[class*=modal] [class*=listAvatar] [class*=tatusOnline] {
+    top: -4px;
+    width: 48px;
+    height: 48px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #43b581;
+}
+[class*=modal] [class*=listAvatar] [class*=tatusIdle] {
+    top: -4px;
+    width: 48px;
+    height: 48px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #faa61a;
+}
+[class*=modal] [class*=listAvatar] [class*=tatusOffline] {
+    top: -4px;
+    width: 48px;
+    height: 48px;
+    left:-4px;
+    border-radius: 4px;
+    pointer-events:none;
+    background-color: rgba(0,0,0,0);
+    box-shadow: inset 0 0 0 3px #747f8d;
+}
+[class*=modal] [class*=topSection] [class*=header-],
+[class*=modal] [class*=topSection] [class*=headerFill] {
+    box-shadow: 1px 2px 5px 0 rgba(20,20,50,.14);
     word-break: break-all;
+    background-color: rgba(0,0,0,0.2);
+}
+[class*=modal] [class*=body-3] [class*=scroller-fz] {
+	box-shadow: 0px 1px 2px 5px rgba(20,20,50,.14);
+	word-break: break-all;
     background-color: rgba(0,0,0,0.2);
 }
 #user-profile-modal .header .header-info .header-info-inner .activity {
