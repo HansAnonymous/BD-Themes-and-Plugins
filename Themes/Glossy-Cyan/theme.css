@@ -365,7 +365,8 @@ backface-visibility: hidden;
 	background: transparent;
 }
 .markup pre code,
-.theme-dark .layers, .layer {
+.theme-dark .layers, .layer,
+.layers-20RVFW, .layer-kosS71 {
 background: transparent !important;
 }
 .channel-members-wrap,
