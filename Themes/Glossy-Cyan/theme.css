@@ -1,6 +1,6 @@
 /**********************************************************************************************************************************/
 /****************************************************************/
-/*Alls*/
+/*All*/
 .badge {
     background-color: #11d4ad;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -10,6 +10,18 @@
 * {
     transition: all 400ms ease;
 }*/
+:root {
+--GCB: url(https://hansanonymous.github.io/files/bg.png);
+--GC-version: "Glossy Cyan 5.1.4 by HansAnonymous";
+}
+
+#bd-settings-sidebar > span > span::after {
+    padding-left:10px;
+    display:block;
+    padding-top:5px;
+    margin-bottom:-10px;
+    content: var(--GC-version);
+}
 /****************************************************************/
 /****************************************************************/
 /*Acount*/
@@ -489,6 +501,10 @@ background: rgba(0,90,135,0.9);
 background-color: rgba(0, 0, 0, 0.42) !important;
 border: none !important;
 }
+#bd-settingspane-container .scroller-wrap .scroller {
+	background-color: rgba(0,0,0,0) !important;
+}
+
 .settings .settings-inner .settings-panel{
 color: rgba(255, 255, 255, 0.9);
 }
@@ -1180,9 +1196,14 @@ border-radius: 0;
 .notification-settings-modal.deprecated-settings-modal .settings-inner:first-child{
 border-radius: 0;
 }
-div.search-header,
+div.search-header{
+background-color: rgba(0, 0, 0, 0.4) !important;
+}
 div.search-results-wrap{
-background-color: rgba(0, 0, 0, 0.2) !important;
+background-color: rgba(0, 0, 0, 0) !important;
+}
+.search-results {
+	background-color: rgba(0, 200, 200, 0.09);
 }
 span.channel-name{
 background-color: rgba(0, 0, 0, 0.0) !important;
@@ -1538,7 +1559,7 @@ background-color: rgba(0, 0, 0, 0.42);
 }
 .theme-dark .ui-standard-sidebar-view .content-region,
 .theme-dark .ui-standard-sidebar-view .content-region .scrollbar{
-background-color: rgba(0, 0, 0, 0.55);
+background-color: rgba(0, 0, 0, 0.42);
 }
 .theme-dark .ui-hover-card:before{
 background-color: rgba(255, 255, 255, 0.1);
