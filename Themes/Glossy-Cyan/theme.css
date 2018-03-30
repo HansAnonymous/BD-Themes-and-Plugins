@@ -32,12 +32,12 @@
 /****************************************************************/
 /*Activity*/
 [class*=cardBody] [class*=content] {
-	background-color: rgba(0,144,144,0.4);
-	transition: background-color 0.5s ease-in-out;
+    background-color: rgba(0,144,144,0.4);
+    transition: background-color 0.5s ease-in-out;
 }
 [class*=card] [class*=header]:hover {
-	background-color: rgba(0,144,144,0.1);
-	transition: background-color 0.5s ease-in-out;
+    background-color: rgba(0,144,144,0.1);
+    transition: background-color 0.5s ease-in-out;
 }
 /****************************************************************/
 /****************************************************************/
@@ -344,11 +344,11 @@ background-size: cover !important;
 /****************************************************************/
 /****************************************************************/
 /*Backface visibility*/
-.markup,
+/*.markup,
 body {
 backface-visibility: hidden;
 -webkit-backface-visibility: hidden;
-}
+}*/
 /****************************************************************/
 /****************************************************************/
 /*Background*/
@@ -374,7 +374,7 @@ backface-visibility: hidden;
     border: 0 !important;
 }
 [class*=card] [class*=header] {
-	background: transparent;
+    background: transparent;
 }
 .markup pre code,
 .theme-dark .layers, .layer,
@@ -502,7 +502,7 @@ background-color: rgba(0, 0, 0, 0.42) !important;
 border: none !important;
 }
 #bd-settingspane-container .scroller-wrap .scroller {
-	background-color: rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0) !important;
 }
 
 .settings .settings-inner .settings-panel{
@@ -717,9 +717,9 @@ height: 57px;
 background-color: rgba(255, 255, 255, 0.1);
 }
 [class*=system-message]:not([class*=system-message-]) {
-	color: cyan !important;
-	margin-left: 10px;
-	padding-left: 20px;
+    color: cyan !important;
+    margin-left: 10px;
+    padding-left: 20px;
 }
 .new-messages-indicator{
 display: none;
@@ -1203,7 +1203,7 @@ div.search-results-wrap{
 background-color: rgba(0, 0, 0, 0) !important;
 }
 .search-results {
-	background-color: rgba(0, 200, 200, 0.09);
+    background-color: rgba(0, 200, 200, 0.09);
 }
 span.channel-name{
 background-color: rgba(0, 0, 0, 0.0) !important;
@@ -3120,13 +3120,13 @@ border: 1px solid #00cccc;
     opacity: 1;
 }
 [class*=userPopout] [class*=image] {
-	opacity: 0.6;
-	background-color: rgba(0,144,144,0.8);
-	transition: opacity 200ms ease-in;
+    opacity: 0.6;
+    background-color: rgba(0,144,144,0.8);
+    transition: opacity 200ms ease-in;
 }
 [class*=userPopout]:hover [class*=image] {
-	opacity: 0.8;
-	background-color: rgba(0,144,144,0);
+    opacity: 0.8;
+    background-color: rgba(0,144,144,0);
 }
 [class*=userPopout] [class*=tatusDnd] {
     top: -4px;
@@ -3169,7 +3169,7 @@ border: 1px solid #00cccc;
     box-shadow: inset 0 0 0 4px #747f8d;
 }
 [class*=userPopout] [class*=Playing] {
-	background-color: rgba(0,144,144,0.5);
+    background-color: rgba(0,144,144,0.5);
 }
 [class*=userPopout] [class*=Streaming] {
     left:0;
@@ -3182,14 +3182,14 @@ border: 1px solid #00cccc;
     pointer-events:auto;
 }
 [class*=userPopout] [class*=body-]:not([class*=bodyNormal]) {
-	background-color: rgba(0,144,144,0.5);
+    background-color: rgba(0,144,144,0.5);
 }
 [class*=userPopout] [class*=body-]:not([class*=bodyNormal]) textarea:focus {
-	background-color: rgba(0,72,72,0.5);
+    background-color: rgba(0,72,72,0.5);
 }
 [class*=userPopout] [class*=footer-] {
-	border: none;
-	background-color: rgba(0,144,144,0.5);
+    border: none;
+    background-color: rgba(0,144,144,0.5);
 }
 [class*=userPopout] [class*=rolesList]::-webkit-scrollbar {
     width:0;
@@ -4272,24 +4272,24 @@ display: none !important;
 [class*=modal] [class*=inner],
 [class*=modal] [class*=root],
 [class*=modal] [class*=root] [class*=header] {
-	background: transparent;
+    background: transparent;
 }
 [class*=modal] [class*=root] [class*=topSection],
 [class*=modal] [class*=root] [class*=body] {
-	background: rgba(0,255,255,0.4);
+    background: rgba(0,255,255,0.4);
 }
 [class*=modal] [class*=activityProfile] [class*=body] {
-	background-color: transparent;
+    background-color: transparent;
 }
 [class*=modal] [class*=body] [class*=userInfoSectionHeader] {
-	color: cyan;
+    color: cyan;
 }
 [class*=modal] [class*=avatar] [class*=image] {
-	border-radius: 3px;
+    border-radius: 3px;
 }
 [class*=modal] [class*=avatar] [class*=mask] {
-	mask: none !important;
-	-webkit-mask: none !important;
+    mask: none !important;
+    -webkit-mask: none !important;
 }
 [class*=modal] [class*=avatar-4g] [class*=tatusDnd] {
     top: -4px;
@@ -4368,8 +4368,8 @@ display: none !important;
     background-color: rgba(0,0,0,0.2);
 }
 [class*=modal] [class*=body-3] [class*=scroller-fz] {
-	box-shadow: 0px 1px 2px 5px rgba(20,20,50,.14);
-	word-break: break-all;
+    box-shadow: 0px 1px 2px 5px rgba(20,20,50,.14);
+    word-break: break-all;
     background-color: rgba(0,0,0,0.2);
 }
 #user-profile-modal .header .header-info .header-info-inner .activity {
