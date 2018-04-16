@@ -365,7 +365,7 @@ backface-visibility: hidden;
 .private-channels,
 .guild-header header,
 .guild-header header:after,
-.typing,
+.typing-3eiiL_,
 .divider-red span,
 [class*=activityFeed],
 .card-2WxYqG,
@@ -394,7 +394,7 @@ background: transparent !important;
 .headerBar-cxbhPD {
 box-shadow: none;
 }
-.typing, .typing-animate {
+.typing-3eiiL_, .typing-animate {
 background: transparent !important;
 background-color: rgba(0,0,0,0.0) !important;
 }
