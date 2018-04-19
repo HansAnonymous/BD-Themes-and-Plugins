@@ -12,7 +12,7 @@
 }*/
 :root {
 --GCB: url(https://hansanonymous.github.io/files/bg.png);
---GC-version: "Glossy Cyan 5.1.6 by HansAnonymous";
+--GC-version: "Glossy Cyan 5.1.7 by HansAnonymous";
 }
 
 #bd-settings-sidebar > span > span::after {
@@ -2284,7 +2284,6 @@ color: rgba(255, 255, 255, 0.95);
 .message-group .comment .markup{
 color: rgba(255, 255, 255, 0.7);
 }
-
 .theme-dark .message-group .embed{
 background-color: rgba(10, 10, 10, 0.5);
 border-radius: 0;
@@ -2388,7 +2387,7 @@ display: none;
     background-color: transparent !important;
     position: relative;
     top: -10px;
-    left: -5px;
+    left: 0px;
     box-shadow: none;
     background-clip: content-box;
 }
@@ -3826,11 +3825,13 @@ transform: translateX(0px);
 opacity:1;
 transition:all 400ms ease;
 }
-.membersWrap-3wRngy .scrollerWrap-2uBjct .scroller-fzNley {
-background: rgba(0, 0, 0, 0);
+.membersWrap-3wRngy .scrollerWrap-2uBjct .members-1bid1J,
+.membersWrap-3wRngy .members-1bid1J {
+background-color: rgba(0, 0, 0, 0);
 }
-.membersWrap-3wRngy:hover .scrollerWrap-2uBjct .scroller-fzNley {
-background: rgba(0, 0, 0, 0.2);
+.membersWrap-3wRngy:hover .scrollerWrap-2uBjct .members-1bid1J,
+.membersWrap-3wRngy:hover .members-1bid1J {
+background-color: rgba(0, 0, 0, 0.2);
 }
 .content {
     width: 93vw !important;
@@ -3882,8 +3883,8 @@ transform: translateX(0%) !important;
 transition: all 400ms ease !important;
 }
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
-margin-right:0px !important;
-z-index:0
+	margin-right:0px;
+	z-index:0
 }
 .channel-members-wrap{
 min-width:90px!important;
@@ -4016,21 +4017,25 @@ background-size: cover;
 background: transparent;
 background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0)) !important;
 }
+.typeWindows-15E0Ys.titleBar-3_fDwJ {
+	height: 18px !important;
+}
 svg[name="DiscordWordmark"] {
-width: 82px;
-height: 24px;
+width: 55px !important;
+height: 16px !important;
 position: absolute;
-top: 8px;
-}
-.popout-bottom[style*="overflow: hidden; visibility: visible;"] {
-top:92px!important;
-}
-svg[name="TitleBarMaximize"], svg[name="TitleBarClose"], svg[name="TitleBarMinimize"] {
-height:18px !important;
-width:18px !important;
+top: 3px;
 }
 .winButton-U7zAqI {
-height:36px;
+	height: 25px;
+}
+svg[name="TitleBarMaximize"], svg[name="TitleBarClose"], svg[name="TitleBarMinimize"] {
+height:12px !important;
+width:12px !important;
+}
+
+.popout-bottom[style*="overflow: hidden; visibility: visible;"] {
+top:92px!important;
 }
 .separator-win {
 display:none
