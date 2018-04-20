@@ -3804,24 +3804,27 @@ border-radius: 0;
 .chat .content .flex-spacer.flex-vertical {
 	margin-right: -188px !important;
 }
-.membersWrap-3wRngy {
+.chat.private .content .flex-spacer.flex-vertical {
+	margin-right: 0px !important;
+}
+.chat:not(.private) .membersWrap-3wRngy {
     z-index:2;
     transition:all 400ms ease;
     transform: translateX(163px);
 }
-.membersWrap-3wRngy:hover{
+.chat:not(.private) .membersWrap-3wRngy:hover{
 animation: member 400ms ease;
 transform: translateX(0px);
 }
 .app-XZYfmp { overflow-x: hidden; }
-.memberInner-3XUq9K {
+.chat:not(.private) .memberInner-3XUq9K {
     opacity:0;
     transition:all 400ms ease;
 }
 .membersWrap-3wRngy .memberInner-3XUq9K{
     margin-bottom:10px;
 }
-.membersWrap-3wRngy:hover .memberInner-3XUq9K{
+.chat:not(.private) .membersWrap-3wRngy:hover .memberInner-3XUq9K{
 opacity:1;
 transition:all 400ms ease;
 }
@@ -3833,11 +3836,12 @@ background-color: rgba(0, 0, 0, 0);
 .membersWrap-3wRngy:hover .members-1bid1J {
 background-color: rgba(0, 0, 0, 0.2);
 }
+.chat.private .membersWrap-3wRngy .scrollerWrap-2uBjct .members-1bid1J,
+.chat.private .membersWrap-3wRngy .members-1bid1J {
+background-color: rgba(0, 0, 0, 0.2);
+}
 .content {
     width: 93vw !important;
-}
-.messages-wrapper {
-    width: 100%;
 }
 /****************************************************************/
 /*Member Headers*/
@@ -3864,16 +3868,18 @@ background-color: rgba(0, 0, 0, 0.2);
     letter-spacing: .08em;
     text-align: center;
 }
-.membersWrap-3wRngy:hover .membersGroup-3_dP5E {
-    text-align: center;
-    transform: scale(1.0) translateX(0%) !important;
-    padding: 4px 77% 0px 10%;
-    transition: all 400ms ease !important;
+.chat.private .membersWrap-3wRngy .membersGroup-3_dP5E {
+    transform: scale(1) translateX(0%) !important;
+    width: 90%;
+}
+.chat:not(.private) .membersWrap-3wRngy:hover .membersGroup-3_dP5E {
     border-radius: 10px;
+    transform: scale(1) translateX(0%) !important;
+    width: 90%;
 }
 /***************************************************************/
 
-.member-2FrNV0 .avatar-1BXaQj.small-TEeAkX {
+.chat:not(.private) .member-2FrNV0 .avatar-1BXaQj.small-TEeAkX {
 transform: scale(1) translateX(25%) !important;
 transition: all 400ms ease !important;
 }
