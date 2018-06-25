@@ -2943,28 +2943,28 @@ border: none;
 /****************************************************************/
 /*Popout*/
 .popout-3sVMXz.popoutBottom-1YbShG .menu-Sp6bN1,
-.context-menu,
-.context-menu .item,
+.contextMenu-HLZMGh,
+.contextMenu-HLZMGh .item-1Yvehc,
 .menu-Sp6bN1.alt-3btY0e,
-.context-menu .scroller {
+.contextMenu-HLZMGh .scroller {
 background-color: rgba(0,114,140,0.95) !important;
 }
-.context-menu .item:hover {
+.contextMenu-HLZMGh .item-1Yvehc:hover {
 background-color: rgba(0,70,140,0.95) !important;
 }
 .item-1GzJrl:hover {
 background-color: rgba(0,57,114,0.95) !important;
 }
-.context-menu .item{
+.contextMenu-HLZMGh .item-1Yvehc{
 background-color: rgba(0, 0, 0, 0) !important;
 }
-.context-menu{
+.contextMenu-HLZMGh{
 box-shadow: none;
 }
-.context-menu .context-menu{
+.contextMenu-HLZMGh .contextMenu-HLZMGh{
 background-color: rgba(42, 42, 42, 0.8) !important;
 }
-.context-menu .item:hover{
+.contextMenu-HLZMGh .item-1Yvehc:hover{
 background-color: rgba(255, 255, 255, 0.2) !important;
 color: rgba(255, 255, 255, 0.8);
 }
