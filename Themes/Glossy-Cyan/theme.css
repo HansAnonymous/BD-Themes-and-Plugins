@@ -1,3 +1,54 @@
+.bd-modal-inner.inner-1_1f7b,
+.header.header-3sp3cE,
+.bd-modal-body .scroller-wrap.fade{
+    background-color: rgba(0,114,114,0.7);
+}
+
+
+.unread-23Kvxk, .guilds-wrapper .guilds .guild.unread,
+.guilds-wrapper .guilds .guild.unread::before,
+.channel.channel-text.unread:not(.channel-muted):not(.selected) {
+    animation: ;
+}
+
+
+.message-group .avatar-large {
+    border-color: rgba(0,0,0,0.3) !important;
+    border-width:6px !important;
+}
+
+.channelNotices-3AUnoM {
+    background-color: rgba(0,0,0,0) !important;
+    height: 130px;
+}
+
+.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h, .invite-1D-11h {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0));
+    padding: 10px 10px 0px 0px;
+}
+.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0));
+    padding: 10px 10px 0px 10px;
+}
+.channelNotices-3AUnoM .channelNotice-cQsVXw .message-1SsTiA {
+    margin: 10px 10px 10px 10px;
+}
+.channelNotices-3AUnoM .channelNotice-cQsVXw.invite-1D-l1h.new-R6EGhf .message-1SsTiA .description-3U1DOt {
+    margin: 0 0 0;
+}
+.channelNotices-3AUnoM .channelNotice-cQsVXw .message-1SsTiA .btn-3y-iNt {
+    background-color: rgba(54,177,177, 0.8);
+}
+
+.channelNotices-3AUnoM .channelNotice-cQsVXw .message-1SsTiA .btn-3y-iNt:active {
+    background-color: rgba(4,97,97, 0.8);
+}
+
+.guilds-wrapper, .foldercontainer {
+    transition: width 400ms ease;
+}
+
+
 /**********************************************************************************************************************************/
 /****************************************************************/
 /*All*/
@@ -241,29 +292,29 @@ to {   opacity: 100; }
 @keyframes vibrate  {25%{transform: translateX(3px) translateY(-2px)}50%{transform: translateX(-1px) translateY(3px)}75%{transform: translateX(-4px) translateY(-2px)}100%{transform: translateX(2px) translateY(-1px)}}
 /*Message reveal*/
 @keyframes revealUp {
-	0%, 60%, 75%, 100% {
-		-webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-		transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-	}
-	0% {
-		opacity: 0;
-		-webkit-transform: translate3d(0, 100px, 0);
-		transform: translate3d(0, 100px, 0);
-	}
-	60% {
-		opacity: 0.5;
-		-webkit-transform: translate3d(0, 7px, 0);
-		transform: translate3d(0, 7px, 0);
-	}
-	75% {
-		opacity: 1;
-		-webkit-transform: translate3d(0, 5px, 0);
-		transform: translate3d(0, 5px, 0);
-	}
-	100% {
-		-webkit-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-	}
+    0%, 60%, 75%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0);
+    }
+    60% {
+        opacity: 0.5;
+        -webkit-transform: translate3d(0, 7px, 0);
+        transform: translate3d(0, 7px, 0);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
 /*modalanim*/
 @-webkit-keyframes modalanim {
@@ -3800,14 +3851,14 @@ border-radius: 0;
 /****************************************************************/
 /*Smaller Channel Member Tab*/
 .chat .content.flex-spacer.flex-horizontal {
-	width: 100% !important;
-	
+    width: 100% !important;
+    
 }
 .chat .content .flex-spacer.flex-vertical {
-	margin-right: -188px !important;
+    margin-right: -188px !important;
 }
 .chat.private .content .flex-spacer.flex-vertical {
-	margin-right: 0px !important;
+    margin-right: 0px !important;
 }
 .chat:not(.private) .membersWrap-2h-GB4 {
     z-index:2;
@@ -3891,8 +3942,8 @@ transform: translateX(0%) !important;
 transition: all 400ms ease !important;
 }
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
-	margin-right:0px;
-	z-index:0
+    margin-right:0px;
+    z-index:0
 }
 .channel-members-wrap{
 min-width:90px!important;
@@ -4026,7 +4077,7 @@ background: transparent;
 background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.0)) !important;
 }
 .typeWindows-1za-n7.titleBar-AC4pGV {
-	height: 18px !important;
+    height: 18px !important;
 }
 svg[name="DiscordWordmark"] {
 width: 55px !important;
@@ -4035,7 +4086,7 @@ position: absolute;
 top: 3px;
 }
 .winButton-iRh8-Z {
-	height: 25px;
+    height: 25px;
 }
 svg[name="TitleBarMaximize"], svg[name="TitleBarClose"], svg[name="TitleBarMinimize"] {
 height:12px !important;
