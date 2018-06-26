@@ -57,3 +57,16 @@ background-color: rgba(0,0,0,0) !important;
 }
 /****************************************************************/
 /**********************************************************************************************************************************/
+
+
+.bd-backdrop, .backdrop-2ohBEd {
+    background-color: rgba(0,0,0,0.6) !important;
+    animation: bd-backdrop-gloss 250ms ease;
+    -webkit-filter: blur(10px) grayscale(100%) !important;
+}
+@keyframes bd-backdrop-gloss {
+    to{
+        opacity: 1
+        -webkit-filter: blur(200px) grayscale(100%) !important;
+    }
+}
