@@ -65,21 +65,21 @@ img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
 /*mmLol      */ .emoji[alt*="mmLol"] {animation: mmlol 5s infinite;}
 .emoji.jumboable { transition: all .6s ease; }
 .emoji.jumboable:hover {
-resize: both;
-width: 42pt;
-height: 42pt;
--webkit-filter: drop-shadow(0 0 5px black);
+    resize: both;
+    width: 42pt;
+    height: 42pt;
+    -webkit-filter: drop-shadow(0 0 5px black);
 }
 .emoji { transition: all .6s ease; }
 .emoji:hover {
-resize: both;
-width: 32pt;
-height: 32pt;
--webkit-filter: drop-shadow(0 0 5px black);
+    resize: both;
+    width: 32pt;
+    height: 32pt;
+    -webkit-filter: drop-shadow(0 0 5px black);
 }
 /*Reveal Up*/
 .markup, .accessory, .comment {
-animation: revealUp 0.7s;
+    animation: revealUp 0.7s;
 }
 /****************************************************************/
 /****************************************/
@@ -90,99 +90,99 @@ animation: revealUp 0.7s;
 /*                                      */
 /****************************************/
 @-webkit-keyframes flash2 {
-0%{
-opacity: 0;
--webkit-filter: blur(0px);
-transform: translateX(-100%);
-}
-50%{
-opacity: 0;
-}
-75%{
--webkit-filter: blur(1px);
-}
-100%{
-opacity: 1;
--webkit-filter: blur(0px);
-transform: translateX(initial);
-}
+    0%{
+        opacity: 0;
+        -webkit-filter: blur(0px);
+        transform: translateX(-100%);
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        -webkit-filter: blur(1px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-filter: blur(0px);
+        transform: translateX(initial);
+    }
 }
 @keyframes flash2 {
-0%{
-opacity: 0;
-transform: translateX(-100%);
-}
-50%{
-opacity: 0;
-}
-100%{
-opacity: 1;
-transform: translateX(initial);
-}
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(initial);
+    }
 }
 @keyframes guildtip {
-0% {
-opacity: 0;
-filter:brightness();
-box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
-transform: translateX(-100%);
-}
-50% {
-opacity: 0;
-}
-60% {opacity: 1;}
-100% {
-opacity: 1;
-filter:brightness(110%);
-box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
-transform: translateX(initial);
-}
+    0% {
+        opacity: 0;
+        filter:brightness();
+        box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {opacity: 1;}
+    100% {
+        opacity: 1;
+        filter:brightness(110%);
+        box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+        transform: translateX(initial);
+    }
 }
 @keyframes guildtip2 {
-0% {
-box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
-}
-100% {
-box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
-}
+    0% {
+        box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+    }
+    100% {
+        box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+    }
 }
 @-webkit-keyframes glowpulse {
-0%{
--webkit-filter: drop-shadow(0 0 0 rgba(0,114,114,0));
-}
-100%{
--webkit-filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,114,144,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
-}
+    0%{
+        -webkit-filter: drop-shadow(0 0 0 rgba(0,114,114,0));
+    }
+    100%{
+        -webkit-filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,114,144,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
+    }
 }
 @keyframes glowpulse {
-0%{
-filter: drop-shadow(0 0 0 rgba(0,111,114,0));
-}
-100%{
-filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,0,114,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
-}
+    0%{
+        filter: drop-shadow(0 0 0 rgba(0,111,114,0));
+    }
+    100%{
+        filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,0,114,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
+    }
 }
 /*Hue*/
 @-webkit-keyframes hue {
-0%{ -webkit-filter: hue-rotate(0deg); }
-100%{ -webkit-filter: hue-rotate(360deg); }
+    0%{ -webkit-filter: hue-rotate(0deg); }
+    100%{ -webkit-filter: hue-rotate(360deg); }
 }
 /*Working*/
 @-webkit-keyframes working {
-25%{ content: "Working";   }
-50%{ content: "Working.";  }
-75%{ content: "Working.."; }
-100%{content: "Working...";}
+    25%{ content: "Working";   }
+    50%{ content: "Working.";  }
+    75%{ content: "Working.."; }
+    100%{content: "Working...";}
 }
 @keyframes working {
-25%{ content: "Working";   }
-50%{ content: "Working.";  }
-75%{ content: "Working.."; }
-100%{content: "Working...";}
+    25%{ content: "Working";   }
+    50%{ content: "Working.";  }
+    75%{ content: "Working.."; }
+    100%{content: "Working...";}
 }
 @keyframes fadeScreen {
-from { opacity: 0;   }
-to {   opacity: 100; }
+    from { opacity: 0;   }
+    to {   opacity: 100; }
 }
 @keyframes wobble   {0%,100%{transform:rotate(20deg)}50%{transform:rotate(-20deg)}}
 @keyframes scare    {0%,100%{transform:rotate(9deg)}50%{transform:rotate(-9deg)}}
@@ -224,58 +224,59 @@ to {   opacity: 100; }
 }
 /*modalanim*/
 @-webkit-keyframes modalanim {
-from {
--webkit-transform: scale(1));
-transform: scale(1));
-opacity: 0;
-}
-to {
--webkit-transform: scale(1);
-transform: scale(1);
-opacity: 1;
-}
+    from {
+        -webkit-transform: scale(1));
+        transform: scale(1));
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 @keyframes modalanim {
-from {
--webkit-transform: scale(1));
-transform: scale(1));
-opacity: 0;
-}
-to {
--webkit-transform: scale(1);
-transform: scale(1);
-opacity: 1;
-}
+    from {
+        -webkit-transform: scale(1));
+        transform: scale(1));
+        opacity: 0;
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 /*bg-in*/
 @-webkit-keyframes bg-in {
-0% { opacity: 0; }
-100% {}
+    0% { opacity: 0; }
+    100% {}
 }
 /*bg-in*/
 @keyframes bg-in {
-0% { opacity: 0; }
-100% {}
+    0% { opacity: 0; }
+    100% {}
 }
 /* Code assisted by http://www.cssnewbie.com/pure-css-bouncing-ball/#.WG1LYi_QdhE */
 @keyframes moveX {
-from { left: -1%; } to { left: 62%; }
+    from { left: -1%; } to { left: 62%; }
 }
 @keyframes moveY {
-from { top: -4%; } to { top: 84%; }
+    from { top: -4%; } to { top: 84%; }
 }
 @-webkit-keyframes spinner {
-from { -webkit-transform: rotateY(0deg);    }
-to   { -webkit-transform: rotateY(-360deg); }
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
 }
 @keyframes spinner {
-from { -moz-transform: rotateY(0deg);
--ms-transform: rotateY(0deg);
-transform: rotateY(0deg);
-}
-to {
--moz-transform: rotateY(-360deg);
--ms-transform: rotateY(-360deg);
-transform: rotateY(-360deg);
-}
+    from { 
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+    to {
+        -moz-transform: rotateY(-360deg);
+        -ms-transform: rotateY(-360deg);
+        transform: rotateY(-360deg);
+    }
 }
