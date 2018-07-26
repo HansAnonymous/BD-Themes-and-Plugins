@@ -1,0 +1,11 @@
+/*Extras*/
+.avatar-large[style*="/168216897450541056/"] + .comment .message.first .body .username-wrapper:after {
+content: 'Anonymous';
+color: white;
+margin-left: 5px;
+background: #00a3d9;
+border-radius: 5px;
+padding: 1px 2px;
+font-size: 10px;
+font-weight: 600;
+}
