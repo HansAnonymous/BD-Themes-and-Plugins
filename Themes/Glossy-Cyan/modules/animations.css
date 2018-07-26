@@ -1,0 +1,281 @@
+/*Animations*/
+.message:not(.message-sending),
+.message-content:not(.message-sending),
+.image:not(.message-sending),
+.avatar-large:not(.message-sending),
+.tooltip,
+.guild,
+.section,
+.contextMenu-HLZMGh,
+.friends-row,
+.channel,.user-settings-modal,
+.channel-voice-states,
+.selected:before,
+.markdown-modal,
+.icon-muted,
+.icon-deafened,
+.empty-message,
+.menu-Sp6bN1,
+.channel-members,
+.user-popout,
+.emoji-picker,
+.popout-3sVMXz,
+.option-popout {
+    animation: fadeScreen 0.5s;
+}
+/*Hearts*/
+img[alt*=":heart:"], 
+img[alt*=":hearts:"], 
+img[alt*=":green_heart:"], 
+img[alt*=":blue_heart:"], 
+img[alt*=":purple_heart:"],
+img[alt*=":yellow_heart:"], 
+img[alt*=":heartbeat:"], 
+img[alt*=":heartpulse:"], 
+img[alt*=":black_heart:"], 
+img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
+/*Emojis     */
+/*Money Wings*/ img[alt*=":money_with_wings:"] {animation: wobble 2s infinite;}
+/*Kiss       */ img[alt*=":kiss:"] {animation: heartbeat 1s infinite;}
+/*Hammer     */ img[alt*=":hammer:"] {animation: wobble 0.5s infinite;}
+/*Pickaxe    */ img[alt*=":pick:"] {animation: wobble 0.5s infinite;}
+/*Bomb       */ img[alt*=":bomb:"] {animation: bomb 2s infinite;}
+/*Boom       */ img[alt*=":boom:"] {animation: boom 2s infinite;}
+/*Eyes       */ img[alt*=":eyes:"] {animation: eyes 4s infinite;animation-timing-function:steps(1);}
+/*Laughing   */ img[alt*=":laughing:"] {transform: rotate(-90deg);}
+/*Heart Eyes */ img[alt*=":heart_eyes:"] {animation: heartbeat 1s infinite;}
+/*Joyful     */ img[alt*=":joy:"] {animation: joy 2s infinite;}
+/*Upside Down*/ img[alt*=":upside_down:"] {animation: wobble 2s infinite;}
+/*Scream     */ img[alt*=":scream:"], img[alt*=":scream_cat:"] {animation: scare 2s infinite;}
+/*ROFL       */ img[alt*=":rofl:"] {animation: rofl 2s infinite;}
+/*Sneezing   */ img[alt*=":sneezing_face:"] {animation: wobble 1s infinite;}
+/*Joyful Cat */ img[alt*=":joy_cat:"] {animation: joy 2s infinite;}
+/*Heart Eyes */ img[alt*=":heart_eyes_cat:"] {animation: heartbeat 1s infinite;}
+/*Waving     */ img[alt*=":wave:"] {animation: wobble 2s infinite;}
+/*Angry      */ img[alt*=":angry:"], .emoji[alt*="Angery"], .emoji[alt*="Thonkery"] {animation: vibrate 0.2s infinite;}
+/*Soccer     */ img[alt*=":soccer:"] {animation: rotate 2s infinite;} 
+/*Basketball */ img[alt*=":basketball:"] {animation: rotate 2s infinite;}
+/*Baseball   */ img[alt*=":baseball:"] {animation: rotate 2s infinite;} 
+/*Tennis     */ img[alt*=":tennis:"] {animation: rotate 2s infinite;}
+/*Gear       */ img[alt*=":gear:"] {animation: rotate 2s infinite;}
+/*Disc & CD  */ img[alt*=":cd:"], img[alt*=":dvd:"] {animation: rotate 2s infinite;} 
+/*Snowflake  */ img[alt*=":snowflake:"] {animation: rotate 2s infinite;}
+/*Sun        */ img[alt*=":sunny:"] {animation: rotate 2s infinite;}
+/*Hourglass  */ img[alt*=":hourglass:"] {animation: hourglass 2s infinite;}
+/*mmLol      */ .emoji[alt*="mmLol"] {animation: mmlol 5s infinite;}
+.emoji.jumboable { transition: all .6s ease; }
+.emoji.jumboable:hover {
+resize: both;
+width: 42pt;
+height: 42pt;
+-webkit-filter: drop-shadow(0 0 5px black);
+}
+.emoji { transition: all .6s ease; }
+.emoji:hover {
+resize: both;
+width: 32pt;
+height: 32pt;
+-webkit-filter: drop-shadow(0 0 5px black);
+}
+/*Reveal Up*/
+.markup, .accessory, .comment {
+animation: revealUp 0.7s;
+}
+/****************************************************************/
+/****************************************/
+/*  Flash, Open Animation, Emojis       */
+/*======================================*/
+/*              Animations              */
+/*======================================*/
+/*                                      */
+/****************************************/
+@-webkit-keyframes flash2 {
+0%{
+opacity: 0;
+-webkit-filter: blur(0px);
+transform: translateX(-100%);
+}
+50%{
+opacity: 0;
+}
+75%{
+-webkit-filter: blur(1px);
+}
+100%{
+opacity: 1;
+-webkit-filter: blur(0px);
+transform: translateX(initial);
+}
+}
+@keyframes flash2 {
+0%{
+opacity: 0;
+transform: translateX(-100%);
+}
+50%{
+opacity: 0;
+}
+100%{
+opacity: 1;
+transform: translateX(initial);
+}
+}
+@keyframes guildtip {
+0% {
+opacity: 0;
+filter:brightness();
+box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+transform: translateX(-100%);
+}
+50% {
+opacity: 0;
+}
+60% {opacity: 1;}
+100% {
+opacity: 1;
+filter:brightness(110%);
+box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+transform: translateX(initial);
+}
+}
+@keyframes guildtip2 {
+0% {
+box-shadow: inset 4px 0 30px 10px rgba(180,180,220,0)
+}
+100% {
+box-shadow: inset 4px 0 30px 10px rgba(180,180,220,.5)
+}
+}
+@-webkit-keyframes glowpulse {
+0%{
+-webkit-filter: drop-shadow(0 0 0 rgba(0,114,114,0));
+}
+100%{
+-webkit-filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,114,144,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
+}
+}
+@keyframes glowpulse {
+0%{
+filter: drop-shadow(0 0 0 rgba(0,111,114,0));
+}
+100%{
+filter: drop-shadow(0 0 5px rgba(0,114,114,1)) drop-shadow(0 0 5px rgba(0,0,114,1)) drop-shadow(0 0 5px rgba(0,114,114,1)) saturate(200%);
+}
+}
+/*Hue*/
+@-webkit-keyframes hue {
+0%{ -webkit-filter: hue-rotate(0deg); }
+100%{ -webkit-filter: hue-rotate(360deg); }
+}
+/*Working*/
+@-webkit-keyframes working {
+25%{ content: "Working";   }
+50%{ content: "Working.";  }
+75%{ content: "Working.."; }
+100%{content: "Working...";}
+}
+@keyframes working {
+25%{ content: "Working";   }
+50%{ content: "Working.";  }
+75%{ content: "Working.."; }
+100%{content: "Working...";}
+}
+@keyframes fadeScreen {
+from { opacity: 0;   }
+to {   opacity: 100; }
+}
+@keyframes wobble   {0%,100%{transform:rotate(20deg)}50%{transform:rotate(-20deg)}}
+@keyframes scare    {0%,100%{transform:rotate(9deg)}50%{transform:rotate(-9deg)}}
+@keyframes hourglass{0%,100%,41%{transform:rotate(0)}20%,40%{transform:rotate(-180deg)}}
+@keyframes rotate   {0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+@keyframes rofl     {0%{transform:rotate(45deg)}100%{transform:rotate(404deg)}}
+@keyframes heartbeat{0%,100%,40%,80%{transform:scale(.75)}20%,60%{transform:scale(1)}}
+@keyframes joy      {0%,100%,50%{transform:scale(.9)}25%,75%{transform:scale(1)}}
+@keyframes boom     {0% {transform:scale(.1)}20% {transform:scale(1)}80% {transform:scale(1);opacity: 1;}100%{opacity: 0;}}
+@keyframes bomb     {0%,100%,20%{transform:scale(1)}90%{transform:scale(.6)}95%{transform:scale(1.5)}}
+@keyframes eyes     {0%,25%,75%{transform:scaleX(1)}50%,100%{transform:scaleX(-1)}}
+@keyframes mmlol    {0% { transform: rotate(0deg); }69% { transform: rotate(0deg); }70% { transform: rotate(-90deg); }99% { transform: rotate(-90deg); }100% { transform: rotate(0deg); }}
+@keyframes vibrate  {25%{transform: translateX(3px) translateY(-2px)}50%{transform: translateX(-1px) translateY(3px)}75%{transform: translateX(-4px) translateY(-2px)}100%{transform: translateX(2px) translateY(-1px)}}
+/*Message reveal*/
+@keyframes revealUp {
+    0%, 60%, 75%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100px, 0);
+        transform: translate3d(0, 100px, 0);
+    }
+    60% {
+        opacity: 0.5;
+        -webkit-transform: translate3d(0, 7px, 0);
+        transform: translate3d(0, 7px, 0);
+    }
+    75% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+/*modalanim*/
+@-webkit-keyframes modalanim {
+from {
+-webkit-transform: scale(1));
+transform: scale(1));
+opacity: 0;
+}
+to {
+-webkit-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+}
+}
+@keyframes modalanim {
+from {
+-webkit-transform: scale(1));
+transform: scale(1));
+opacity: 0;
+}
+to {
+-webkit-transform: scale(1);
+transform: scale(1);
+opacity: 1;
+}
+}
+/*bg-in*/
+@-webkit-keyframes bg-in {
+0% { opacity: 0; }
+100% {}
+}
+/*bg-in*/
+@keyframes bg-in {
+0% { opacity: 0; }
+100% {}
+}
+/* Code assisted by http://www.cssnewbie.com/pure-css-bouncing-ball/#.WG1LYi_QdhE */
+@keyframes moveX {
+from { left: -1%; } to { left: 62%; }
+}
+@keyframes moveY {
+from { top: -4%; } to { top: 84%; }
+}
+@-webkit-keyframes spinner {
+from { -webkit-transform: rotateY(0deg);    }
+to   { -webkit-transform: rotateY(-360deg); }
+}
+@keyframes spinner {
+from { -moz-transform: rotateY(0deg);
+-ms-transform: rotateY(0deg);
+transform: rotateY(0deg);
+}
+to {
+-moz-transform: rotateY(-360deg);
+-ms-transform: rotateY(-360deg);
+transform: rotateY(-360deg);
+}
+}
