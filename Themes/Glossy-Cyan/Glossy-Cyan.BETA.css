@@ -1,0 +1,345 @@
+#friends,
+.friends-table,
+.guild-channels,
+.channels-wrap,
+.links,
+.chat,
+.messages-wrapper,
+.title-wrap,
+.content,
+.chat-empty,
+.private-channels,
+.guild-header header,
+.guild-header header:after,
+.typing-2GQL18,
+.container-2lgZY8,
+.markup pre code,
+.container-PNkimc /*Channels list*/,
+[class*=activityFeed],
+[class*=newsIconCircle],
+[class*=card] [class*=header],
+[class*=appMount],
+[class*=layers],
+[class*=layer] {
+	background: transparent !important;
+}
+
+/*Typing*/
+.typing-2GQL18,
+[class*=da-ellipsis] {
+	background: transparent !important;
+	background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+/*Left to right*/
+
+/*Titlebar*/
+[class*=titleBar] {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.08));
+}
+
+/*Guilds*/
+[class*=guildsWrapper],
+[class*=guilds-],
+[class*=guilds-].scroller {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.08)) !important;
+}
+
+/*Home Icon*/
+[class*=homeIcon] {
+	background-color: rgba(0, 40, 40, 0.8);
+	color: rgba(135, 135, 255, 0.8) !important;
+}
+
+/*Public Icon*/
+#bd-pub-button {
+	background-color: rgba(0, 40, 40, 0.8);
+	color: rgba(135, 135, 255, 0.8) !important;
+}
+
+/*Server name and Account*/
+.header-2o-2hj {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.06)) !important;
+}
+
+.header-2o-2hj:hover {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.11)) !important;
+}
+
+.container-1UB9sr,
+.container-2Thooq {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) !important;	/*box-shadow: 0px -1px 0 rgba(0,0,0, 0.2), 0 -2px 0 rgba(0, 0, 0, 0.06);*/
+}
+
+/*Server Settings Popout*/
+.theme-dark .popout-3sVMXz .menu-Sp6bN1 {
+	background-color: rgba(72, 72, 92, 0.97);
+	border-radius: 0 !important;
+}
+
+.theme-dark .popout-3sVMXz .menu-Sp6bN1 .item-1GzJrl:hover {
+	background: linear-gradient(to right, rgba(40, 40, 60, 0.4), rgba(40, 40, 60, 0.2));
+}
+
+/*Channels List*/
+.da-channels,
+[class*=channels] {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.1));
+}
+
+/*Channel/Friends hovered/selected*/
+[class*=containerDefault] [class*=contentHoveredText],
+[class*=containerDefault] [class*=contentSelectedText],
+.private-channels .channel a:hover,
+.private-channels .channel.selected a {
+	background: linear-gradient(to right, rgba(40, 40, 40, 0.4), rgba(40, 40, 40, 0.2));
+}
+
+/*Channel Chat header*/
+.title-3qD0b- {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.04)) !important;
+}
+
+/*Search Bar*/
+.theme-dark [class*=searchFilter] {
+	background-color: rgba(0, 139, 139, 0.4);
+}
+
+.theme-dark .search .searchBar-2_Yu-C {
+	background-color: rgba(0, 139, 139, 0.2);
+}
+
+/*Calling*/
+[class*=wrapper] [class*=video] {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.01));
+	box-shadow: inset 0 -4px 10px 0 rgba(0, 0, 0, 0.0);
+}
+
+/*Chat*/
+.chat .content {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) !important;
+}
+
+/*New Messages Since*/
+.chat .new-messages-bar {
+	background: rgba(0, 139, 139, 0.6);
+}
+
+/*Dividers (Dates, new messages)*/
+.theme-dark .friends-table .messages .divider:not(.red) span,
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.4);
+}
+
+
+.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+	background-color: rgba(0, 80, 80, 0.96) !important;
+	color: rgb(240, 71, 71);
+	text-transform: capitalize;
+}
+
+/*The line thingy*/
+.theme-dark .messages-wrapper .messages .divider:before,
+.theme-dark .friends-table .messages .divider div,
+.theme-dark .messages-wrapper .messages .divider div {
+	background-color: #eceeef !important;
+	opacity: 0.02 !important;
+}
+
+/*Send chat input*/
+.theme-dark .chat form {
+	background-color: rgba(0, 0, 0, 0);
+	box-shadow: none;
+}
+
+/*Autocomplete*/
+.autocomplete-1vrmpx {
+	background-color: rgba(25, 50, 50, 0.7) !important;
+}
+
+[class*=autocomplete] [class*=selectorSelected] {
+	background-color: rgba(50, 75, 75, 0.8);
+}
+
+/*Mentions to others*/
+.theme-dark .wrapper-3WhCwL {
+	background: rgba(255, 255, 255, 0.07);
+}
+
+/*Code block*/
+[class*=markup] pre,
+[class*=markup] code {
+	/*font-family: 'ＭＳ ゴシック', 'Ubuntu Mono', Consolas, Monaco, monospace !important;*/
+	background: rgba(47, 49, 54, .2) !important;
+	border-color: rgba(47, 49, 54, 0.5) !important;
+}
+
+/*Jump to Present*/
+.theme-dark .chat .jump-to-present-bar {
+	background: rgba(0, 139, 139, 0.8);
+}
+
+.theme-dark .chat .jump-to-present-bar:hover {
+	background: rgba(0, 139, 139, 0.6) !important;
+}
+
+.chat .jump-to-present-bar button {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/*Scrollbar in Chat*/
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	background-color: rgba(67, 69, 84, 0.15) !important;
+	border: none !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	background-color: rgba(87, 89, 104, 0.01) !important;
+	border: none !important;
+}
+
+/*Friends*/
+
+/*Friends Bar*/
+#friends [class*=headerBar] {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04)) !important;
+}
+
+/*Friends Header Buttons*/
+#friends [role~="button"],
+
+/*Friends Actions*/			.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+#friends [role~="button"]:hover {
+	background-color: rgba(255, 255, 255, 0.42) !important;
+}
+
+/*Friends List/Table*/
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+	background: transparent;
+}
+
+#friends .friends-table .friends-row:hover:not(.selected) {
+	background-color: rgba(0, 139, 139, 0.1);
+}
+
+/*Members List*/
+.membersWrap-2h-GB4 .scrollerWrap-2uBjct .members-1998pB,
+.membersWrap-2h-GB4 .members-1998pB {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.chat.private .membersWrap-2h-GB4 .scrollerWrap-2uBjct .members-1998pB,
+.chat.private .membersWrap-2h-GB4 .members-1998pB {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*Member background*/
+.theme-dark .member-3W1lQa {
+	background: linear-gradient(to right, rgba(50, 80, 80, 0.3), rgba(50, 80, 80, 0.1));
+}
+
+/*Member hover*/
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+	background: linear-gradient(to right, rgba(50, 90, 90, 0.5), rgba(50, 90, 90, 0.3)) !important;
+}
+
+/*Offline member hover*/
+.theme-dark .memberOffline-2lN7gt:hover .content-OzHfo4 {
+	background: linear-gradient(to right, rgba(180, 90, 90, 0.5), rgba(180, 90, 90, 0.3)) !important;
+}
+
+/*Incoming Call (Private)*/
+[class*=incomingCallInner] {
+	background-color: rgba(72, 72, 92, 0.60) !important;
+}
+
+[class*=incomingCallInner] [class*=colorGreen] {
+	background-color: rgba(0, 139, 139, 0.8) !important;
+}
+
+[class*=incomingCallInner] [class*=colorGreen]:hover {
+	background-color: rgba(30, 169, 169, 0.8) !important;
+}
+
+[class*=incomingCallInner] [class*=colorTransparent] {
+	background-color: rgba(169, 139, 139, 0.8) !important;
+}
+
+[class*=incomingCallInner] [class*=colorTransparent]:hover {
+	background-color: rgba(139, 109, 109, 0.8) !important;
+}
+
+/*Modals*/
+
+/*Region Select for Server Admins*/
+.theme-dark [class*=regionSelectModal] {
+	background-color: rgba(42, 42, 42, 0.8);
+}
+
+.theme-dark [class*=regionSelectModal] [class*=regionSelectModalHeader],
+.theme-dark [class*=regionSelectModal] [class*=regionSelectModalOptions],
+.theme-dark [class*=regionSelectModal] [class*=regionSelectModalFooter] {
+	background-color: transparent;
+}
+
+.theme-dark [class*=regionSelectName] {
+	color: rgba(255, 255, 255, 0.8);
+	font-weight: 400;
+}
+
+.theme-dark [class*=regionSelectModalOption-] {
+	background-color: rgba(80, 100, 100, 0.3);
+}
+
+.theme-dark [class*=regionSelectModalOption-]:hover {
+	background-color: rgba(0, 139, 139, 0.42);
+}
+
+/*Settings*/
+/*Guild Settings*/
+.theme-dark .ui-standard-sidebar-view,
+.theme-dark .ui-standard-sidebar-view .content-region {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.04));
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+/*Roles: role selected*/
+[class*=side] [class*=itemSelected] {
+	background-color: rgba(0, 139, 139, 0.4);
+}
+
+/*Member Hovered*/
+.theme-dark .card-FDVird::before {
+	background-color: rgba(0, 139, 139, 0.2) !important;
+}
+
+
+/*General Stylings*/
+/*List menu e.g AFK Channel*/
+.Select-menu-outer {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+[role~=listbox] {
+	background-color: rgba(43, 83, 83, 0.9) !important;
+}
+
+/*Radio groups like default notification settings*/
+[class*=radioGroup] [class*=item] {
+	background: rgba(0, 139, 139, 0.2) !important;
+}
+
+[class*=colorPickerCustom] {
+	background: rgba(30, 40, 40, 1) !important;
+}
+
+/*Search Bar*/
+.theme-dark [class*=searchBar] {
+	background-color: rgba(0, 0, 0, 0);
+}
