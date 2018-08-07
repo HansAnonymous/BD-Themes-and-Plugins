@@ -7,10 +7,10 @@
 .guild-channels,
 .channels-wrap,
 .links,
-.chat,
-.messages-wrapper,
-.title-wrap,
-.content,
+[class*=chat-],
+[class*=messagesWrapper-],
+[class*=titleWrapper-],
+[class*=content-],
 .chat-empty,
 .private-channels,
 .guild-header header,
@@ -120,39 +120,40 @@
 }
 
 /*Chat*/
-.chat .content {
+[class*=chat-] [class*=content-],
+.da-chat .da-content {
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) !important;
 }
 
 /*New Messages Since*/
-.chat .new-messages-bar {
+[class*=chat-] [class*=newMessagesBar-] {
 	background: rgba(0, 139, 139, 0.6);
 }
 
 /*Dividers (Dates, new messages)*/
-.theme-dark .friends-table .messages .divider:not(.red) span,
-.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+.theme-dark .friends-table [class*=messages-] [class*=divider-]:not(.red) span,
+.theme-dark [class*=messagesWrapper] [class*=messages-] [class*=divider-]:not(.red) span {
 	background-color: rgba(0, 0, 0, 0.5);
 	color: rgba(255, 255, 255, 0.4);
 }
 
 
-.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+.theme-dark [class*=messagesWrapper] [class*=messages-] [class*=divider-][class*=dividerRed]>span {
 	background-color: rgba(0, 80, 80, 0.96) !important;
 	color: rgb(240, 71, 71);
 	text-transform: capitalize;
 }
 
 /*The line thingy*/
-.theme-dark .messages-wrapper .messages .divider:before,
-.theme-dark .friends-table .messages .divider div,
-.theme-dark .messages-wrapper .messages .divider div {
+.theme-dark [class*=messagesWrapper] [class*=messages-] [class*=divider-]:before,
+.theme-dark .friends-table [class*=messages] [class*=divider-] div,
+.theme-dark [class*=messagesWrapper] [class*=messages-] [class*=divider-] div {
 	background-color: #eceeef !important;
 	opacity: 0.02 !important;
 }
 
 /*Send chat input*/
-.theme-dark .chat form {
+.theme-dark [class*=chat-] form {
 	background-color: rgba(0, 0, 0, 0);
 	box-shadow: none;
 }
@@ -180,15 +181,15 @@
 }
 
 /*Jump to Present*/
-.theme-dark .chat .jump-to-present-bar {
+.theme-dark [class*=chat-] [class*=jumpToPresentBar-] {
 	background: rgba(0, 139, 139, 0.8);
 }
 
-.theme-dark .chat .jump-to-present-bar:hover {
+.theme-dark [class*=chat-] [class*=jumpToPresentBar-]:hover {
 	background: rgba(0, 139, 139, 0.6) !important;
 }
 
-.chat .jump-to-present-bar button {
+[class*=chat-] [class*=jumpToPresentBar-] button {
 	color: rgba(255, 255, 255, 0.8);
 }
 
