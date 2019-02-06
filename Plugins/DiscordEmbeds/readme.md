@@ -24,6 +24,6 @@ My other plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/ma
 (I'll try to at least) Will be updated to work with latest Discord/BetterDiscord updates.<br>
 <b>DISCLAIMER:</b> THIS PLUGIN IS NOT SUPPORTED BY BETTERDISCORD OR MANY DISCORD SERVERS BECAUSE IT CAN BE CONSIDERED SELF-BOTTING.<br>
 THIS NEWLY UPDATED PLUGIN DOES NOT STEAL YOUR USER TOKEN. NO DATA WILL BE STOLEN, I WILL NOT BE GAINING ACCESS TO YOUR ACCOUNT.
-IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.
+IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.<br>
 With that said, please make sure you downloaded this plugin from MY GITHUB AND MY GITHUB ONLY. Thank you, and enjoy this plugin.
 <b>How to use:</b> <i>Once installed, check the video below to see how this plugin can be used!</i>
