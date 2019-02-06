@@ -22,12 +22,12 @@ Plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plug
 <b>How to use:</b> <i>Once installed, enter the number of servers to hide (more instructions in the settings) and click save!</i>
 
 <h2>DiscordEmbeds</h2><br>
-<font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></div></b></font>
+<font size="25"><b><DIV ALIGN=LEFT><a href="http://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></div></b></font>
 <b>Description:</b><i>A plugin to send embedded messages in Discord.</i><br>
 <b>Status:</b> <i>Officially updated and released.</i> <b>If any bugs are found, PLEASE contact me on Discord at https://discord.gg/x6h7usC</b><br>
 (I'll try to at least) Will be updated to work with latest Discord/BetterDiscord updates.<br>
 <b>DISCLAIMER:</b> THIS PLUGIN IS NOT SUPPORTED BY BETTERDISCORD OR MANY DISCORD SERVERS BECAUSE IT CAN BE CONSIDERED SELF-BOTTING.<br>
 THIS NEWLY UPDATED PLUGIN DOES NOT STEAL YOUR USER TOKEN. NO DATA WILL BE STOLEN, I WILL NOT BE GAINING ACCESS TO YOUR ACCOUNT.
-IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.
+IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.<br>
 With that said, please make sure you downloaded this plugin from MY GITHUB AND MY GITHUB ONLY. Thank you, and enjoy this plugin.
 <b>How to use:</b> <i>Once installed, check the video below to see how this plugin can be used!</i>
