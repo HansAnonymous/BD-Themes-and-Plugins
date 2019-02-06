@@ -10,7 +10,7 @@ How to install:
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Plugins</ol>
 <ol>3. Click on Open folder and move DiscordEmbeds.plugin.js into the opened folder.</ol>
-<ol><strike>4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.<strike></ol>
+<ol><strike>4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.</strike></ol>
 <ol>4. Should automatically be found in settings now!
 <ol>5. Go back to Settings -> BetterDiscord -> Plugins</ol>
 <ol>6. Click check on DiscordEmbeds</ol>
