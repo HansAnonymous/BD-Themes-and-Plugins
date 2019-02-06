@@ -2,7 +2,7 @@
 <div align=LEFT>
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
-<b>A lot of Credit: Zerebos</b><br>
+<br><b>A lot of Credit: Zerebos</b><br>
 Download here: <b><a href="http://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></b><br>
 How to install:<br>
 <ol>1. Make sure BetterDiscord is installed.</ol>
