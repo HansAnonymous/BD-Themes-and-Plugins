@@ -1,7 +1,5 @@
 <h1>DiscordEmbeds by HansAnonymous</h1>
-
-<br><div align=LEFT><br>
-
+<div align=LEFT>
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 <b>A lot of Credit: Zerebos</b><br>
@@ -27,4 +25,4 @@ THIS NEWLY UPDATED PLUGIN DOES NOT STEAL YOUR USER TOKEN. NO DATA WILL BE STOLEN
 IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.<br>
 With that said, please make sure you downloaded this plugin from MY GITHUB AND MY GITHUB ONLY. Thank you, and enjoy this plugin.
 <b>How to use:</b> <i>Once installed, check the video below to see how this plugin can be used!</i></br>
-[![How to](https://img.youtube.com/vi/AqyTCLSUXH8/maxresdefault.jpg)](https://youtu.be/AqyTCLSUXH8)
+[![How to use](https://img.youtube.com/vi/AqyTCLSUXH8/maxresdefault.jpg)](https://www.youtube.com/watch?v=AqyTCLSUXH8)
