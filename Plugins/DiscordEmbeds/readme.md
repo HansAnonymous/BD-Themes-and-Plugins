@@ -4,14 +4,14 @@
 
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
-<b>A lot of Credit: Zerebos</b>
-Download here: <b><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></b>
-How to install:
+<b>A lot of Credit: Zerebos</b><br>
+Download here: <b><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></b><br>
+How to install:<br>
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Plugins</ol>
 <ol>3. Click on Open folder and move DiscordEmbeds.plugin.js into the opened folder.</ol>
 <ol><strike>4. Reload Discord by right clicking on the tray icon in the taskbar and clicking on "Quit Discord" or by pressing ctrl + r in Discord.</strike></ol>
-<ol>4. Should automatically be found in settings now!
+<ol>4. Should automatically be found in settings now!</ol>
 <ol>5. Go back to Settings -> BetterDiscord -> Plugins</ol>
 <ol>6. Click check on DiscordEmbeds</ol>
 
