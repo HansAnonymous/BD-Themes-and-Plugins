@@ -25,5 +25,10 @@ THIS NEWLY UPDATED PLUGIN DOES NOT STEAL YOUR USER TOKEN. NO DATA WILL BE STOLEN
 IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.<br>
 With that said, please make sure you downloaded this plugin from MY GITHUB AND MY GITHUB ONLY. Thank you, and enjoy this plugin.
 <b>How to use:</b> <i>Once installed, check the video below to see how this plugin can be used!</i></br>
-<b>How to use</b>
-<iframe width="854" height="480" src="https://www.youtube.com/watch?v=AqyTCLSUXH8" frameborder="0" allowfullscreen></iframe>
+Youtube link: https://www.youtube.com/watch?v=AqyTCLSUXH8
+<br>
+<br>
+<br>
+<br>
+<br>
+I'm tired.
