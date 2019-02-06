@@ -5,7 +5,7 @@
 <li><i><b>Themes</b> go into %AppData%\BetterDiscord\themes</i>
 <li><i><b>Plugins</b> go into %AppData%\BetterDiscord\plugins</i>
 <b>A lot of Credit: Zerebos</b><br>
-Download here: <b><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></b><br>
+Download here: <b><a href="http://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></b><br>
 How to install:<br>
 <ol>1. Make sure BetterDiscord is installed.</ol>
 <ol>2. Go to settings -> BetterDiscord -> Plugins</ol>
@@ -18,7 +18,7 @@ How to install:<br>
 My other plugins: https://github.com/HansAnonymous/BD-Themes-and-Plugins/tree/master/Plugins
 
 <h2>DiscordEmbeds</h2><br>
-<font size="25"><b><DIV ALIGN=LEFT><a href="https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></div></b></font>
+<font size="25"><b><DIV ALIGN=LEFT><a href="http://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/HansAnonymous/BD-Themes-and-Plugins/master/Plugins/DiscordEmbeds/DiscordEmbeds.plugin.js">DiscordEmbeds</a></div></b></font>
 <b>Description:</b><i>A plugin to send embedded messages in Discord.</i><br>
 <b>Status:</b> <i>Officially updated and released.</i> <b>If any bugs are found, PLEASE contact me on Discord at https://discord.gg/x6h7usC</b><br>
 (I'll try to at least) Will be updated to work with latest Discord/BetterDiscord updates.<br>
