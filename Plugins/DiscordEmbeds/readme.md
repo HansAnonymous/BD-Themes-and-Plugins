@@ -27,3 +27,4 @@ THIS NEWLY UPDATED PLUGIN DOES NOT STEAL YOUR USER TOKEN. NO DATA WILL BE STOLEN
 IT IS MY PRIORITY TO PROTECT YOUR DATA AS MUCH AS I CAN AND TO PROVIDE THE BEST EXPERIENCE POSSIBLE.<br>
 With that said, please make sure you downloaded this plugin from MY GITHUB AND MY GITHUB ONLY. Thank you, and enjoy this plugin.
 <b>How to use:</b> <i>Once installed, check the video below to see how this plugin can be used!</i>
+[How to](https://github.com/HansAnonymous/BD-Themes-and-Plugins/blob/master/Plugins/DiscordEmbeds/DiscordEmbeds-SecondReduced.mp4?raw=true)
