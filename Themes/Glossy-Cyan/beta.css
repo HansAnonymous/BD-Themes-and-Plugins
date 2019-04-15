@@ -48,6 +48,10 @@
 [class*=guilds-].scroller {
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.08)) !important;
 }
+/*New Guilds*/ /*Sigh...*/
+.wrapper-1Rf91z {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.08)) !important;
+}
 
 /*Home Icon*/
 [class*=homeIcon] {
