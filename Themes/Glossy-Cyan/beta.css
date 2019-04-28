@@ -162,6 +162,10 @@
 	box-shadow: none;
 }
 
+.theme-dark .inner-zqa7da {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 /*Autocomplete*/
 .autocomplete-1vrmpx {
 	background-color: rgba(25, 50, 50, 0.7) !important;
