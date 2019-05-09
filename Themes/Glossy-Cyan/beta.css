@@ -135,10 +135,9 @@
 }
 
 /*Dividers (Dates, new messages)*/
-.theme-dark .friends-table [class*=messages-] [class*=divider-]:not(.red) span,
+.theme-dark [class*=messagesWrapper] [class*=messages-] [class*=divider-][class*=dividerRed]>span,
 .theme-dark [class*=messagesWrapper] [class*=messages-] [class*=divider-]:not(.red) span {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 80, 80, 0) !important;
 }
 
 
