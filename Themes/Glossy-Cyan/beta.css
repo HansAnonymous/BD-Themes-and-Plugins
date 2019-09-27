@@ -28,6 +28,13 @@
 	background: transparent !important;
 }
 
+/*App Wide Transparency Fix*/
+.theme-dark{
+	--background-primary: transparent !important;
+	--background-secondary: transparent !important;
+	--background-tertiary: transparent !important;
+}
+
 /*Typing*/
 .typing-2GQL18,
 [class*=da-ellipsis] {
