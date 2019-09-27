@@ -33,6 +33,12 @@
 	--background-primary: transparent !important;
 	--background-secondary: transparent !important;
 	--background-tertiary: transparent !important;
+	--deprecated-panel-background: transparent !important;
+	--background-accent: transparent !important;
+	--background-floating: transparent !important;
+	--background-mobile-header: transparent !important;
+	--deprecated-store-bg: transparent !important;
+	--activity-card-background:transparent !important;
 }
 
 /*Typing*/
