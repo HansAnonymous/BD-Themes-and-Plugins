@@ -63,20 +63,7 @@ img[alt*=":sparkling_heart:"] { animation: heartbeat 1s infinite;}
 /*Sun        */ img[alt*=":sunny:"] {animation: rotate 2s infinite;}
 /*Hourglass  */ img[alt*=":hourglass:"] {animation: hourglass 2s infinite;}
 /*mmLol      */ .emoji[alt*="mmLol"] {animation: mmlol 5s infinite;}
-.emoji.jumboable { transition: all .6s ease; }
-.emoji.jumboable:hover {
-    resize: both;
-    width: 42pt;
-    height: 42pt;
-    -webkit-filter: drop-shadow(0 0 5px black);
-}
-.emoji { transition: all .6s ease; }
-.emoji:hover {
-    resize: both;
-    width: 32pt;
-    height: 32pt;
-    -webkit-filter: drop-shadow(0 0 5px black);
-}
+
 /*Reveal Up*/
 .markup, .accessory, .comment {
     animation: revealUp 0.7s;
